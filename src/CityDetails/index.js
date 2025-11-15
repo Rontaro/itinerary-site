@@ -165,7 +165,7 @@ export default function CityDetails({city, trip, onBack}) {
                                                                     variant="outline"
                                                                     alignSelf="flex-start"
                                                                 >
-                                                                    🔗 Sito web
+                                                                    🔗 Link
                                                                 </Button>
                                                             )}
                                                         </VStack>

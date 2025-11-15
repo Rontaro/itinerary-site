@@ -17,7 +17,7 @@
             "name": "Gotanda",
             "address": "Gotanda (lungo la linea JR Yamanote)",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "Base per i giorni 1-5 e 13-15 [cite: 9, 10]",
             "bookingLink": "",
             "mapsLink": ""
@@ -484,7 +484,7 @@
             "name": "Ryokan Tradizionale",
             "address": "Miyajima",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "Trascorri una notte in un ryokan tradizionale [cite: 20]",
             "bookingLink": "",
             "mapsLink": ""
@@ -569,7 +569,7 @@
             "name": "Namba",
             "address": "Namba (Osaka)",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "Soggiorno per assaporare Dotonbori e la vita notturna [cite: 22]",
             "bookingLink": "",
             "mapsLink": ""
@@ -754,7 +754,7 @@
             "name": "Gion o Stazione di Kyoto",
             "address": "Quartiere storico di Gion o nei pressi della stazione di Kyoto",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "Scegli Gion per l'atmosfera o vicino alla stazione per gli spostamenti [cite: 27]",
             "bookingLink": "",
             "mapsLink": ""
@@ -981,7 +981,7 @@
             "name": "Gotanda",
             "address": "Gotanda (lungo la linea JR Yamanote)",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "Ritorno in hotel a Gotanda [cite: 209]",
             "bookingLink": "",
             "mapsLink": ""
@@ -1256,9 +1256,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Tempura",
-            "link": "https://maps.app.goo.gl/CpPkY8HCp8Pe4PJq9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/CpPkY8HCp8Pe4PJq9?g_st=iwb"
           },
           {
             "name": "Chacha Futatsume",
@@ -1266,9 +1267,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Dolci Tipici",
-            "link": "https://maps.app.goo.gl/DJ8LmNCyWgFfpYta9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/DJ8LmNCyWgFfpYta9?g_st=iwb"
           },
           {
             "name": "Ramen Watanabe",
@@ -1278,7 +1280,8 @@
             "specialty": "Ramen",
             "link": "https://maps.google.com?q=Giappone,%20%E3%80%92111-0032%20Tokyo,%20Taito%20City,%20Asakusa,%201%20Chome%E2%88%9233%E2%88%927%20%EF%BC%B2%EF%BC%A1%EF%BC%B9%E3%83%93%E3%83%AB%E6%B5%85%E8%8D%89%201%E9%9A%8E&ftid=0x60188fb6488a6efb:0xe0560e0d05a11d3e&entry=gps&lucs=,94207808,94216401,94210592,47071704,47069508,47084304,94208458,94208447&g_st=iwb",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "San-Sada",
@@ -1286,9 +1289,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Tempura 2",
-            "link": "https://maps.app.goo.gl/MuoCuV2HEoD5tPgy5?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/MuoCuV2HEoD5tPgy5?g_st=iwb"
           },
           {
             "name": "sushi zanmai",
@@ -1296,9 +1300,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sushi",
-            "link": "https://maps.app.goo.gl/xwEKTD7LHQ8Y89sU8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/xwEKTD7LHQ8Y89sU8?g_st=iwb"
           },
           {
             "name": "Kura Sushi Global Flagship Store Asakusa",
@@ -1306,9 +1311,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sushi Catena",
-            "link": "https://maps.app.goo.gl/CGu9jChebCEnuC156?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/CGu9jChebCEnuC156?g_st=iwb"
           },
           {
             "name": "Tokyo Curry Pan",
@@ -1318,7 +1324,8 @@
             "specialty": "Curry bun",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Mawashizushi Katsu Seibu Shibuya Store",
@@ -1326,9 +1333,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sushi Su Nastro",
-            "link": "https://maps.app.goo.gl/5p72E4MwH7P3wRhL7?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/5p72E4MwH7P3wRhL7?g_st=iwb"
           },
           {
             "name": "Ichiran",
@@ -1336,9 +1344,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Ramen Ichiran",
-            "link": "https://maps.app.goo.gl/Umqm6Cv3Rnnt5xPt9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/Umqm6Cv3Rnnt5xPt9?g_st=iwb"
           },
           {
             "name": "Shibuya Gyoza",
@@ -1346,9 +1355,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Gyoza",
-            "link": "https://maps.app.goo.gl/kRT1W3g78iDTYwDF8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/kRT1W3g78iDTYwDF8?g_st=iwb"
           },
           {
             "name": "Golden Tiger Udagawacho",
@@ -1356,9 +1366,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Gyoza 2",
-            "link": "https://maps.app.goo.gl/wLP3ZQVvw2eHvD8e6?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/wLP3ZQVvw2eHvD8e6?g_st=iwb"
           },
           {
             "name": "Sushi-zanmai Shibuya Tokyu Side",
@@ -1366,9 +1377,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sushi",
-            "link": "https://maps.app.goo.gl/gZz8jk8WZv82Ltfn6?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/gZz8jk8WZv82Ltfn6?g_st=iwb"
           },
           {
             "name": "Shodai Ebisu",
@@ -1378,7 +1390,8 @@
             "specialty": "Curry udon con mousse di patate",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Oreryu Gyoza Sakaba",
@@ -1386,9 +1399,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Gyoza 3",
-            "link": "https://maps.app.goo.gl/hHAiGEyMSqQxa5wZ6?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/hHAiGEyMSqQxa5wZ6?g_st=iwb"
           },
           {
             "name": "Sanuki Udon Menki Yashima Shibuya Maruyamacho",
@@ -1396,9 +1410,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Udon",
-            "link": "https://maps.app.goo.gl/s8cG7TjHeSBCi3nr5?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/s8cG7TjHeSBCi3nr5?g_st=iwb"
           },
           {
             "name": "蕎麦前酒場 はんさむ裏渋谷",
@@ -1406,9 +1421,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Udon 2",
-            "link": "https://maps.app.goo.gl/ryYLsx8uFx4LQENd8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/ryYLsx8uFx4LQENd8?g_st=iwb"
           },
           {
             "name": "Iyoshi Cola",
@@ -1418,7 +1434,8 @@
             "specialty": "Cochina simpatica",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Roast Beef Ōno Akihabara",
@@ -1428,7 +1445,8 @@
             "specialty": "Carne",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Niku-ya-Yokocho Eat-All-You-Can Wagyu Beef Akihabara",
@@ -1438,7 +1456,8 @@
             "specialty": "All You Can Eat Wagyu/Kobe",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Ichiran Nishi-Shinjuku",
@@ -1446,9 +1465,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Ramen Ichiran",
-            "link": "https://maps.app.goo.gl/sk9pz92p1UPqLkT2A?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/sk9pz92p1UPqLkT2A?g_st=iwb"
           },
           {
             "name": "OYSTERS INC",
@@ -1456,9 +1476,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Ostriche",
-            "link": "https://maps.app.goo.gl/iU4U38BFsrNX5vEu7?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/iU4U38BFsrNX5vEu7?g_st=iwb"
           },
           {
             "name": "馬焼肉酒場「馬太郎」 西新宿7丁目店",
@@ -1466,9 +1487,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Yakiniku",
-            "link": "https://maps.app.goo.gl/2PCUcfQ6pfXBd4f57?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/2PCUcfQ6pfXBd4f57?g_st=iwb"
           },
           {
             "name": "Meigetsu-kan",
@@ -1476,9 +1498,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Yakiniku",
-            "link": "https://maps.app.goo.gl/f4zs3fsvVB6ntVCK6?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/f4zs3fsvVB6ntVCK6?g_st=iwb"
           },
           {
             "name": "Afuri Karakurenai Shinjuku Subnade",
@@ -1486,9 +1509,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Ramen",
-            "link": "https://maps.app.goo.gl/dggP6fFyaKZGb1Qo6?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/dggP6fFyaKZGb1Qo6?g_st=iwb"
           },
           {
             "name": "Gionbou",
@@ -1496,9 +1520,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Izakaya",
-            "link": "https://maps.app.goo.gl/38juS6n8B6igqfC96?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/38juS6n8B6igqfC96?g_st=iwb"
           },
           {
             "name": "豊島屋菓寮 八十小路(としまやかりょうはとこうじ)",
@@ -1506,9 +1531,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Dolci Tradizionali (Mochi Con La Foglia)",
-            "link": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb"
           },
           {
             "name": "Katsuretsu-an",
@@ -1516,9 +1542,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Tonkatzu",
-            "link": "https://maps.app.goo.gl/eii7usfVeDkfy6EU8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/eii7usfVeDkfy6EU8?g_st=iwb"
           },
           {
             "name": "Goto",
@@ -1526,9 +1553,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Udon E Soba",
-            "link": "https://maps.app.goo.gl/6UkqptGbCBAv8UH96?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/6UkqptGbCBAv8UH96?g_st=iwb"
           },
           {
             "name": "Fukuya",
@@ -1536,9 +1564,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Udon E Soba 2",
-            "link": "https://maps.app.goo.gl/cbs5KRJGASVp2Trr5?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/cbs5KRJGASVp2Trr5?g_st=iwb"
           },
           {
             "name": "Toshimaya Setokoji",
@@ -1546,9 +1575,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Dolci Giapponesi 2",
-            "link": "https://maps.app.goo.gl/FDfUA8fj6kKnnsHDA?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/FDfUA8fj6kKnnsHDA?g_st=iwb"
           },
           {
             "name": "風流お好み焼惚太郎",
@@ -1556,9 +1586,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Okonomiyaki",
-            "link": "https://maps.app.goo.gl/8vz8dvqt6Ju7wWy26?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/8vz8dvqt6Ju7wWy26?g_st=iwb"
           },
           {
             "name": "Hana",
@@ -1566,9 +1597,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Yakiniku",
-            "link": "https://maps.app.goo.gl/ZtcJgTTocPgxt9v39?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/ZtcJgTTocPgxt9v39?g_st=iwb"
           },
           {
             "name": "Arakawa",
@@ -1576,9 +1608,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Yakiniku 2",
-            "link": "https://maps.app.goo.gl/fMB9g1XEMPrpsxbP7?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/fMB9g1XEMPrpsxbP7?g_st=iwb"
           },
           {
             "name": "ネオ大衆酒場 食べ放題個室居酒屋 餃子のかっちゃん 京都河原町店",
@@ -1586,9 +1619,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Izakaya",
-            "link": "https://maps.app.goo.gl/PSRSRhaYjqSAtyddA?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/PSRSRhaYjqSAtyddA?g_st=iwb"
           },
           {
             "name": "Sushizanmai",
@@ -1596,9 +1630,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sushi",
-            "link": "https://maps.app.goo.gl/qj6mmpuySxPDVrRr9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/qj6mmpuySxPDVrRr9?g_st=iwb"
           },
           {
             "name": "鉄板みつ喜",
@@ -1606,9 +1641,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Okonomiyaki",
-            "link": "https://maps.app.goo.gl/3zp96kBDcQKytHHw5?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/3zp96kBDcQKytHHw5?g_st=iwb"
           },
           {
             "name": "Hakata-Nagahama-Ramen Miyoshi",
@@ -1616,9 +1652,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Ramen",
-            "link": "https://maps.app.goo.gl/RY7DSMvBxMmV6YwX8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/RY7DSMvBxMmV6YwX8?g_st=iwb"
           },
           {
             "name": "Chao Chao Gyoza - Sanjo Kiyamachi",
@@ -1626,9 +1663,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Izakaya 2",
-            "link": "https://maps.app.goo.gl/6AFbg8kc3DEiWou59?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/6AFbg8kc3DEiWou59?g_st=iwb"
           },
           {
             "name": "Arashiyama Curry",
@@ -1636,9 +1674,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Curry Giapponese",
-            "link": "https://maps.app.goo.gl/m7KTgcypttCjsdSS6?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/m7KTgcypttCjsdSS6?g_st=iwb"
           },
           {
             "name": "Soba Shiki",
@@ -1646,9 +1685,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Udon E Soba",
-            "link": "https://maps.app.goo.gl/f8pNcn9LvTAoTntu9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/f8pNcn9LvTAoTntu9?g_st=iwb"
           },
           {
             "name": "Pizzeria LUGARA",
@@ -1658,7 +1698,8 @@
             "specialty": "Pizza",
             "link": "https://maps.google.com?ftid=0x6001ab975eacc7ed:0xec4c1ff67e16f1e3&entry=gps&lucs=,94207808,94216401,94210592,47071704,47069508,47084304,94208458,94208447&g_st=iwb",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Indian Restaurant MANNA糧",
@@ -1666,9 +1707,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Indiano",
-            "link": "https://maps.app.goo.gl/Pov5uRxUG28yLu7m9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/Pov5uRxUG28yLu7m9?g_st=iwb"
           },
           {
             "name": "Yakitora",
@@ -1676,9 +1718,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Okonomiyaki",
-            "link": "https://maps.app.goo.gl/iYb9zC8z9Xw4gqpW8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/iYb9zC8z9Xw4gqpW8?g_st=iwb"
           },
           {
             "name": "Takamaya",
@@ -1686,9 +1729,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Udon E Soba",
-            "link": "https://maps.app.goo.gl/MBWqsXrUjqVNtGtLA?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/MBWqsXrUjqVNtGtLA?g_st=iwb"
           },
           {
             "name": "Okaru",
@@ -1696,9 +1740,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Okonomiyaki",
-            "link": "https://maps.app.goo.gl/HyzA4dUKxzNWdoM18?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/HyzA4dUKxzNWdoM18?g_st=iwb"
           },
           {
             "name": "Trattoria piano",
@@ -1706,9 +1751,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Italiano",
-            "link": "https://maps.app.goo.gl/Wn26Nq7K617aZ7U57?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/Wn26Nq7K617aZ7U57?g_st=iwb"
           },
           {
             "name": "Koushi",
@@ -1716,9 +1762,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Tofu",
-            "link": "https://maps.app.goo.gl/nzBdHxnjEEdYyoSZA?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/nzBdHxnjEEdYyoSZA?g_st=iwb"
           },
           {
             "name": "kinari pizza",
@@ -1726,9 +1773,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Pizza",
-            "link": "https://maps.app.goo.gl/XzmEb44r8pQhB4Pj8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/XzmEb44r8pQhB4Pj8?g_st=iwb"
           },
           {
             "name": "Teppan Okonomiyaki Mitsuki",
@@ -1736,9 +1784,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Okonomiyaki",
-            "link": "https://maps.app.goo.gl/JtemV5HC2x9uUGb78?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/JtemV5HC2x9uUGb78?g_st=iwb"
           },
           {
             "name": "Chibo Okonomiyaki Restaurant",
@@ -1746,9 +1795,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Okonomiyaki",
-            "link": "https://maps.app.goo.gl/TiVs5fExZrtiPceaA?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/TiVs5fExZrtiPceaA?g_st=iwb"
           },
           {
             "name": "Okonomiyaki Okaru",
@@ -1756,9 +1806,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Okonomiyaki",
-            "link": "https://maps.app.goo.gl/4NYF8gQUkfQquKKNA?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/4NYF8gQUkfQquKKNA?g_st=iwb"
           },
           {
             "name": "Enge-spice",
@@ -1766,9 +1817,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sashimi",
-            "link": "https://maps.app.goo.gl/LPt8jchoXaNxipEf9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/LPt8jchoXaNxipEf9?g_st=iwb"
           },
           {
             "name": "Kang Fu Ramen",
@@ -1776,9 +1828,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Ramen",
-            "link": "https://maps.app.goo.gl/WKZqwpQeemciUcD16?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/WKZqwpQeemciUcD16?g_st=iwb"
           },
           {
             "name": "CHOJIRO Hozenji Flagship Store",
@@ -1786,9 +1839,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sushi",
-            "link": "https://maps.app.goo.gl/gjqFiBs3oMdG2dnCA?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/gjqFiBs3oMdG2dnCA?g_st=iwb"
           },
           {
             "name": "Kobe beef Uma Dotonbori",
@@ -1796,9 +1850,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Kobe",
-            "link": "https://maps.app.goo.gl/jfcUjorzq8AG6CYh7?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/jfcUjorzq8AG6CYh7?g_st=iwb"
           },
           {
             "name": "Melon Bread",
@@ -1808,7 +1863,8 @@
             "specialty": "Melon Pan",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Gyoza",
@@ -1818,7 +1874,8 @@
             "specialty": "Gyoza",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Miyajima Hanayashiki",
@@ -1826,9 +1883,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Ostriche",
-            "link": "https://maps.app.goo.gl/q692fk53WF64FjE39?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/q692fk53WF64FjE39?g_st=iwb"
           },
           {
             "name": "GEBURA",
@@ -1836,9 +1894,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Gin Tonic",
-            "link": "https://maps.app.goo.gl/onUiEdks2Fhxra3y8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/onUiEdks2Fhxra3y8?g_st=iwb"
           },
           {
             "name": "SAWAWA Miyajima",
@@ -1846,9 +1905,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Dolci",
-            "link": "https://maps.app.goo.gl/mbLEaWg2bxhUZaAW6?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/mbLEaWg2bxhUZaAW6?g_st=iwb"
           },
           {
             "name": "Rokaku Tea House (Hexagon Cafe)",
@@ -1856,9 +1916,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Tea House",
-            "link": "https://maps.app.goo.gl/SbQ4uCaqYVbppZmd6?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/SbQ4uCaqYVbppZmd6?g_st=iwb"
           },
           {
             "name": "Lawson Miyajima Shop",
@@ -1868,7 +1929,8 @@
             "specialty": "Lawson",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Foods Shop KUMAKIN",
@@ -1876,9 +1938,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Minimarket",
-            "link": "https://maps.app.goo.gl/hKayoXFjz8WWDgTi7?g_st=ic",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/hKayoXFjz8WWDgTi7?g_st=ic"
           },
           {
             "name": "Gaba Kamiyacho",
@@ -1886,9 +1949,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Ramen",
-            "link": "https://maps.app.goo.gl/1U3yKRCpJVU3vWeB6?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/1U3yKRCpJVU3vWeB6?g_st=iwb"
           },
           {
             "name": "Akamaru",
@@ -1896,9 +1960,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Izakaya",
-            "link": "https://maps.app.goo.gl/KUheNjw7GiNE2Geo8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/KUheNjw7GiNE2Geo8?g_st=iwb"
           },
           {
             "name": "pizza juicy",
@@ -1906,9 +1971,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Pizza Super",
-            "link": "https://maps.app.goo.gl/Mo3ATpYq3nyeryz69?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/Mo3ATpYq3nyeryz69?g_st=iwb"
           },
           {
             "name": "Okonomimura",
@@ -1916,9 +1982,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Okonomiyaki",
-            "link": "https://maps.app.goo.gl/bDbcGc15WTg97d8h9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/bDbcGc15WTg97d8h9?g_st=iwb"
           },
           {
             "name": "Taiko Udon Nakamachi Shop",
@@ -1926,9 +1993,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Udon",
-            "link": "https://maps.app.goo.gl/RHzGHhNt39b9tzaN9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/RHzGHhNt39b9tzaN9?g_st=iwb"
           },
           {
             "name": "Archive Coffee",
@@ -1936,9 +2004,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Caffè",
-            "link": "https://maps.app.goo.gl/qa9hbXGetrBTvWvX7?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/qa9hbXGetrBTvWvX7?g_st=iwb"
           },
           {
             "name": "Hitoshi",
@@ -1946,9 +2015,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sushi (Un Po’ Costoso)",
-            "link": "https://maps.app.goo.gl/EZFXLGzHKB2eAr2v7?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/EZFXLGzHKB2eAr2v7?g_st=iwb"
           },
           {
             "name": "Wakasa Sushi",
@@ -1956,9 +2026,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sushi (🍣 Grandi Come Una Mano)",
-            "link": "https://maps.app.goo.gl/bgwmK7izNWRfj3F96?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/bgwmK7izNWRfj3F96?g_st=iwb"
           },
           {
             "name": "Ittenbari Ramen & Chahan Restaurant",
@@ -1966,9 +2037,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Ramen",
-            "link": "https://maps.app.goo.gl/d8jPEQi1JPGeCv1r5?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/d8jPEQi1JPGeCv1r5?g_st=iwb"
           },
           {
             "name": "Imakatsu Akasaka",
@@ -1976,9 +2048,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Tonkatsu",
-            "link": "https://maps.app.goo.gl/sMPmHfTASyZGJSq86?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/sMPmHfTASyZGJSq86?g_st=iwb"
           },
           {
             "name": "Itamae Sushi Hanare",
@@ -1986,9 +2059,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Sushi",
-            "link": "https://maps.app.goo.gl/Yyki9PmB7hWcW7Li9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/Yyki9PmB7hWcW7Li9?g_st=iwb"
           },
           {
             "name": "餃子バル",
@@ -1996,9 +2070,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Izakaya",
-            "link": "https://maps.app.goo.gl/pcWNCnwCfEEwZgVY9?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/pcWNCnwCfEEwZgVY9?g_st=iwb"
           },
           {
             "name": "Tomokunchi",
@@ -2006,9 +2081,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Okonomiyaki",
-            "link": "https://maps.app.goo.gl/ycMFN531f9qDJeYj8?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/ycMFN531f9qDJeYj8?g_st=iwb"
           },
           {
             "name": "Champagne & Gyoza Bar STAND-CHAM-SHOKU",
@@ -2016,9 +2092,10 @@
             "price": 0,
             "rating": 0,
             "specialty": "Gyoza",
-            "link": "https://maps.app.goo.gl/rUhTbAAwMTtcwGuz5?g_st=iwb",
+            "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/rUhTbAAwMTtcwGuz5?g_st=iwb"
           }
         ],
         "attractions": [
@@ -2028,9 +2105,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/eN1kiz8j8suMvN139?g_st=iwb",
+            "link": "",
             "notes": "Gachapon",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/eN1kiz8j8suMvN139?g_st=iwb"
           },
           {
             "name": "MAGNET by SHIBUYA109",
@@ -2038,9 +2116,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/n95UJ8prh6BGYSXN6?g_st=iwb",
+            "link": "",
             "notes": "Magnet",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/n95UJ8prh6BGYSXN6?g_st=iwb"
           },
           {
             "name": "Pokemon Center Shibuya",
@@ -2048,9 +2127,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/xwSaYaiQdX4vpnX69?g_st=iwb",
+            "link": "",
             "notes": "Pokemon Center",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/xwSaYaiQdX4vpnX69?g_st=iwb"
           },
           {
             "name": "Nintendo Tokyo",
@@ -2058,9 +2138,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/YMps13DAWEZA8ZWr7?g_st=iwb",
+            "link": "",
             "notes": "Nintendo Store",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/YMps13DAWEZA8ZWr7?g_st=iwb"
           },
           {
             "name": "Mandarake Complex",
@@ -2068,9 +2149,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/ztRs8W6yu3QF9U9Z8?g_st=iwb",
+            "link": "",
             "notes": "Mandarake",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/ztRs8W6yu3QF9U9Z8?g_st=iwb"
           },
           {
             "name": "Shangrila Maid Cafe",
@@ -2078,9 +2160,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/ZEAwoeVpEfE9imMx8?g_st=iwb",
+            "link": "",
             "notes": "Maid Cafe",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/ZEAwoeVpEfE9imMx8?g_st=iwb"
           },
           {
             "name": "Maidreamin Akihabara Main Store",
@@ -2088,9 +2171,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/soZQyvX9SQgscZ8u7?g_st=iwb",
+            "link": "",
             "notes": "Maid Cafe 2",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/soZQyvX9SQgscZ8u7?g_st=iwb"
           },
           {
             "name": "Cat cafe MoCHA Akihabara Store",
@@ -2098,9 +2182,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/AK5QxE981jvw25zM6?g_st=iwb",
+            "link": "",
             "notes": "Cat Cafe",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/AK5QxE981jvw25zM6?g_st=iwb"
           },
           {
             "name": "GiGO Akihabara 1",
@@ -2108,9 +2193,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/ihH6vXJ7bfPK29FSA?g_st=iwb",
+            "link": "",
             "notes": "Gigo",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/ihH6vXJ7bfPK29FSA?g_st=iwb"
           },
           {
             "name": "Jalana",
@@ -2118,9 +2204,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/z2h77umSfSyhZGpW6?g_st=iwb",
+            "link": "",
             "notes": "Vintage",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/z2h77umSfSyhZGpW6?g_st=iwb"
           },
           {
             "name": "Yodobashi Akiba",
@@ -2128,9 +2215,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/VZqtZj33vt9bzDMz6?g_st=iwb",
+            "link": "",
             "notes": "Elettronica",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/VZqtZj33vt9bzDMz6?g_st=iwb"
           },
           {
             "name": "2ndBASE by sanpoucamera",
@@ -2138,9 +2226,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/k9MA8vki6Dr9jt8fA?g_st=iwb",
+            "link": "",
             "notes": "Macchine Fotografiche + Vinili",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/k9MA8vki6Dr9jt8fA?g_st=iwb"
           },
           {
             "name": "Super Potato Akihabara Branch",
@@ -2148,9 +2237,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/DcwFBx3sooky8yfV7?g_st=iwb",
+            "link": "",
             "notes": "Negozio Videogiochi/Anime/Manga",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/DcwFBx3sooky8yfV7?g_st=iwb"
           },
           {
             "name": "Yusha Kobo Keyboard Specialty Shop",
@@ -2160,7 +2250,8 @@
             "hours": "",
             "link": "",
             "notes": "Negozio Keyboards",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Book Off",
@@ -2170,7 +2261,8 @@
             "hours": "",
             "link": "",
             "notes": "Negozio usato poco prezzo (catena, sta pure in altri punti)",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Omoide Yokocho",
@@ -2178,9 +2270,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/EpFcayMeFdu9LPmL6?g_st=ic",
+            "link": "",
             "notes": "Omoide Yokocho sotto-quartiere di Shibuya Local, Alternative Sotto",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/EpFcayMeFdu9LPmL6?g_st=ic"
           },
           {
             "name": "豊島屋菓寮 八十小路(としまやかりょうはとこうじ)",
@@ -2188,9 +2281,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb",
+            "link": "",
             "notes": "Dolci Tradizionali (Mochi Con La Foglia)",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb"
           },
           {
             "name": "glänta Kyoto Sanjo Kawaramachi",
@@ -2200,7 +2294,8 @@
             "hours": "",
             "link": "",
             "notes": "Anelli, vicino Gion",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Pokemon Center Kyoto",
@@ -2210,7 +2305,8 @@
             "hours": "",
             "link": "",
             "notes": "Pokemon Center",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Super Jankara Kawaramachi Honten Premium",
@@ -2220,7 +2316,8 @@
             "hours": "",
             "link": "",
             "notes": "Karaoke, vicino Gion e sushizanmai",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "長辻通",
@@ -2230,7 +2327,8 @@
             "hours": "",
             "link": "",
             "notes": "Bel negozio bacchette",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Nakatanidou",
@@ -2238,9 +2336,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/6zNMokTWG2tmMntx6?g_st=iwb",
+            "link": "",
             "notes": "Mochi + Mostrano Come Viene Fatto",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/6zNMokTWG2tmMntx6?g_st=iwb"
           },
           {
             "name": "BIG TIME Hiroshima",
@@ -2248,9 +2347,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/mrcs6732kdRqZ2Sf8?g_st=iwb",
+            "link": "",
             "notes": "Vintage",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/mrcs6732kdRqZ2Sf8?g_st=iwb"
           },
           {
             "name": "WEGO 広島店",
@@ -2258,9 +2358,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/rL8ee5hdYL1Gpxhc7?g_st=iwb",
+            "link": "",
             "notes": "Abbigliamento Vario",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/rL8ee5hdYL1Gpxhc7?g_st=iwb"
           },
           {
             "name": "nizak",
@@ -2268,9 +2369,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/iMWRkw5KtSaLUJNU6?g_st=iwb",
+            "link": "",
             "notes": "Vintage 2",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/iMWRkw5KtSaLUJNU6?g_st=iwb"
           },
           {
             "name": "雑貨株式会社",
@@ -2278,9 +2380,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/ASLxrrGScLFYksgU7?g_st=iwb",
+            "link": "",
             "notes": "Negozio Con 1000 Robe Diverse",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/ASLxrrGScLFYksgU7?g_st=iwb"
           },
           {
             "name": "Yume Plaza",
@@ -2288,9 +2391,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/oaXituuBrvbCq92NA?g_st=iwb",
+            "link": "",
             "notes": "Souvenir Vari",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/oaXituuBrvbCq92NA?g_st=iwb"
           },
           {
             "name": "Pokémon Center Hiroshima",
@@ -2300,7 +2404,8 @@
             "hours": "",
             "link": "",
             "notes": "Pokemon Center",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "JUMP SHOP ミナモア広島店",
@@ -2308,9 +2413,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/vsEffbsk1SQGmD8p9?g_st=ic",
+            "link": "",
             "notes": "Jump Store",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/vsEffbsk1SQGmD8p9?g_st=ic"
           },
           {
             "name": "WONDER COSME 本通店",
@@ -2318,9 +2424,10 @@
             "price": 0,
             "rating": 0,
             "hours": "",
-            "link": "https://maps.app.goo.gl/CiChfDtupPqpu4586?g_st=iwb",
+            "link": "",
             "notes": "Skincare Coreana",
-            "image": ""
+            "image": "",
+            "mapsLink": "https://maps.app.goo.gl/CiChfDtupPqpu4586?g_st=iwb"
           },
           {
             "name": "Lawson Miyajima Shop",
@@ -2330,7 +2437,8 @@
             "hours": "",
             "link": "",
             "notes": "Lawson",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "TSUKIJI FISH MARKET",
@@ -2340,7 +2448,8 @@
             "hours": "",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           }
         ],
         "excursions": [
@@ -2352,7 +2461,8 @@
             "hours": "",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Shibuya Sky",
@@ -2362,7 +2472,8 @@
             "hours": "",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Tokyo Skytree",
@@ -2372,7 +2483,8 @@
             "hours": "",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Ghibli Museum",
@@ -2382,7 +2494,8 @@
             "hours": "",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Ghibli Park",
@@ -2392,7 +2505,8 @@
             "hours": "",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Tokyo Disneyland",
@@ -2402,7 +2516,8 @@
             "hours": "",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Tokyo DisneySea",
@@ -2412,7 +2527,8 @@
             "hours": "",
             "link": "",
             "notes": "",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Akihabara",
@@ -2422,7 +2538,8 @@
             "hours": "",
             "link": "",
             "notes": "Maid Cafe",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Gōtokuji Temple",
@@ -2432,7 +2549,8 @@
             "hours": "",
             "link": "",
             "notes": "Tempio gattini",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Daikoku Parking Area",
@@ -2442,7 +2560,8 @@
             "hours": "",
             "link": "",
             "notes": "Raduno JDM",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Kujira Entertainment",
@@ -2452,7 +2571,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione serale",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "TANTRA TOKYO",
@@ -2462,7 +2582,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione serale",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Dōtonbori",
@@ -2472,7 +2593,8 @@
             "hours": "",
             "link": "",
             "notes": "Quartiere da visitare",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Osaka Castle",
@@ -2482,7 +2604,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Universal Studios Japan",
@@ -2492,7 +2615,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Ebisu Tower Ferris Wheel",
@@ -2502,7 +2626,8 @@
             "hours": "",
             "link": "",
             "notes": "Ruota panoramica a dotonbori",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Sumo Restaurant Ochiizumibeya",
@@ -2512,7 +2637,8 @@
             "hours": "",
             "link": "",
             "notes": "Spettacolo di sumo",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Nishiki Market",
@@ -2522,7 +2648,8 @@
             "hours": "",
             "link": "",
             "notes": "Mercato del pesce etc",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Gion",
@@ -2532,7 +2659,8 @@
             "hours": "",
             "link": "",
             "notes": "Quartiere delle geisha",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Nintendo Museum",
@@ -2542,7 +2670,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Toei Kyoto Studio Park",
@@ -2552,7 +2681,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Fushimi Inari Taisha",
@@ -2562,7 +2692,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Arashiyama Bamboo Forest",
@@ -2572,7 +2703,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Monkey Park Iwatayama",
@@ -2582,7 +2714,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Kinkakuji Temple",
@@ -2592,7 +2725,8 @@
             "hours": "",
             "link": "",
             "notes": "Tempio d'oro",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Ginkakuji",
@@ -2602,7 +2736,8 @@
             "hours": "",
             "link": "",
             "notes": "Tempio d'argento",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Kiyomizu-dera",
@@ -2612,7 +2747,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Nijō Castle",
@@ -2622,7 +2758,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "237 Nakaogawachō",
@@ -2632,7 +2769,8 @@
             "hours": "",
             "link": "",
             "notes": "Cerimonia del tè",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Komachi Street",
@@ -2642,7 +2780,8 @@
             "hours": "",
             "link": "",
             "notes": "Quartiere da visitare",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Meigetsu-in",
@@ -2652,7 +2791,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Kencho-ji",
@@ -2662,7 +2802,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Tsurugaoka Hachimangu",
@@ -2672,7 +2813,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Great Buddha Ticket Counter",
@@ -2682,7 +2824,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Kamiyacho",
@@ -2692,7 +2835,8 @@
             "hours": "",
             "link": "",
             "notes": "Quartiere da visitare",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Hiroshima Peace Memorial Museum",
@@ -2702,7 +2846,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Miyajima Omotesandō Shopping Street",
@@ -2712,7 +2857,8 @@
             "hours": "",
             "link": "",
             "notes": "Shopping vario e Ostriche in tutte le salse",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Itsukushima Shrine",
@@ -2722,7 +2868,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Nara Park",
@@ -2732,7 +2879,8 @@
             "hours": "",
             "link": "",
             "notes": "È un parco, con i cervi",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           },
           {
             "name": "Tōdai-ji",
@@ -2742,7 +2890,8 @@
             "hours": "",
             "link": "",
             "notes": "Escursione giorno",
-            "image": ""
+            "image": "",
+            "mapsLink": ""
           }
         ]
       },

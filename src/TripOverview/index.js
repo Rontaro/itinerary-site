@@ -10,7 +10,6 @@ import {
     Separator,
     SimpleGrid,
     Stat,
-    Table,
     Tabs,
     Text,
     VStack
@@ -247,6 +246,18 @@ export default function TripOverview({ trip, onBack }) {
                                                             🔗 Sito web
                                                         </Button>
                                                     )}
+                                                    {rest.mapsLink && (
+                                                        <Button
+                                                            as="a"
+                                                            href={rest.mapsLink}
+                                                            target="_blank"
+                                                            size="sm"
+                                                            colorPalette="green"
+                                                            flex={1}
+                                                        >
+                                                            🗺️ Maps
+                                                        </Button>
+                                                    )}
                                                 </Card.Body>
                                             </Card.Root>
                                         )}
@@ -301,6 +312,18 @@ export default function TripOverview({ trip, onBack }) {
                                                             🔗 Sito web
                                                         </Button>
                                                     )}
+                                                    {attr.mapsLink && (
+                                                        <Button
+                                                            as="a"
+                                                            href={attr.mapsLink}
+                                                            target="_blank"
+                                                            size="sm"
+                                                            colorPalette="green"
+                                                            flex={1}
+                                                        >
+                                                            🗺️ Maps
+                                                        </Button>
+                                                    )}
                                                 </Card.Body>
                                             </Card.Root>
                                         )}
@@ -312,40 +335,40 @@ export default function TripOverview({ trip, onBack }) {
                                 <Heading size="md" mb={4}>🏛️ Escursioni</Heading>
                                 <SimpleGrid columns={{ base: 1, md: 2 }} gap={4}>
                                     <For each={trip.places.excursions}>
-                                        {(attr, i) => (
+                                        {(esc, i) => (
                                             <Card.Root key={i}>
-                                                {attr.image && (
+                                                {esc.image && (
                                                     <Box overflow="hidden">
                                                         <SafeImage
-                                                            src={attr.image}
-                                                            alt={attr.name}
+                                                            src={esc.image}
+                                                            alt={esc.name}
                                                             style={{ width: '100%', height: '200px', objectFit: 'cover' }}
                                                         />
                                                     </Box>
                                                 )}
                                                 <Card.Body>
-                                                    <Heading size="sm" mb={2}>{attr.name}</Heading>
-                                                    <Text fontSize="sm" color="gray.600" mb={2}>{attr.address}</Text>
-                                                    <Text fontSize="sm" mb={2} color="blue.600">🕐 {attr.hours}</Text>
-                                                    {(attr.rating !== 0 || attr.price !== 0) && (
+                                                    <Heading size="sm" mb={2}>{esc.name}</Heading>
+                                                    <Text fontSize="sm" color="gray.600" mb={2}>{esc.address}</Text>
+                                                    <Text fontSize="sm" mb={2} color="blue.600">🕐 {esc.hours}</Text>
+                                                    {(esc.rating !== 0 || esc.price !== 0) && (
                                                         <HStack justify="space-between" mb={2}>
-                                                            {attr.rating !== 0 && (
-                                                                <Badge colorPalette="yellow">⭐ {attr.rating}</Badge>
+                                                            {esc.rating !== 0 && (
+                                                                <Badge colorPalette="yellow">⭐ {esc.rating}</Badge>
                                                             )}
-                                                            {attr.price !== 0 && (
-                                                                <Text fontWeight="bold" color={attr.price === 0 ? "green.600" : "teal.600"}>
-                                                                    {attr.price === 0 ? "Gratuito" : `€${attr.price}`}
+                                                            {esc.price !== 0 && (
+                                                                <Text fontWeight="bold" color={esc.price === 0 ? "green.600" : "teal.600"}>
+                                                                    {esc.price === 0 ? "Gratuito" : `€${esc.price}`}
                                                                 </Text>
                                                             )}
                                                         </HStack>
                                                     )}
-                                                    {attr.notes && (
-                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{attr.notes}</Text>
+                                                    {esc.notes && (
+                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{esc.notes}</Text>
                                                     )}
-                                                    {attr.link && (
+                                                    {esc.link && (
                                                         <Button
                                                             as="a"
-                                                            href={attr.link}
+                                                            href={esc.link}
                                                             target="_blank"
                                                             size="sm"
                                                             colorPalette="blue"
@@ -353,6 +376,18 @@ export default function TripOverview({ trip, onBack }) {
                                                             w="full"
                                                         >
                                                             🔗 Sito web
+                                                        </Button>
+                                                    )}
+                                                    {esc.mapsLink && (
+                                                        <Button
+                                                            as="a"
+                                                            href={esc.mapsLink}
+                                                            target="_blank"
+                                                            size="sm"
+                                                            colorPalette="green"
+                                                            flex={1}
+                                                        >
+                                                            🗺️ Maps
                                                         </Button>
                                                     )}
                                                 </Card.Body>

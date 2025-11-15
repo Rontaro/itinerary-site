@@ -1,8 +1,25 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import {
-    Badge, Card, Container, For, Heading, HStack, SimpleGrid, Text, VStack, Button,
-    DialogRoot, DialogBackdrop, DialogContent, DialogHeader, DialogTitle, DialogBody, DialogFooter,
-    Textarea, Alert, Tabs, Input
+    Alert,
+    Badge,
+    Button,
+    Card,
+    Container,
+    DialogBackdrop,
+    DialogBody,
+    DialogContent,
+    DialogFooter,
+    DialogHeader,
+    DialogRoot,
+    DialogTitle,
+    For,
+    Heading,
+    HStack,
+    SimpleGrid,
+    Tabs,
+    Text,
+    Textarea,
+    VStack
 } from '@chakra-ui/react';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
