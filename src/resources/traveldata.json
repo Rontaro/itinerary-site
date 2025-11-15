@@ -14,233 +14,1181 @@
         {
           "name": "Tokyo",
           "hotel": {
-            "name": "Super Hotel Shinagawa Shinbanba",
-            "address": "Shinagawa",
-            "rating": 2,
-            "price": 54.0,
-            "notes": "",
-            "bookingLink": "https://www.booking.com/hotel/jp/super-shinagawa-shinbanba.it.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4Ap6Vq8MGwAIB0gIkOTlmMjAzNzQtZGEzMS00YTNkLTgxMzEtNmYyMTBiYjA0NjIx2AIF4AIB&sid=d1bbaa91cb078e2aceada580937d16fc&all_sr_blocks=109621904_386202268_4_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_1_1_0&checkin=2025-12-24&checkout=2025-12-29&dest_id=257051&dest_type=landmark&dist=0&group_adults=9&group_children=0&hapos=11&highlighted_blocks=109621904_386202268_4_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_1_1_0&hpos=11&matching_block_id=109621904_386202268_4_1_0&nflt=ht_id%3D1100%3Bprice%3DEUR-min-500-1%3Bht_id%3D204%3Bht_id%3D203%3Bht_id%3D209%3Bht_id%3D216&no_rooms=4&req_adults=9&req_children=0&room1=A%2CA&room2=A%2CA&room3=A%2CA&room4=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=109621904_386202268_4_1_0__16245000%2C109621907_386202268_0_1_0__8280000%2C109621907_386202268_0_1_0__8280000%2C109621907_386202268_1_1_0__7380000&srepoch=1752004967&srpvid=7f188c0ff7760834&type=total&ucfs=1&activeTab=main",
-            "mapsLink": "https://www.google.it/maps/place/Super+Hotel+Shinagawa+Shimbamba/@35.6174441,139.7393427,17z/data=!3m2!4b1!5s0x60188a6f2d609ae1:0x524073359a10037b!4m9!3m8!1s0x60188a6f3276cd25:0x94ee98d6ebd684a3!5m2!4m1!1i2!8m2!3d35.6174442!4d139.744219!16s%2Fg%2F11b5ytlpzx?hl=it&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
+            "name": "Gotanda",
+            "address": "Gotanda (lungo la linea JR Yamanote)",
+            "rating": 0,
+            "price": 0.0,
+            "notes": "Base per i giorni 1-5 e 13-15 [cite: 9, 10]",
+            "bookingLink": "",
+            "mapsLink": ""
           },
           "days": [
             {
               "date": "2025-12-24",
-              "location": "Tokyo",
+              "location": "Tokyo Tradizionale - Asakusa, Ueno & Ginza",
               "city": "Tokyo",
               "activities": [
                 {
                   "time": "08:40",
-                  "name": "Arrivo aeroporto Narita",
+                  "name": "Arrivo all'aeroporto di Narita",
                   "cost": 0,
                   "type": "transport",
-                  "image": "https://res-1.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1668563849/chiba/Chiba_t_id264_1",
-                  "link": "https://www.narita-airport.jp/en/",
-                  "notes": "#TBDInserire info per l'aereoporto"
+                  "notes": ""
                 },
                 {
                   "time": "09:30",
-                  "name": "Narita Express verso Tokyo",
+                  "name": "Partenza con il Narita Express (~¥3,500 a persona) verso Tokyo",
                   "cost": 3500,
                   "type": "transport",
-                  "notes": "#TBD"
+                  "notes": "Costo approssimativo per persona"
                 },
                 {
                   "time": "10:30",
-                  "name": "Check-in Gotanda",
+                  "name": "Arrivo a Tokyo; check-in a Gotanda (o deposito bagagli)",
                   "cost": 0,
-                  "type": "#TBD check In Hotel"
+                  "type": "check-in",
+                  "notes": ""
+                },
+                {
+                  "time": "11:00",
+                  "name": "Partenza dall'hotel per Asakusa",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "11:30",
-                  "name": "Senso-ji e Nakamise (Asakusa)",
+                  "name": "Esplora Senso-ji e passeggia per Nakamise",
                   "cost": 0,
                   "type": "activity",
-                  "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=400",
-                  "link": "https://www.senso-ji.jp/",
-                  "notes": "Tempio più antico di Tokyo"
+                  "notes": "Fino alle 13:00 [cite: 48]"
                 },
                 {
                   "time": "13:00",
                   "name": "Pranzo ad Asakusa",
-                  "cost": 20,
+                  "cost": 0,
                   "type": "food",
-                  "notes": "Provare tempura o soba"
+                  "notes": ""
+                },
+                {
+                  "time": "14:00",
+                  "name": "Partenza per Ueno",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "14:30",
-                  "name": "Parco di Ueno",
+                  "name": "Cammina nel Parco di Ueno (Opzionale: visita un museo o lo zoo)",
                   "cost": 0,
                   "type": "activity",
-                  "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ueno_park.jpg",
-                  "link": "https://www.tokyo-park.or.jp/park/format/index038.html"
+                  "notes": "Fino alle 16:00 [cite: 51]"
+                },
+                {
+                  "time": "16:30",
+                  "name": "Partenza da Ueno in treno verso Ginza",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "17:00",
-                  "name": "Shopping a Ginza",
-                  "cost": 50,
-                  "type": "shopping",
-                  "notes": "Negozi di lusso e department stores"
+                  "name": "Passeggiata e shopping visivo a Ginza",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 19:00 [cite: 53]"
                 },
                 {
                   "time": "20:00",
                   "name": "Cena a Ginza",
-                  "cost": 40,
-                  "type": "food"
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 54]"
                 },
                 {
                   "time": "22:00",
-                  "name": "Rientro in Hotel",
-                  "cost": 40,
-                  "type": "food"
+                  "name": "(Opzionale) Passeggiata post-cena o visita a un bar locale",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Attività rilassata poiché il giorno seguente inizia presto [cite: 55, 56]"
                 }
-              ]
+              ],
+              "transport": null
             },
             {
               "date": "2025-12-25",
-              "location": "Tokyo",
+              "location": "Tokyo Centrale & Luci di Natale",
               "city": "Tokyo",
               "activities": [
                 {
+                  "time": "08:00",
+                  "name": "Colazione in hotel",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "09:00",
+                  "name": "Partenza da Gotanda verso l'area di Ginza/Marunouchi",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
                   "time": "09:30",
-                  "name": "Shopping a Ginza/Marunouchi",
+                  "name": "Esplora i negozi di Ginza e ammira l'architettura intorno a Tokyo Station/Marunouchi",
                   "cost": 0,
                   "type": "activity",
-                  "notes": "Esplorare Tokyo Station area"
+                  "notes": "Fino alle 11:00 [cite: 61]"
                 },
                 {
                   "time": "11:30",
-                  "name": "Giardini Palazzo Imperiale",
+                  "name": "Passeggiata nei giardini esterni del Palazzo Imperiale (se aperti) o nella zona di Chiyoda",
                   "cost": 0,
                   "type": "activity",
-                  "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400",
-                  "link": "https://www.kunaicho.go.jp/eindex.html"
+                  "notes": ""
                 },
                 {
                   "time": "13:00",
                   "name": "Pranzo a Ginza",
-                  "cost": 35,
-                  "type": "food"
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "14:00",
+                  "name": "Partenza per Roppongi",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "14:30",
-                  "name": "Luminarie natalizie Roppongi Hills",
+                  "name": "Goditi le luminarie natalizie a Roppongi Hills o Tokyo Midtown",
                   "cost": 0,
                   "type": "activity",
-                  "image": "https://italiavola.com/wp-content/uploads/2021/12/thumbnail_cmori-building-co.-ltd._keyakizaka-illumination-1.jpg",
-                  "notes": "Le illuminazioni sono spettacolari"
+                  "notes": "Fino alle 16:00 [cite: 64]"
+                },
+                {
+                  "time": "16:30",
+                  "name": "Opzionalmente, visita un mercatino di Natale o una strada illuminata",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": ""
+                },
+                {
+                  "time": "17:30",
+                  "name": "Rientro a Gotanda",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "20:00",
-                  "name": "Cena",
-                  "cost": 30,
-                  "type": "food"
+                  "name": "Cena in un ristorante locale vicino a Gotanda",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 66]"
                 },
                 {
                   "time": "22:00",
-                  "name": "Opzionale: Kabukicho (Shinjuku)",
+                  "name": "(Opzionale) Uscita dopo cena: Omoide Yokocho, Golden Gai o Kabukicho a Shinjuku",
                   "cost": 0,
                   "type": "activity",
-                  "notes": "Quartiere dell'intrattenimento"
+                  "notes": "Per vivere l'atmosfera countdown [cite: 67]"
                 }
-              ]
+              ],
+              "transport": null
             },
             {
               "date": "2025-12-26",
-              "location": "Tokyo",
+              "location": "Tokyo Orientale - Ikebukuro & Akihabara",
               "city": "Tokyo",
               "activities": [
                 {
                   "time": "06:30",
-                  "name": "Opzionale: Allenamento sumo Ryogoku",
+                  "name": "Opzionale: Allenamento sumo a Ryogoku",
                   "cost": 0,
                   "type": "activity",
-                  "link": "https://www.sumo.or.jp/EnHonbashoMain/",
-                  "notes": "Prenotazione necessaria"
+                  "notes": "Parti da Gotanda e rientra entro le 08:00 [cite: 73]"
+                },
+                {
+                  "time": "08:00",
+                  "name": "Parti da Gotanda per Ikebukuro",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "08:30",
-                  "name": "Esplorazione Ikebukuro",
+                  "name": "Esplora Ikebukuro",
                   "cost": 0,
                   "type": "activity",
-                  "notes": "Sunshine City e Pokemon Center"
+                  "notes": "Visita centri commerciali e vivi l'atmosfera urbana fino alle 10:30 [cite: 75]"
+                },
+                {
+                  "time": "10:30",
+                  "name": "Parti da Ikebukuro per Akihabara",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "10:45",
-                  "name": "Shopping Akihabara",
-                  "cost": 80,
-                  "type": "shopping",
-                  "image": "https://images.unsplash.com/photo-1555864326-5cf22ef123cf?w=400",
-                  "notes": "Paradiso dell'elettronica e anime"
+                  "name": "Scopri i negozi di elettronica, le caffetterie a tema e i vari shop di Akihabara",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 12:30 [cite: 77]"
                 },
                 {
                   "time": "13:00",
                   "name": "Pranzo ad Akihabara",
-                  "cost": 18,
-                  "type": "food"
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
                 },
                 {
                   "time": "14:00",
-                  "name": "Caffetterie a tema Akihabara",
-                  "cost": 15,
+                  "name": "Prosegui con shopping o esplorazione ad Akihabara",
+                  "cost": 0,
                   "type": "activity",
-                  "notes": "Maid café o anime café"
+                  "notes": "Fino alle 16:00 [cite: 78]"
+                },
+                {
+                  "time": "16:30",
+                  "name": "Rientra a Gotanda",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "20:00",
                   "name": "Cena a Tokyo",
-                  "cost": 25,
-                  "type": "food"
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 81]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Attività post-cena tranquilla",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Scegli un caffè o un bar se il giorno seguente inizia presto [cite: 82]"
                 }
               ],
               "transport": null
             },
             {
               "date": "2025-12-27",
-              "location": "Tokyo",
+              "location": "Tokyo Occidentale - Harajuku, Shibuya & Shimokitazawa",
               "city": "Tokyo",
               "activities": [
                 {
+                  "time": "08:00",
+                  "name": "Colazione in hotel",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "09:00",
+                  "name": "Parti da Gotanda per Harajuku",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
                   "time": "09:30",
-                  "name": "Santuario Meiji (Meiji Jingu)",
+                  "name": "Visita il Santuario Meiji (Meiji Jingu) e goditi il parco circostante",
                   "cost": 0,
                   "type": "activity",
-                  "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400",
-                  "link": "https://www.meijijingu.or.jp/en/",
-                  "notes": "Arrivare presto per evitare la folla"
+                  "notes": "Fino alle 10:30 [cite: 87]"
                 },
                 {
                   "time": "10:45",
-                  "name": "Takeshita Street",
-                  "cost": 20,
-                  "type": "shopping",
-                  "notes": "Moda kawaii e street food"
+                  "name": "Passeggia su Takeshita Street",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Scopri moda e assaggia snack fino alle 12:00 [cite: 88]"
                 },
                 {
                   "time": "13:00",
-                  "name": "Pranzo ad Harajuku",
-                  "cost": 22,
-                  "type": "food"
+                  "name": "Pranzo ad Harajuku in un caffè o in un ramen shop",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "14:00",
+                  "name": "Parti per Shibuya",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "14:30",
-                  "name": "Shibuya Crossing",
+                  "name": "Vivi l'icona di Shibuya Crossing e visita un osservatorio (es. Shibuya Sky)",
                   "cost": 0,
                   "type": "activity",
-                  "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=400",
-                  "notes": "Incrocio pedonale più famoso al mondo"
+                  "notes": "Fino alle 16:00. Opzionale: Pokémon Café o Nintendo Museum [cite: 91, 92]"
+                },
+                {
+                  "time": "16:30",
+                  "name": "Parti da Shibuya in treno verso Shimokitazawa",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "16:45",
-                  "name": "Shopping vintage Shimokitazawa",
-                  "cost": 40,
-                  "type": "shopping",
-                  "notes": "Negozi vintage e caffè indie"
+                  "name": "Esplora i negozi vintage e le caffetterie indie di Shimokitazawa",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 18:00 [cite: 94]"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "A Shimokitazawa oppure rientrando a Gotanda [cite: 95]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Scegli una serata rilassata in zona",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": ""
+                }
+              ],
+              "transport": null
+            },
+            {
+              "date": "2025-12-28",
+              "location": "Tokyo - Opzione A: Disneyland o Opzione B: Kamakura & Odaiba",
+              "city": "Tokyo",
+              "activities": [
+                {
+                  "time": "07:00",
+                  "name": "Opzione A: Colazione in hotel (Disneyland)",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "07:30",
+                  "name": "Opzione A: Parti da Gotanda per Tokyo Disneyland o Tokyo DisneySea",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Verifica gli orari festivi [cite: 102]"
+                },
+                {
+                  "time": "08:30",
+                  "name": "Opzione A: Goditi il parco",
+                  "cost": 7900,
+                  "type": "activity",
+                  "notes": "Biglietto ~¥7,900 a persona. Fino alle 18:00 [cite: 103]"
+                },
+                {
+                  "time": "07:30",
+                  "name": "Opzione B: Colazione; parti da Gotanda per Kamakura",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Arrivo previsto a Kita-Kamakura intorno alle 08:45 [cite: 109]"
+                },
+                {
+                  "time": "08:45",
+                  "name": "Opzione B: Visita Meigetsu-in",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 09:30 [cite: 110]"
+                },
+                {
+                  "time": "09:30",
+                  "name": "Opzione B: Esplora Kencho-ji",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 10:30 [cite: 111]"
+                },
+                {
+                  "time": "10:30",
+                  "name": "Opzione B: Visita Tsurugaoka Hachimangu",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 11:30 [cite: 113]"
+                },
+                {
+                  "time": "11:30",
+                  "name": "Opzione B: Passeggia su Komachi Street; pranzo alle 13:00",
+                  "cost": 0,
+                  "type": "activity/food",
+                  "notes": ""
+                },
+                {
+                  "time": "13:00",
+                  "name": "Opzione B: Visita il Big Buddha (area tempio)",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 14:00 [cite: 115]"
+                },
+                {
+                  "time": "14:00",
+                  "name": "Opzione B: Parti da Kamakura per Tokyo",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "16:00",
+                  "name": "Opzione B: Esplora Odaiba",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Goditi il waterfront, mostre digitali e altro, fino alle 17:30 [cite: 117]"
+                },
+                {
+                  "time": "17:30",
+                  "name": "Opzione B: Rientro a Gotanda",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "18:30",
+                  "name": "Opzione A: Rientro a Gotanda",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 },
                 {
                   "time": "20:00",
                   "name": "Cena a Tokyo",
-                  "cost": 30,
-                  "type": "food"
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 105, 120]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Attività post-cena leggera",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": ""
+                }
+              ],
+              "transport": null
+            }
+          ]
+        },
+        {
+          "name": "Miyajima",
+          "hotel": {
+            "name": "Ryokan Tradizionale",
+            "address": "Miyajima",
+            "rating": 0,
+            "price": 0.0,
+            "notes": "Trascorri una notte in un ryokan tradizionale [cite: 20]",
+            "bookingLink": "",
+            "mapsLink": ""
+          },
+          "days": [
+            {
+              "date": "2025-12-29",
+              "location": "Tokyo → Miyajima",
+              "city": "Miyajima",
+              "activities": [
+                {
+                  "time": "07:00",
+                  "name": "Check-out da Gotanda",
+                  "cost": 0,
+                  "type": "check-out",
+                  "notes": "Organizza il deposito bagagli se necessario [cite: 126]"
+                },
+                {
+                  "time": "07:30",
+                  "name": "Parti con lo Shinkansen per Hiroshima",
+                  "cost": 14000,
+                  "type": "transport",
+                  "notes": "Circa ¥14,000 a persona [cite: 127]"
+                },
+                {
+                  "time": "10:00",
+                  "name": "Arrivo a Hiroshima",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "10:30",
+                  "name": "Trasferimento in treno e traghetto verso Miyajima",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "12:00",
+                  "name": "Check-in presso il ryokan",
+                  "cost": 0,
+                  "type": "check-in",
+                  "notes": "Deposita eventuali bagagli in eccesso [cite: 130]"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Durante il trasferimento o all'arrivo [cite: 131]"
+                },
+                {
+                  "time": "14:00",
+                  "name": "Esplora con calma Miyajima e ammira il Santuario di Itsukushima",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 18:00 [cite: 132]"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena al ryokan",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 133]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Passeggiata tranquilla lungo l'acqua",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": ""
+                }
+              ],
+              "transport": null
+            }
+          ]
+        },
+        {
+          "name": "Osaka",
+          "hotel": {
+            "name": "Namba",
+            "address": "Namba (Osaka)",
+            "rating": 0,
+            "price": 0.0,
+            "notes": "Soggiorno per assaporare Dotonbori e la vita notturna [cite: 22]",
+            "bookingLink": "",
+            "mapsLink": ""
+          },
+          "days": [
+            {
+              "date": "2025-12-30",
+              "location": "Miyajima, Hiroshima → Osaka",
+              "city": "Osaka",
+              "activities": [
+                {
+                  "time": "05:30",
+                  "name": "Opzionale: Svegliati presto per vedere l'alba a Miyajima",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 06:30 [cite: 137]"
+                },
+                {
+                  "time": "10:00",
+                  "name": "Parti da Miyajima con il traghetto; trasferisciti a Hiroshima",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "11:00",
+                  "name": "Visita il Parco della Pace e il Museo della Memoria di Hiroshima",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 13:00 [cite: 139]"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo a Hiroshima",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "14:30",
+                  "name": "Parti con lo Shinkansen per Osaka",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "16:00",
+                  "name": "Arrivo a Osaka; check-in a Namba",
+                  "cost": 0,
+                  "type": "check-in",
+                  "notes": ""
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Namba",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 144]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Dopo cena, passeggiata o karaoke locale",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Se non hai una mattina anticipata [cite: 145]"
+                }
+              ],
+              "transport": null
+            },
+            {
+              "date": "2025-12-31",
+              "location": "Osaka - Universal Studios, Countdown & Dotonbori",
+              "city": "Osaka",
+              "activities": [
+                {
+                  "time": "08:00",
+                  "name": "Colazione a Osaka",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "09:00",
+                  "name": "Parti da Namba per Universal Studios Osaka",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "09:30",
+                  "name": "Goditi il parco Universal Studios Osaka",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 17:00 [cite: 148]"
+                },
+                {
+                  "time": "17:30",
+                  "name": "Rientro in hotel e rinfrescati",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Dotonbori",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Assaggia le specialità di strada (takoyaki, okonomiyaki) fino alle 21:00 [cite: 154]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Countdown e festa di Capodanno",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Opzioni: Dotonbori per Joya no Kane (rintocco dei 108 campanelli) o Round One (centro giochi arcade) [cite: 151, 152, 155]"
+                }
+              ],
+              "transport": null
+            },
+            {
+              "date": "2026-01-01",
+              "location": "Osaka - Hatsumode & Kobe Beef",
+              "city": "Osaka",
+              "activities": [
+                {
+                  "time": "07:30",
+                  "name": "Colazione",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "08:00",
+                  "name": "Partecipa all'Hatsumode (prima visita ai santuari dell'anno)",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Esempi: Sumiyoshi Taisha, Osaka Tenmangu, Shitennoji o Imamiya Ebisu. Fino alle 09:30 [cite: 159, 160]"
+                },
+                {
+                  "time": "10:00",
+                  "name": "(Opzionale) Parti da Namba per Kobe in treno",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Circa 30-40 minuti [cite: 161]"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo con autentico Kobe beef nella zona di Sannomiya/Harborland",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "14:30",
+                  "name": "Rientro a Osaka",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Fino alle 15:30 [cite: 162]"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Osaka; poi goditi le festività rilassate di Capodanno",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 163]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Concludi la serata con un drink tranquillo",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Se il giorno seguente inizia presto [cite: 164]"
+                }
+              ],
+              "transport": null
+            }
+          ]
+        },
+        {
+          "name": "Kyoto",
+          "hotel": {
+            "name": "Gion o Stazione di Kyoto",
+            "address": "Quartiere storico di Gion o nei pressi della stazione di Kyoto",
+            "rating": 0,
+            "price": 0.0,
+            "notes": "Scegli Gion per l'atmosfera o vicino alla stazione per gli spostamenti [cite: 27]",
+            "bookingLink": "",
+            "mapsLink": ""
+          },
+          "days": [
+            {
+              "date": "2026-01-02",
+              "location": "Osaka → Nara → Kyoto",
+              "city": "Kyoto",
+              "activities": [
+                {
+                  "time": "08:00",
+                  "name": "Parti da Osaka per Nara",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Circa 45 minuti in treno [cite: 167]"
+                },
+                {
+                  "time": "08:45",
+                  "name": "Visita Todaiji e passeggia per il Parco di Nara",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Opzionale: sosta a Kasuga Taisha. Fino alle 12:00 [cite: 168]"
+                },
+                {
+                  "time": "12:00",
+                  "name": "Parti da Nara",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Oppure gusta uno spuntino veloce durante il trasferimento [cite: 169]"
+                },
+                {
+                  "time": "13:30",
+                  "name": "Trasferimento da Nara a Kyoto",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Circa 45-60 minuti in treno [cite: 170]"
+                },
+                {
+                  "time": "14:30",
+                  "name": "Check-in presso l'hotel a Kyoto",
+                  "cost": 0,
+                  "type": "check-in",
+                  "notes": "Oppure deposito bagagli se in anticipo [cite: 171]"
+                },
+                {
+                  "time": "15:00",
+                  "name": "Esplora Nishiki Market o passeggia per il quartiere storico di Gion",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 18:00 [cite: 172]"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Kyoto",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 173]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Dopo cena, una passeggiata tranquilla nel quartiere di Gion",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": ""
+                }
+              ],
+              "transport": null
+            },
+            {
+              "date": "2026-01-03",
+              "location": "Highlights del Kyoto Orientale",
+              "city": "Kyoto",
+              "activities": [
+                {
+                  "time": "07:00",
+                  "name": "Colazione in hotel",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "07:30",
+                  "name": "Parti per Fushimi Inari Taisha",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Arrivo previsto intorno alle 07:45 [cite: 177]"
+                },
+                {
+                  "time": "07:45",
+                  "name": "Visita Fushimi Inari Taisha",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 09:30 [cite: 177]"
+                },
+                {
+                  "time": "09:45",
+                  "name": "Parti per Kiyomizu-dera",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "10:00",
+                  "name": "Ammira i panorami da Kiyomizu-dera",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino a circa mezzogiorno [cite: 178]"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo a Kyoto",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "14:00",
+                  "name": "Tour di Nijō Castle",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 16:00 [cite: 180]"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Kyoto",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 181]"
+                },
+                {
+                  "time": "21:00",
+                  "name": "(Opzionale) Partecipa a una cerimonia del tè tradizionale",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Dalle 21:00 alle 22:00 [cite: 181]"
+                }
+              ],
+              "transport": null
+            },
+            {
+              "date": "2026-01-04",
+              "location": "Kyoto Occidentale - Natura, Zen & Pianificazione Efficiente",
+              "city": "Kyoto",
+              "activities": [
+                {
+                  "time": "07:00",
+                  "name": "Colazione in hotel",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "07:30",
+                  "name": "Parti per l'Arashiyama Bamboo Forest",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Arrivo intorno alle 07:45 [cite: 185]"
+                },
+                {
+                  "time": "07:45",
+                  "name": "Visita Arashiyama Bamboo Forest",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 09:30 [cite: 185]"
+                },
+                {
+                  "time": "09:45",
+                  "name": "Escursione al Monkey Park Iwatayama",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Ammira i panorami e osserva i macachi selvatici. Fino alle 11:30 [cite: 186]"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo ad Arashiyama",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "14:00",
+                  "name": "Parti per Kinkaku-ji (Padiglione d'Oro)",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
+                },
+                {
+                  "time": "14:00",
+                  "name": "Visita Kinkaku-ji (Padiglione d'Oro)",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Dalle 14:00 alle 15:00 [cite: 189]"
+                },
+                {
+                  "time": "15:30",
+                  "name": "(Opzionale) Visita Ginkaku-ji (Padiglione d'Argento)",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Passeggia lungo il Sentiero del Filosofo. Fino alle 17:00 [cite: 190]"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Kyoto",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 191]"
+                },
+                {
+                  "time": "21:00",
+                  "name": "(Opzionale) Karaoke al Super Jankara Kawaramachi Honten Premium",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": ""
+                }
+              ],
+              "transport": null
+            }
+          ]
+        },
+        {
+          "name": "Tokyo (Ritorno)",
+          "hotel": {
+            "name": "Gotanda",
+            "address": "Gotanda (lungo la linea JR Yamanote)",
+            "rating": 0,
+            "price": 0.0,
+            "notes": "Ritorno in hotel a Gotanda [cite: 209]",
+            "bookingLink": "",
+            "mapsLink": ""
+          },
+          "days": [
+            {
+              "date": "2026-01-05",
+              "location": "Kyoto → Tokyo & Esplorazione di Daikanyama/Nakameguro + Opzione Odaiba",
+              "city": "Tokyo",
+              "activities": [
+                {
+                  "time": "08:00",
+                  "name": "Check-out dal tuo hotel a Kyoto",
+                  "cost": 0,
+                  "type": "check-out",
+                  "notes": "Se necessario, deposita i bagagli [cite: 197]"
+                },
+                {
+                  "time": "08:30",
+                  "name": "Parti in Shinkansen per Tokyo",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Circa 2,5 ore [cite: 198]"
+                },
+                {
+                  "time": "11:00",
+                  "name": "Arrivo a Tokyo; deposita i bagagli a Gotanda o in stazione",
+                  "cost": 0,
+                  "type": "check-in/deposito",
+                  "notes": "Se il check-in non è disponibile [cite: 199]"
+                },
+                {
+                  "time": "11:30",
+                  "name": "Trasferisciti verso Daikanyama o Nakameguro",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "Zone alla moda per negozi boutique e caffè [cite: 200, 201]"
+                },
+                {
+                  "time": "11:45",
+                  "name": "Esplora Daikanyama/Nakameguro a un ritmo tranquillo",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 14:00 [cite: 202]"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo tardivo",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "A Daikanyama/Nakameguro [cite: 202]"
+                },
+                {
+                  "time": "14:00",
+                  "name": "Rientra a Gotanda (o effettua il check-in)",
+                  "cost": 0,
+                  "type": "transport/check-in",
+                  "notes": ""
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Tokyo",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 206]"
+                },
+                {
+                  "time": "21:00",
+                  "name": "Opzione Serale: Odaiba o Daikoku Parking Area",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Per vivere la vivace vita notturna sul lungomare [cite: 204]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Passeggiata serale rilassata o visita a un bar locale",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": ""
+                }
+              ],
+              "transport": null
+            },
+            {
+              "date": "2026-01-06",
+              "location": "Giornata Libera a Tokyo",
+              "city": "Tokyo",
+              "activities": [
+                {
+                  "time": "08:00",
+                  "name": "Colazione in hotel",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "09:00",
+                  "name": "(Opzione 1) Parti per teamLab Planets a Toyosu",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Arrivo 09:30, visita fino alle 11:00 [cite: 211]"
+                },
+                {
+                  "time": "09:00",
+                  "name": "(Opzione 2) Esplora Akihabara o Ikebukuro",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Vivi il mondo pop o fai shopping fino alle 11:00 [cite: 212]"
+                },
+                {
+                  "time": "09:00",
+                  "name": "(Alternativa Opzionale) Ghibli Museum (Mitaka) o Pokémon Café",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Se riesci a prenotare [cite: 214]"
+                },
+                {
+                  "time": "09:00",
+                  "name": "(Opzionale) Tempio Gotokuji a Setagaya",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Famoso per il Maneki-neko [cite: 215]"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo a Tokyo",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "14:00",
+                  "name": "(Opzionale) Partecipa a una cerimonia del tè tradizionale",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Ad esempio presso Maikoya. Fino alle 15:30 [cite: 217]"
+                },
+                {
+                  "time": "15:30",
+                  "name": "Continua ad esplorare il quartiere scelto",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Ad esempio, shopping in Akihabara o Ikebukuro. Fino alle 17:30 [cite: 218]"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Tokyo",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Fino alle 21:00 [cite: 219]"
+                },
+                {
+                  "time": "22:00",
+                  "name": "(Opzionale) Serata in un rooftop bar o visita Golden Gai/Omoide Yokocho a Shinjuku",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": ""
+                }
+              ],
+              "transport": null
+            },
+            {
+              "date": "2026-01-07",
+              "location": "Ultimo Giorno a Tokyo & Partenza",
+              "city": "Tokyo",
+              "activities": [
+                {
+                  "time": "08:00",
+                  "name": "Colazione in hotel",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "08:00",
+                  "name": "Ultima mattinata tra shopping e visite",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Ad esempio, passeggiata a Shibuya o Ueno. Fino alle 12:00 [cite: 224]"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo leggero",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "Se lo desideri [cite: 225]"
+                },
+                {
+                  "time": "16:30",
+                  "name": "Parti da Gotanda per l'aeroporto di Haneda",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": "L'obiettivo è arrivare intorno alle 18:00 [cite: 226]"
+                },
+                {
+                  "time": "20:00",
+                  "name": "(Opzionale) Un piccolo spuntino vicino all'aeroporto",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": ""
+                },
+                {
+                  "time": "22:05",
+                  "name": "Partenza dall'aeroporto di Haneda",
+                  "cost": 0,
+                  "type": "transport",
+                  "notes": ""
                 }
               ],
               "transport": null
@@ -248,785 +1196,6 @@
           ]
         }
       ],
-      "days": [
-        {
-          "date": "2025-12-24",
-          "location": "Tokyo",
-          "city": "Tokyo",
-          "activities": [
-            {
-              "time": "08:40",
-              "name": "Arrivo aeroporto Narita",
-              "cost": 0,
-              "type": "transport",
-              "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
-              "link": "https://www.narita-airport.jp/en/",
-              "notes": "Terminal 1 - ritiro bagagli"
-            },
-            {
-              "time": "09:30",
-              "name": "Narita Express verso Tokyo",
-              "cost": 3500,
-              "type": "transport",
-              "notes": "Validare JR Pass"
-            },
-            {
-              "time": "10:30",
-              "name": "Check-in Gotanda",
-              "cost": 0,
-              "type": "accommodation"
-            },
-            {
-              "time": "11:30",
-              "name": "Senso-ji e Nakamise (Asakusa)",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=400",
-              "link": "https://www.senso-ji.jp/",
-              "notes": "Tempio più antico di Tokyo"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo ad Asakusa",
-              "cost": 20,
-              "type": "food",
-              "notes": "Provare tempura o soba"
-            },
-            {
-              "time": "14:30",
-              "name": "Parco di Ueno",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1570521993748-af43e3701a5a?w=400",
-              "link": "https://www.tokyo-park.or.jp/park/format/index038.html"
-            },
-            {
-              "time": "17:00",
-              "name": "Shopping a Ginza",
-              "cost": 50,
-              "type": "shopping",
-              "notes": "Negozi di lusso e department stores"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Ginza",
-              "cost": 40,
-              "type": "food"
-            }
-          ],
-          "transport": {
-            "from": "Aeroporto Narita",
-            "to": "Tokyo",
-            "distance": "80km",
-            "cost": 3500
-          }
-        },
-        {
-          "date": "2025-12-25",
-          "location": "Tokyo",
-          "city": "Tokyo",
-          "activities": [
-            {
-              "time": "09:30",
-              "name": "Shopping a Ginza/Marunouchi",
-              "cost": 0,
-              "type": "activity",
-              "notes": "Esplorare Tokyo Station area"
-            },
-            {
-              "time": "11:30",
-              "name": "Giardini Palazzo Imperiale",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400",
-              "link": "https://www.kunaicho.go.jp/eindex.html"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo a Ginza",
-              "cost": 35,
-              "type": "food"
-            },
-            {
-              "time": "14:30",
-              "name": "Luminarie natalizie Roppongi Hills",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1512941675424-1c8f9856a928?w=400",
-              "notes": "Le illuminazioni sono spettacolari"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena vicino Gotanda",
-              "cost": 30,
-              "type": "food"
-            },
-            {
-              "time": "22:00",
-              "name": "Opzionale: Kabukicho (Shinjuku)",
-              "cost": 0,
-              "type": "activity",
-              "notes": "Quartiere dell'intrattenimento"
-            }
-          ],
-          "transport": null
-        },
-        {
-          "date": "2025-12-26",
-          "location": "Tokyo",
-          "city": "Tokyo",
-          "activities": [
-            {
-              "time": "06:30",
-              "name": "Opzionale: Allenamento sumo Ryogoku",
-              "cost": 0,
-              "type": "activity",
-              "link": "https://www.sumo.or.jp/EnHonbashoMain/",
-              "notes": "Prenotazione necessaria"
-            },
-            {
-              "time": "08:30",
-              "name": "Esplorazione Ikebukuro",
-              "cost": 0,
-              "type": "activity",
-              "notes": "Sunshine City e Pokemon Center"
-            },
-            {
-              "time": "10:45",
-              "name": "Shopping Akihabara",
-              "cost": 80,
-              "type": "shopping",
-              "image": "https://images.unsplash.com/photo-1555864326-5cf22ef123cf?w=400",
-              "notes": "Paradiso dell'elettronica e anime"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo ad Akihabara",
-              "cost": 18,
-              "type": "food"
-            },
-            {
-              "time": "14:00",
-              "name": "Caffetterie a tema Akihabara",
-              "cost": 15,
-              "type": "activity",
-              "notes": "Maid café o anime café"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Tokyo",
-              "cost": 25,
-              "type": "food"
-            }
-          ],
-          "transport": null
-        },
-        {
-          "date": "2025-12-27",
-          "location": "Tokyo",
-          "city": "Tokyo",
-          "activities": [
-            {
-              "time": "09:30",
-              "name": "Santuario Meiji (Meiji Jingu)",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400",
-              "link": "https://www.meijijingu.or.jp/en/",
-              "notes": "Arrivare presto per evitare la folla"
-            },
-            {
-              "time": "10:45",
-              "name": "Takeshita Street",
-              "cost": 20,
-              "type": "shopping",
-              "notes": "Moda kawaii e street food"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo ad Harajuku",
-              "cost": 22,
-              "type": "food"
-            },
-            {
-              "time": "14:30",
-              "name": "Shibuya Crossing",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=400",
-              "notes": "Incrocio pedonale più famoso al mondo"
-            },
-            {
-              "time": "16:45",
-              "name": "Shopping vintage Shimokitazawa",
-              "cost": 40,
-              "type": "shopping",
-              "notes": "Negozi vintage e caffè indie"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Tokyo",
-              "cost": 30,
-              "type": "food"
-            }
-          ],
-          "transport": null
-        },
-        {
-          "date": "2025-12-28",
-          "location": "Tokyo",
-          "city": "Tokyo",
-          "activities": [
-            {
-              "time": "07:30",
-              "name": "Partenza per Tokyo Disneyland",
-              "cost": 7900,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=400",
-              "link": "https://www.tokyodisneyresort.jp/en/",
-              "notes": "Acquistare biglietti online in anticipo"
-            },
-            {
-              "time": "08:30",
-              "name": "Tokyo Disneyland (tutto il giorno)",
-              "cost": 0,
-              "type": "activity",
-              "notes": "Scaricare app ufficiale per prenotazioni"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Tokyo",
-              "cost": 35,
-              "type": "food"
-            }
-          ],
-          "transport": {
-            "from": "Gotanda",
-            "to": "Disneyland",
-            "distance": "25km",
-            "cost": 500
-          }
-        },
-        {
-          "date": "2025-12-29",
-          "location": "Miyajima",
-          "city": "Miyajima",
-          "activities": [
-            {
-              "time": "07:30",
-              "name": "Check-out Tokyo",
-              "cost": 0,
-              "type": "accommodation",
-              "notes": "Preparare bagagli per spostamento"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo a Miyajima",
-              "cost": 25,
-              "type": "food",
-              "notes": "Provare le ostriche locali"
-            },
-            {
-              "time": "14:00",
-              "name": "Santuario Itsukushima",
-              "cost": 300,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
-              "link": "http://www.itsukushimajinja.jp/index.html",
-              "notes": "UNESCO World Heritage Site"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena al ryokan",
-              "cost": 0,
-              "type": "food",
-              "notes": "Cena kaiseki inclusa"
-            },
-            {
-              "time": "07:30",
-              "name": "Shinkansen Tokyo → Hiroshima → Miyajima",
-              "cost": 14500,
-              "type": "transport",
-              "notes": "JR Pass + traghetto"
-            }
-          ],
-          "transport": {
-            "from": "Tokyo",
-            "to": "Miyajima",
-            "distance": "800km",
-            "cost": 14500
-          }
-        },
-        {
-          "date": "2025-12-30",
-          "location": "Osaka",
-          "city": "Osaka",
-          "activities": [
-            {
-              "time": "05:30",
-              "name": "Opzionale: Alba a Miyajima",
-              "cost": 0,
-              "type": "activity",
-              "notes": "Vista spettacolare del torii gate"
-            },
-            {
-              "time": "11:00",
-              "name": "Parco della Pace Hiroshima",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=400",
-              "notes": "Momento di riflessione"
-            },
-            {
-              "time": "11:30",
-              "name": "Museo della Memoria",
-              "cost": 200,
-              "type": "activity",
-              "link": "https://hpmmuseum.jp/",
-              "notes": "Esperienza toccante"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo a Hiroshima",
-              "cost": 20,
-              "type": "food",
-              "notes": "Provare Hiroshima-style okonomiyaki"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Namba",
-              "cost": 30,
-              "type": "food"
-            },
-            {
-              "time": "14:30",
-              "name": "Shinkansen Hiroshima → Osaka",
-              "cost": 10000,
-              "type": "transport",
-              "notes": "Check-in hotel Namba all'arrivo"
-            }
-          ],
-          "transport": {
-            "from": "Hiroshima",
-            "to": "Osaka",
-            "distance": "330km",
-            "cost": 10000
-          }
-        },
-        {
-          "date": "2025-12-31",
-          "location": "Osaka",
-          "city": "Osaka",
-          "activities": [
-            {
-              "time": "09:00",
-              "name": "Universal Studios Osaka",
-              "cost": 8400,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1585009495981-e587306b1586?w=400",
-              "link": "https://www.usj.co.jp/web/en/us",
-              "notes": "Biglietti Express Pass consigliati"
-            },
-            {
-              "time": "17:00",
-              "name": "Rientro in hotel",
-              "cost": 0,
-              "type": "transport"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena street food Dōtonbori",
-              "cost": 25,
-              "type": "food",
-              "notes": "Takoyaki e okonomiyaki imperdibili"
-            },
-            {
-              "time": "22:00",
-              "name": "Countdown a Dōtonbori - Joya no Kane",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
-              "notes": "108 rintocchi di campana per il nuovo anno"
-            },
-            {
-              "time": "23:00",
-              "name": "Opzionale: Round One arcade",
-              "cost": 20,
-              "type": "activity",
-              "notes": "Alternativa per festeggiare"
-            }
-          ],
-          "transport": null
-        },
-        {
-          "date": "2026-01-01",
-          "location": "Osaka",
-          "city": "Osaka",
-          "activities": [
-            {
-              "time": "08:00",
-              "name": "Hatsumode - Sumiyoshi Taisha",
-              "cost": 0,
-              "type": "activity",
-              "link": "http://www.sumiyoshitaisha.net/",
-              "notes": "Prima visita dell'anno al santuario"
-            },
-            {
-              "time": "10:00",
-              "name": "Treno per Kobe",
-              "cost": 500,
-              "type": "transport"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo Kobe beef",
-              "cost": 80,
-              "type": "food",
-              "notes": "Esperienza gastronomica unica"
-            },
-            {
-              "time": "14:30",
-              "name": "Rientro a Osaka",
-              "cost": 500,
-              "type": "transport"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Osaka",
-              "cost": 30,
-              "type": "food"
-            }
-          ],
-          "transport": {
-            "from": "Osaka",
-            "to": "Kobe",
-            "distance": "30km",
-            "cost": 1000
-          }
-        },
-        {
-          "date": "2026-01-02",
-          "location": "Kyoto",
-          "city": "Kyoto",
-          "activities": [
-            {
-              "time": "08:45",
-              "name": "Todai-ji (Nara)",
-              "cost": 600,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
-              "link": "https://www.todaiji.or.jp/en/",
-              "notes": "Grande Buddha di Nara"
-            },
-            {
-              "time": "09:30",
-              "name": "Parco di Nara",
-              "cost": 0,
-              "type": "activity",
-              "notes": "Cervi sacri - portare biscotti"
-            },
-            {
-              "time": "15:00",
-              "name": "Nishiki Market",
-              "cost": 20,
-              "type": "activity",
-              "link": "https://www.kyoto-nishiki.or.jp/",
-              "notes": "Cucina di Kyoto"
-            },
-            {
-              "time": "17:00",
-              "name": "Passeggiata a Gion",
-              "cost": 0,
-              "type": "activity",
-              "notes": "Possibile avvistamento geisha"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Kyoto",
-              "cost": 35,
-              "type": "food"
-            },
-            {
-              "time": "13:30",
-              "name": "Treno Nara → Kyoto",
-              "cost": 720,
-              "type": "transport",
-              "notes": "Check-in hotel all'arrivo"
-            }
-          ],
-          "transport": {
-            "from": "Osaka",
-            "to": "Kyoto",
-            "distance": "50km",
-            "cost": 720
-          }
-        },
-        {
-          "date": "2026-01-03",
-          "location": "Kyoto",
-          "city": "Kyoto",
-          "activities": [
-            {
-              "time": "07:45",
-              "name": "Fushimi Inari Taisha",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
-              "link": "http://inari.jp/en/",
-              "notes": "10.000 torii rossi - arrivare presto"
-            },
-            {
-              "time": "09:45",
-              "name": "Kiyomizu-dera",
-              "cost": 400,
-              "type": "activity",
-              "link": "https://www.kiyomizudera.or.jp/en/",
-              "notes": "Vista panoramica su Kyoto"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo a Kyoto",
-              "cost": 28,
-              "type": "food"
-            },
-            {
-              "time": "14:00",
-              "name": "Nijō Castle",
-              "cost": 1030,
-              "type": "activity",
-              "link": "https://nijo-jocastle.city.kyoto.lg.jp/en/",
-              "notes": "Pavimenti usignolo"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Kyoto",
-              "cost": 40,
-              "type": "food"
-            },
-            {
-              "time": "21:00",
-              "name": "Opzionale: Cerimonia del tè",
-              "cost": 30,
-              "type": "activity",
-              "notes": "Esperienza culturale tradizionale"
-            }
-          ],
-          "transport": null
-        },
-        {
-          "date": "2026-01-04",
-          "location": "Kyoto",
-          "city": "Kyoto",
-          "activities": [
-            {
-              "time": "07:45",
-              "name": "Arashiyama Bamboo Forest",
-              "cost": 0,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
-              "notes": "Atmosfera magica al mattino presto"
-            },
-            {
-              "time": "09:45",
-              "name": "Monkey Park Iwatayama",
-              "cost": 550,
-              "type": "activity",
-              "link": "https://www.monkeypark.jp/",
-              "notes": "Vista panoramica e macachi giapponesi"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo ad Arashiyama",
-              "cost": 25,
-              "type": "food"
-            },
-            {
-              "time": "14:00",
-              "name": "Kinkaku-ji (Padiglione d'Oro)",
-              "cost": 500,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
-              "link": "https://www.shokoku-ji.jp/kinkakuji/",
-              "notes": "Tempio iconico ricoperto d'oro"
-            },
-            {
-              "time": "15:30",
-              "name": "Opzionale: Ginkaku-ji",
-              "cost": 500,
-              "type": "activity",
-              "notes": "Padiglione d'Argento e Sentiero del Filosofo"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Kyoto",
-              "cost": 35,
-              "type": "food"
-            },
-            {
-              "time": "22:00",
-              "name": "Opzionale: Karaoke Kawaramachi",
-              "cost": 25,
-              "type": "activity",
-              "notes": "Super Jankara Premium"
-            }
-          ],
-          "transport": null
-        },
-        {
-          "date": "2026-01-05",
-          "location": "Tokyo",
-          "city": "Tokyo",
-          "activities": [
-            {
-              "time": "11:00",
-              "name": "Arrivo Tokyo - deposito bagagli",
-              "cost": 0,
-              "type": "transport"
-            },
-            {
-              "time": "11:45",
-              "name": "Esplorazione Daikanyama/Nakameguro",
-              "cost": 30,
-              "type": "shopping",
-              "notes": "Quartieri alla moda e trendy"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo a Nakameguro",
-              "cost": 28,
-              "type": "food"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Tokyo",
-              "cost": 35,
-              "type": "food"
-            },
-            {
-              "time": "22:00",
-              "name": "Opzionale: Odaiba waterfront",
-              "cost": 0,
-              "type": "activity",
-              "notes": "Vita notturna sul lungomare"
-            },
-            {
-              "time": "08:30",
-              "name": "Shinkansen Kyoto → Tokyo",
-              "cost": 13320,
-              "type": "transport",
-              "notes": "Check-in hotel Gotanda all'arrivo"
-            }
-          ],
-          "transport": {
-            "from": "Kyoto",
-            "to": "Tokyo",
-            "distance": "470km",
-            "cost": 13320
-          }
-        },
-        {
-          "date": "2026-01-06",
-          "location": "Tokyo",
-          "city": "Tokyo",
-          "activities": [
-            {
-              "time": "09:00",
-              "name": "Opzionale: teamLab Planets",
-              "cost": 3200,
-              "type": "activity",
-              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
-              "link": "https://www.teamlab.art/e/planets/",
-              "notes": "Arte digitale immersiva - prenotare"
-            },
-            {
-              "time": "11:00",
-              "name": "Shopping Akihabara/Ikebukuro",
-              "cost": 50,
-              "type": "shopping"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo a Tokyo",
-              "cost": 22,
-              "type": "food"
-            },
-            {
-              "time": "14:00",
-              "name": "Opzionale: Cerimonia del tè Maikoya",
-              "cost": 40,
-              "type": "activity",
-              "link": "https://mai-ko.com/",
-              "notes": "Esperienza culturale autentica"
-            },
-            {
-              "time": "15:30",
-              "name": "Ulteriore shopping",
-              "cost": 40,
-              "type": "shopping"
-            },
-            {
-              "time": "20:00",
-              "name": "Cena a Tokyo",
-              "cost": 45,
-              "type": "food"
-            },
-            {
-              "time": "22:00",
-              "name": "Opzionale: Golden Gai/Omoide Yokocho",
-              "cost": 20,
-              "type": "activity",
-              "notes": "Bar tradizionali e atmosfera vintage"
-            }
-          ],
-          "transport": null
-        },
-        {
-          "date": "2026-01-07",
-          "location": "Tokyo",
-          "city": "Tokyo",
-          "activities": [
-            {
-              "time": "08:00",
-              "name": "Ultima colazione a Tokyo",
-              "cost": 15,
-              "type": "food"
-            },
-            {
-              "time": "09:00",
-              "name": "Ultimo shopping Shibuya/Ueno",
-              "cost": 60,
-              "type": "shopping",
-              "notes": "Ultimi souvenir"
-            },
-            {
-              "time": "13:00",
-              "name": "Pranzo leggero",
-              "cost": 18,
-              "type": "food"
-            },
-            {
-              "time": "16:30",
-              "name": "Partenza per aeroporto Haneda",
-              "cost": 500,
-              "type": "transport",
-              "notes": "Arrivare 3 ore prima del volo"
-            },
-            {
-              "time": "22:05",
-              "name": "Volo di ritorno",
-              "cost": 0,
-              "type": "transport"
-            }
-          ],
-          "transport": {
-            "from": "Gotanda",
-            "to": "Aeroporto Haneda",
-            "distance": "20km",
-            "cost": 500
-          }
-        }
-      ],
-
       "places": {
         "hotels": [
           {

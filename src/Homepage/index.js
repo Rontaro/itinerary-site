@@ -1,5 +1,9 @@
-import React from 'react';
-import {Badge, Card, Container, For, Heading, HStack, SimpleGrid, Text, VStack} from '@chakra-ui/react';
+import React, {useEffect, useState, useRef} from 'react';
+import {
+    Badge, Card, Container, For, Heading, HStack, SimpleGrid, Text, VStack, Button,
+    DialogRoot, DialogBackdrop, DialogContent, DialogHeader, DialogTitle, DialogBody, DialogFooter,
+    Textarea, Alert, Tabs, Input
+} from '@chakra-ui/react';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import travelData from "../resources/traveldata.json";
@@ -14,6 +18,48 @@ L.Icon.Default.mergeOptions({
 
 // Componente Homepage
 export default function Homepage({ onSelectTrip }) {
+    const [data, setData] = useState(travelData);
+    const [openDialog, setOpenDialog] = useState(false);
+    const [jsonText, setJsonText] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
+    const fileInputRef = useRef(null);
+
+    const handleLoadJSON = (newData) => {
+        try {
+            setData(newData);
+            setOpenDialog(false);
+            setJsonText('');
+            setErrorMessage('');
+        } catch (error) {
+            setErrorMessage('Errore nel caricamento dei dati');
+        }
+    };
+
+    const handleFileUpload = (event) => {
+        const file = event.target.files?.[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            try {
+                const json = JSON.parse(e.target?.result);
+                handleLoadJSON(json);
+            } catch {
+                setErrorMessage('File JSON non valido. Controlla la sintassi.');
+            }
+        };
+        reader.readAsText(file);
+    };
+
+    const handleTextSubmit = () => {
+        try {
+            const json = JSON.parse(jsonText);
+            handleLoadJSON(json);
+        } catch {
+            setErrorMessage('JSON non valido. Controlla la sintassi.');
+        }
+    };
+
     return (
         <Container maxW="7xl" py={8}>
             <VStack gap={6} align="stretch">
@@ -24,8 +70,110 @@ export default function Homepage({ onSelectTrip }) {
                     Seleziona un viaggio per visualizzare i dettagli
                 </Text>
 
+                {/* Pulsante Carica JSON Personalizzato */}
+                <Button
+                    colorPalette="teal"
+                    variant="outline"
+                    width="fit-content"
+                    mx="auto"
+                    onClick={() => {
+                        setOpenDialog(true);
+                        setErrorMessage('');
+                    }}
+                >
+                    Oppure carica un JSON personalizzato
+                </Button>
+
+                {/* Dialog Modal */}
+                <DialogRoot
+                    open={openDialog}
+                    onOpenChange={(e) => setOpenDialog(e.open)}
+                >
+                    <DialogBackdrop />
+                    <DialogContent>
+                        <DialogHeader>
+                            <DialogTitle>Carica un JSON personalizzato</DialogTitle>
+                        </DialogHeader>
+
+                        <DialogBody>
+                            <VStack gap={4} align="stretch">
+                                {errorMessage && (
+                                    <Alert.Root status="error">
+                                        <Alert.Indicator />
+                                        <Alert.Title>{errorMessage}</Alert.Title>
+                                    </Alert.Root>
+                                )}
+
+                                <Tabs.Root defaultValue="upload">
+                                    <Tabs.List>
+                                        <Tabs.Trigger value="upload">Carica File</Tabs.Trigger>
+                                        <Tabs.Trigger value="text">Scrivi Testo</Tabs.Trigger>
+                                    </Tabs.List>
+
+                                    <Tabs.Content value="upload">
+                                        <VStack gap={4} align="stretch" py={4}>
+                                            <Text color="gray.600">
+                                                Seleziona un file JSON dal tuo computer
+                                            </Text>
+                                            <input
+                                                ref={fileInputRef}
+                                                type="file"
+                                                accept=".json"
+                                                onChange={handleFileUpload}
+                                                style={{ display: 'none' }}
+                                            />
+                                            <Button
+                                                colorPalette="teal"
+                                                onClick={() => fileInputRef.current?.click()}
+                                                width="full"
+                                            >
+                                                Seleziona File JSON
+                                            </Button>
+                                        </VStack>
+                                    </Tabs.Content>
+
+                                    <Tabs.Content value="text">
+                                        <VStack gap={4} align="stretch" py={4}>
+                                            <Text color="gray.600">
+                                                Incolla o scrivi il tuo JSON qui
+                                            </Text>
+                                            <Textarea
+                                                value={jsonText}
+                                                onChange={(e) => setJsonText(e.target.value)}
+                                                placeholder='{"trips": [...]}'
+                                                minH="300px"
+                                                fontFamily="monospace"
+                                                fontSize="sm"
+                                            />
+                                        </VStack>
+                                    </Tabs.Content>
+                                </Tabs.Root>
+                            </VStack>
+                        </DialogBody>
+
+                        <DialogFooter>
+                            <Button
+                                variant="outline"
+                                onClick={() => {
+                                    setOpenDialog(false);
+                                    setJsonText('');
+                                    setErrorMessage('');
+                                }}
+                            >
+                                Annulla
+                            </Button>
+                            <Button
+                                colorPalette="teal"
+                                onClick={handleTextSubmit}
+                            >
+                                Carica JSON
+                            </Button>
+                        </DialogFooter>
+                    </DialogContent>
+                </DialogRoot>
+
                 <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={6} mt={8}>
-                    <For each={travelData.trips}>
+                    <For each={data.trips}>
                         {(trip) => (
                             <Card.Root
                                 key={trip.id}

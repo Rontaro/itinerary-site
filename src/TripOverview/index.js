@@ -21,11 +21,11 @@ import CityDetails from "../CityDetails";
 import SafeImage from "../utils/SafeImage";
 
 export default function TripOverview({ trip, onBack }) {
-    const totalCost = trip.days.reduce((sum, day) => {
+    const totalCost = trip?.days?.reduce?.((sum, day) => {
         const dayCost = day.activities.reduce((s, a) => s + a.cost, 0);
         const transportCost = day.transport ? day.transport.cost : 0;
         return sum + dayCost + transportCost;
-    }, 0); // TODO: change to take costs from cities.activities instead
+    }, 0) || 0; // TODO: change to take costs from cities.activities instead
 
     const [selectedCity, setSelectedCity] = useState(null);
 
@@ -55,7 +55,7 @@ export default function TripOverview({ trip, onBack }) {
                         </Box>
                         <Box>
                             <Text fontWeight="bold" color="gray.600">Durata</Text>
-                            <Text fontSize="lg">{trip.days.length} giorni</Text>
+                            <Text fontSize="lg">{trip?.days?.length} giorni</Text>
                         </Box>
                     </SimpleGrid>
 
