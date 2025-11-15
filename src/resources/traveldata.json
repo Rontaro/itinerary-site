@@ -1,0 +1,2279 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "name": "Giappone 2025-2026",
+      "destination": "Tokyo, Kyoto, Osaka, Hiroshima, Miyajima",
+      "startDate": "2025-12-24",
+      "endDate": "2026-01-07",
+      "image": "🇯🇵",
+      "isPrivate": false,
+      "password": "tokyo2025",
+      "budget": 0,
+      "cities": [
+        {
+          "name": "Tokyo",
+          "hotel": {
+            "name": "Super Hotel Shinagawa Shinbanba",
+            "address": "Shinagawa",
+            "rating": 2,
+            "price": 54.0,
+            "notes": "",
+            "bookingLink": "https://www.booking.com/hotel/jp/super-shinagawa-shinbanba.it.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4Ap6Vq8MGwAIB0gIkOTlmMjAzNzQtZGEzMS00YTNkLTgxMzEtNmYyMTBiYjA0NjIx2AIF4AIB&sid=d1bbaa91cb078e2aceada580937d16fc&all_sr_blocks=109621904_386202268_4_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_1_1_0&checkin=2025-12-24&checkout=2025-12-29&dest_id=257051&dest_type=landmark&dist=0&group_adults=9&group_children=0&hapos=11&highlighted_blocks=109621904_386202268_4_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_1_1_0&hpos=11&matching_block_id=109621904_386202268_4_1_0&nflt=ht_id%3D1100%3Bprice%3DEUR-min-500-1%3Bht_id%3D204%3Bht_id%3D203%3Bht_id%3D209%3Bht_id%3D216&no_rooms=4&req_adults=9&req_children=0&room1=A%2CA&room2=A%2CA&room3=A%2CA&room4=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=109621904_386202268_4_1_0__16245000%2C109621907_386202268_0_1_0__8280000%2C109621907_386202268_0_1_0__8280000%2C109621907_386202268_1_1_0__7380000&srepoch=1752004967&srpvid=7f188c0ff7760834&type=total&ucfs=1&activeTab=main",
+            "mapsLink": "https://www.google.it/maps/place/Super+Hotel+Shinagawa+Shimbamba/@35.6174441,139.7393427,17z/data=!3m2!4b1!5s0x60188a6f2d609ae1:0x524073359a10037b!4m9!3m8!1s0x60188a6f3276cd25:0x94ee98d6ebd684a3!5m2!4m1!1i2!8m2!3d35.6174442!4d139.744219!16s%2Fg%2F11b5ytlpzx?hl=it&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "days": [
+            {
+              "date": "2025-12-24",
+              "location": "Tokyo",
+              "city": "Tokyo",
+              "activities": [
+                {
+                  "time": "08:40",
+                  "name": "Arrivo aeroporto Narita",
+                  "cost": 0,
+                  "type": "transport",
+                  "image": "https://res-1.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1668563849/chiba/Chiba_t_id264_1",
+                  "link": "https://www.narita-airport.jp/en/",
+                  "notes": "#TBDInserire info per l'aereoporto"
+                },
+                {
+                  "time": "09:30",
+                  "name": "Narita Express verso Tokyo",
+                  "cost": 3500,
+                  "type": "transport",
+                  "notes": "#TBD"
+                },
+                {
+                  "time": "10:30",
+                  "name": "Check-in Gotanda",
+                  "cost": 0,
+                  "type": "#TBD check In Hotel"
+                },
+                {
+                  "time": "11:30",
+                  "name": "Senso-ji e Nakamise (Asakusa)",
+                  "cost": 0,
+                  "type": "activity",
+                  "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=400",
+                  "link": "https://www.senso-ji.jp/",
+                  "notes": "Tempio più antico di Tokyo"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo ad Asakusa",
+                  "cost": 20,
+                  "type": "food",
+                  "notes": "Provare tempura o soba"
+                },
+                {
+                  "time": "14:30",
+                  "name": "Parco di Ueno",
+                  "cost": 0,
+                  "type": "activity",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ueno_park.jpg",
+                  "link": "https://www.tokyo-park.or.jp/park/format/index038.html"
+                },
+                {
+                  "time": "17:00",
+                  "name": "Shopping a Ginza",
+                  "cost": 50,
+                  "type": "shopping",
+                  "notes": "Negozi di lusso e department stores"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Ginza",
+                  "cost": 40,
+                  "type": "food"
+                },
+                {
+                  "time": "22:00",
+                  "name": "Rientro in Hotel",
+                  "cost": 40,
+                  "type": "food"
+                }
+              ]
+            },
+            {
+              "date": "2025-12-25",
+              "location": "Tokyo",
+              "city": "Tokyo",
+              "activities": [
+                {
+                  "time": "09:30",
+                  "name": "Shopping a Ginza/Marunouchi",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Esplorare Tokyo Station area"
+                },
+                {
+                  "time": "11:30",
+                  "name": "Giardini Palazzo Imperiale",
+                  "cost": 0,
+                  "type": "activity",
+                  "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400",
+                  "link": "https://www.kunaicho.go.jp/eindex.html"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo a Ginza",
+                  "cost": 35,
+                  "type": "food"
+                },
+                {
+                  "time": "14:30",
+                  "name": "Luminarie natalizie Roppongi Hills",
+                  "cost": 0,
+                  "type": "activity",
+                  "image": "https://italiavola.com/wp-content/uploads/2021/12/thumbnail_cmori-building-co.-ltd._keyakizaka-illumination-1.jpg",
+                  "notes": "Le illuminazioni sono spettacolari"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena",
+                  "cost": 30,
+                  "type": "food"
+                },
+                {
+                  "time": "22:00",
+                  "name": "Opzionale: Kabukicho (Shinjuku)",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Quartiere dell'intrattenimento"
+                }
+              ]
+            },
+            {
+              "date": "2025-12-26",
+              "location": "Tokyo",
+              "city": "Tokyo",
+              "activities": [
+                {
+                  "time": "06:30",
+                  "name": "Opzionale: Allenamento sumo Ryogoku",
+                  "cost": 0,
+                  "type": "activity",
+                  "link": "https://www.sumo.or.jp/EnHonbashoMain/",
+                  "notes": "Prenotazione necessaria"
+                },
+                {
+                  "time": "08:30",
+                  "name": "Esplorazione Ikebukuro",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Sunshine City e Pokemon Center"
+                },
+                {
+                  "time": "10:45",
+                  "name": "Shopping Akihabara",
+                  "cost": 80,
+                  "type": "shopping",
+                  "image": "https://images.unsplash.com/photo-1555864326-5cf22ef123cf?w=400",
+                  "notes": "Paradiso dell'elettronica e anime"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo ad Akihabara",
+                  "cost": 18,
+                  "type": "food"
+                },
+                {
+                  "time": "14:00",
+                  "name": "Caffetterie a tema Akihabara",
+                  "cost": 15,
+                  "type": "activity",
+                  "notes": "Maid café o anime café"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Tokyo",
+                  "cost": 25,
+                  "type": "food"
+                }
+              ],
+              "transport": null
+            },
+            {
+              "date": "2025-12-27",
+              "location": "Tokyo",
+              "city": "Tokyo",
+              "activities": [
+                {
+                  "time": "09:30",
+                  "name": "Santuario Meiji (Meiji Jingu)",
+                  "cost": 0,
+                  "type": "activity",
+                  "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400",
+                  "link": "https://www.meijijingu.or.jp/en/",
+                  "notes": "Arrivare presto per evitare la folla"
+                },
+                {
+                  "time": "10:45",
+                  "name": "Takeshita Street",
+                  "cost": 20,
+                  "type": "shopping",
+                  "notes": "Moda kawaii e street food"
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo ad Harajuku",
+                  "cost": 22,
+                  "type": "food"
+                },
+                {
+                  "time": "14:30",
+                  "name": "Shibuya Crossing",
+                  "cost": 0,
+                  "type": "activity",
+                  "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=400",
+                  "notes": "Incrocio pedonale più famoso al mondo"
+                },
+                {
+                  "time": "16:45",
+                  "name": "Shopping vintage Shimokitazawa",
+                  "cost": 40,
+                  "type": "shopping",
+                  "notes": "Negozi vintage e caffè indie"
+                },
+                {
+                  "time": "20:00",
+                  "name": "Cena a Tokyo",
+                  "cost": 30,
+                  "type": "food"
+                }
+              ],
+              "transport": null
+            }
+          ]
+        }
+      ],
+      "days": [
+        {
+          "date": "2025-12-24",
+          "location": "Tokyo",
+          "city": "Tokyo",
+          "activities": [
+            {
+              "time": "08:40",
+              "name": "Arrivo aeroporto Narita",
+              "cost": 0,
+              "type": "transport",
+              "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+              "link": "https://www.narita-airport.jp/en/",
+              "notes": "Terminal 1 - ritiro bagagli"
+            },
+            {
+              "time": "09:30",
+              "name": "Narita Express verso Tokyo",
+              "cost": 3500,
+              "type": "transport",
+              "notes": "Validare JR Pass"
+            },
+            {
+              "time": "10:30",
+              "name": "Check-in Gotanda",
+              "cost": 0,
+              "type": "accommodation"
+            },
+            {
+              "time": "11:30",
+              "name": "Senso-ji e Nakamise (Asakusa)",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=400",
+              "link": "https://www.senso-ji.jp/",
+              "notes": "Tempio più antico di Tokyo"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo ad Asakusa",
+              "cost": 20,
+              "type": "food",
+              "notes": "Provare tempura o soba"
+            },
+            {
+              "time": "14:30",
+              "name": "Parco di Ueno",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1570521993748-af43e3701a5a?w=400",
+              "link": "https://www.tokyo-park.or.jp/park/format/index038.html"
+            },
+            {
+              "time": "17:00",
+              "name": "Shopping a Ginza",
+              "cost": 50,
+              "type": "shopping",
+              "notes": "Negozi di lusso e department stores"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Ginza",
+              "cost": 40,
+              "type": "food"
+            }
+          ],
+          "transport": {
+            "from": "Aeroporto Narita",
+            "to": "Tokyo",
+            "distance": "80km",
+            "cost": 3500
+          }
+        },
+        {
+          "date": "2025-12-25",
+          "location": "Tokyo",
+          "city": "Tokyo",
+          "activities": [
+            {
+              "time": "09:30",
+              "name": "Shopping a Ginza/Marunouchi",
+              "cost": 0,
+              "type": "activity",
+              "notes": "Esplorare Tokyo Station area"
+            },
+            {
+              "time": "11:30",
+              "name": "Giardini Palazzo Imperiale",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400",
+              "link": "https://www.kunaicho.go.jp/eindex.html"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo a Ginza",
+              "cost": 35,
+              "type": "food"
+            },
+            {
+              "time": "14:30",
+              "name": "Luminarie natalizie Roppongi Hills",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1512941675424-1c8f9856a928?w=400",
+              "notes": "Le illuminazioni sono spettacolari"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena vicino Gotanda",
+              "cost": 30,
+              "type": "food"
+            },
+            {
+              "time": "22:00",
+              "name": "Opzionale: Kabukicho (Shinjuku)",
+              "cost": 0,
+              "type": "activity",
+              "notes": "Quartiere dell'intrattenimento"
+            }
+          ],
+          "transport": null
+        },
+        {
+          "date": "2025-12-26",
+          "location": "Tokyo",
+          "city": "Tokyo",
+          "activities": [
+            {
+              "time": "06:30",
+              "name": "Opzionale: Allenamento sumo Ryogoku",
+              "cost": 0,
+              "type": "activity",
+              "link": "https://www.sumo.or.jp/EnHonbashoMain/",
+              "notes": "Prenotazione necessaria"
+            },
+            {
+              "time": "08:30",
+              "name": "Esplorazione Ikebukuro",
+              "cost": 0,
+              "type": "activity",
+              "notes": "Sunshine City e Pokemon Center"
+            },
+            {
+              "time": "10:45",
+              "name": "Shopping Akihabara",
+              "cost": 80,
+              "type": "shopping",
+              "image": "https://images.unsplash.com/photo-1555864326-5cf22ef123cf?w=400",
+              "notes": "Paradiso dell'elettronica e anime"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo ad Akihabara",
+              "cost": 18,
+              "type": "food"
+            },
+            {
+              "time": "14:00",
+              "name": "Caffetterie a tema Akihabara",
+              "cost": 15,
+              "type": "activity",
+              "notes": "Maid café o anime café"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Tokyo",
+              "cost": 25,
+              "type": "food"
+            }
+          ],
+          "transport": null
+        },
+        {
+          "date": "2025-12-27",
+          "location": "Tokyo",
+          "city": "Tokyo",
+          "activities": [
+            {
+              "time": "09:30",
+              "name": "Santuario Meiji (Meiji Jingu)",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400",
+              "link": "https://www.meijijingu.or.jp/en/",
+              "notes": "Arrivare presto per evitare la folla"
+            },
+            {
+              "time": "10:45",
+              "name": "Takeshita Street",
+              "cost": 20,
+              "type": "shopping",
+              "notes": "Moda kawaii e street food"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo ad Harajuku",
+              "cost": 22,
+              "type": "food"
+            },
+            {
+              "time": "14:30",
+              "name": "Shibuya Crossing",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=400",
+              "notes": "Incrocio pedonale più famoso al mondo"
+            },
+            {
+              "time": "16:45",
+              "name": "Shopping vintage Shimokitazawa",
+              "cost": 40,
+              "type": "shopping",
+              "notes": "Negozi vintage e caffè indie"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Tokyo",
+              "cost": 30,
+              "type": "food"
+            }
+          ],
+          "transport": null
+        },
+        {
+          "date": "2025-12-28",
+          "location": "Tokyo",
+          "city": "Tokyo",
+          "activities": [
+            {
+              "time": "07:30",
+              "name": "Partenza per Tokyo Disneyland",
+              "cost": 7900,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?w=400",
+              "link": "https://www.tokyodisneyresort.jp/en/",
+              "notes": "Acquistare biglietti online in anticipo"
+            },
+            {
+              "time": "08:30",
+              "name": "Tokyo Disneyland (tutto il giorno)",
+              "cost": 0,
+              "type": "activity",
+              "notes": "Scaricare app ufficiale per prenotazioni"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Tokyo",
+              "cost": 35,
+              "type": "food"
+            }
+          ],
+          "transport": {
+            "from": "Gotanda",
+            "to": "Disneyland",
+            "distance": "25km",
+            "cost": 500
+          }
+        },
+        {
+          "date": "2025-12-29",
+          "location": "Miyajima",
+          "city": "Miyajima",
+          "activities": [
+            {
+              "time": "07:30",
+              "name": "Check-out Tokyo",
+              "cost": 0,
+              "type": "accommodation",
+              "notes": "Preparare bagagli per spostamento"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo a Miyajima",
+              "cost": 25,
+              "type": "food",
+              "notes": "Provare le ostriche locali"
+            },
+            {
+              "time": "14:00",
+              "name": "Santuario Itsukushima",
+              "cost": 300,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
+              "link": "http://www.itsukushimajinja.jp/index.html",
+              "notes": "UNESCO World Heritage Site"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena al ryokan",
+              "cost": 0,
+              "type": "food",
+              "notes": "Cena kaiseki inclusa"
+            },
+            {
+              "time": "07:30",
+              "name": "Shinkansen Tokyo → Hiroshima → Miyajima",
+              "cost": 14500,
+              "type": "transport",
+              "notes": "JR Pass + traghetto"
+            }
+          ],
+          "transport": {
+            "from": "Tokyo",
+            "to": "Miyajima",
+            "distance": "800km",
+            "cost": 14500
+          }
+        },
+        {
+          "date": "2025-12-30",
+          "location": "Osaka",
+          "city": "Osaka",
+          "activities": [
+            {
+              "time": "05:30",
+              "name": "Opzionale: Alba a Miyajima",
+              "cost": 0,
+              "type": "activity",
+              "notes": "Vista spettacolare del torii gate"
+            },
+            {
+              "time": "11:00",
+              "name": "Parco della Pace Hiroshima",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=400",
+              "notes": "Momento di riflessione"
+            },
+            {
+              "time": "11:30",
+              "name": "Museo della Memoria",
+              "cost": 200,
+              "type": "activity",
+              "link": "https://hpmmuseum.jp/",
+              "notes": "Esperienza toccante"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo a Hiroshima",
+              "cost": 20,
+              "type": "food",
+              "notes": "Provare Hiroshima-style okonomiyaki"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Namba",
+              "cost": 30,
+              "type": "food"
+            },
+            {
+              "time": "14:30",
+              "name": "Shinkansen Hiroshima → Osaka",
+              "cost": 10000,
+              "type": "transport",
+              "notes": "Check-in hotel Namba all'arrivo"
+            }
+          ],
+          "transport": {
+            "from": "Hiroshima",
+            "to": "Osaka",
+            "distance": "330km",
+            "cost": 10000
+          }
+        },
+        {
+          "date": "2025-12-31",
+          "location": "Osaka",
+          "city": "Osaka",
+          "activities": [
+            {
+              "time": "09:00",
+              "name": "Universal Studios Osaka",
+              "cost": 8400,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1585009495981-e587306b1586?w=400",
+              "link": "https://www.usj.co.jp/web/en/us",
+              "notes": "Biglietti Express Pass consigliati"
+            },
+            {
+              "time": "17:00",
+              "name": "Rientro in hotel",
+              "cost": 0,
+              "type": "transport"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena street food Dōtonbori",
+              "cost": 25,
+              "type": "food",
+              "notes": "Takoyaki e okonomiyaki imperdibili"
+            },
+            {
+              "time": "22:00",
+              "name": "Countdown a Dōtonbori - Joya no Kane",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
+              "notes": "108 rintocchi di campana per il nuovo anno"
+            },
+            {
+              "time": "23:00",
+              "name": "Opzionale: Round One arcade",
+              "cost": 20,
+              "type": "activity",
+              "notes": "Alternativa per festeggiare"
+            }
+          ],
+          "transport": null
+        },
+        {
+          "date": "2026-01-01",
+          "location": "Osaka",
+          "city": "Osaka",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Hatsumode - Sumiyoshi Taisha",
+              "cost": 0,
+              "type": "activity",
+              "link": "http://www.sumiyoshitaisha.net/",
+              "notes": "Prima visita dell'anno al santuario"
+            },
+            {
+              "time": "10:00",
+              "name": "Treno per Kobe",
+              "cost": 500,
+              "type": "transport"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo Kobe beef",
+              "cost": 80,
+              "type": "food",
+              "notes": "Esperienza gastronomica unica"
+            },
+            {
+              "time": "14:30",
+              "name": "Rientro a Osaka",
+              "cost": 500,
+              "type": "transport"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Osaka",
+              "cost": 30,
+              "type": "food"
+            }
+          ],
+          "transport": {
+            "from": "Osaka",
+            "to": "Kobe",
+            "distance": "30km",
+            "cost": 1000
+          }
+        },
+        {
+          "date": "2026-01-02",
+          "location": "Kyoto",
+          "city": "Kyoto",
+          "activities": [
+            {
+              "time": "08:45",
+              "name": "Todai-ji (Nara)",
+              "cost": 600,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
+              "link": "https://www.todaiji.or.jp/en/",
+              "notes": "Grande Buddha di Nara"
+            },
+            {
+              "time": "09:30",
+              "name": "Parco di Nara",
+              "cost": 0,
+              "type": "activity",
+              "notes": "Cervi sacri - portare biscotti"
+            },
+            {
+              "time": "15:00",
+              "name": "Nishiki Market",
+              "cost": 20,
+              "type": "activity",
+              "link": "https://www.kyoto-nishiki.or.jp/",
+              "notes": "Cucina di Kyoto"
+            },
+            {
+              "time": "17:00",
+              "name": "Passeggiata a Gion",
+              "cost": 0,
+              "type": "activity",
+              "notes": "Possibile avvistamento geisha"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Kyoto",
+              "cost": 35,
+              "type": "food"
+            },
+            {
+              "time": "13:30",
+              "name": "Treno Nara → Kyoto",
+              "cost": 720,
+              "type": "transport",
+              "notes": "Check-in hotel all'arrivo"
+            }
+          ],
+          "transport": {
+            "from": "Osaka",
+            "to": "Kyoto",
+            "distance": "50km",
+            "cost": 720
+          }
+        },
+        {
+          "date": "2026-01-03",
+          "location": "Kyoto",
+          "city": "Kyoto",
+          "activities": [
+            {
+              "time": "07:45",
+              "name": "Fushimi Inari Taisha",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
+              "link": "http://inari.jp/en/",
+              "notes": "10.000 torii rossi - arrivare presto"
+            },
+            {
+              "time": "09:45",
+              "name": "Kiyomizu-dera",
+              "cost": 400,
+              "type": "activity",
+              "link": "https://www.kiyomizudera.or.jp/en/",
+              "notes": "Vista panoramica su Kyoto"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo a Kyoto",
+              "cost": 28,
+              "type": "food"
+            },
+            {
+              "time": "14:00",
+              "name": "Nijō Castle",
+              "cost": 1030,
+              "type": "activity",
+              "link": "https://nijo-jocastle.city.kyoto.lg.jp/en/",
+              "notes": "Pavimenti usignolo"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Kyoto",
+              "cost": 40,
+              "type": "food"
+            },
+            {
+              "time": "21:00",
+              "name": "Opzionale: Cerimonia del tè",
+              "cost": 30,
+              "type": "activity",
+              "notes": "Esperienza culturale tradizionale"
+            }
+          ],
+          "transport": null
+        },
+        {
+          "date": "2026-01-04",
+          "location": "Kyoto",
+          "city": "Kyoto",
+          "activities": [
+            {
+              "time": "07:45",
+              "name": "Arashiyama Bamboo Forest",
+              "cost": 0,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
+              "notes": "Atmosfera magica al mattino presto"
+            },
+            {
+              "time": "09:45",
+              "name": "Monkey Park Iwatayama",
+              "cost": 550,
+              "type": "activity",
+              "link": "https://www.monkeypark.jp/",
+              "notes": "Vista panoramica e macachi giapponesi"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo ad Arashiyama",
+              "cost": 25,
+              "type": "food"
+            },
+            {
+              "time": "14:00",
+              "name": "Kinkaku-ji (Padiglione d'Oro)",
+              "cost": 500,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
+              "link": "https://www.shokoku-ji.jp/kinkakuji/",
+              "notes": "Tempio iconico ricoperto d'oro"
+            },
+            {
+              "time": "15:30",
+              "name": "Opzionale: Ginkaku-ji",
+              "cost": 500,
+              "type": "activity",
+              "notes": "Padiglione d'Argento e Sentiero del Filosofo"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Kyoto",
+              "cost": 35,
+              "type": "food"
+            },
+            {
+              "time": "22:00",
+              "name": "Opzionale: Karaoke Kawaramachi",
+              "cost": 25,
+              "type": "activity",
+              "notes": "Super Jankara Premium"
+            }
+          ],
+          "transport": null
+        },
+        {
+          "date": "2026-01-05",
+          "location": "Tokyo",
+          "city": "Tokyo",
+          "activities": [
+            {
+              "time": "11:00",
+              "name": "Arrivo Tokyo - deposito bagagli",
+              "cost": 0,
+              "type": "transport"
+            },
+            {
+              "time": "11:45",
+              "name": "Esplorazione Daikanyama/Nakameguro",
+              "cost": 30,
+              "type": "shopping",
+              "notes": "Quartieri alla moda e trendy"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo a Nakameguro",
+              "cost": 28,
+              "type": "food"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Tokyo",
+              "cost": 35,
+              "type": "food"
+            },
+            {
+              "time": "22:00",
+              "name": "Opzionale: Odaiba waterfront",
+              "cost": 0,
+              "type": "activity",
+              "notes": "Vita notturna sul lungomare"
+            },
+            {
+              "time": "08:30",
+              "name": "Shinkansen Kyoto → Tokyo",
+              "cost": 13320,
+              "type": "transport",
+              "notes": "Check-in hotel Gotanda all'arrivo"
+            }
+          ],
+          "transport": {
+            "from": "Kyoto",
+            "to": "Tokyo",
+            "distance": "470km",
+            "cost": 13320
+          }
+        },
+        {
+          "date": "2026-01-06",
+          "location": "Tokyo",
+          "city": "Tokyo",
+          "activities": [
+            {
+              "time": "09:00",
+              "name": "Opzionale: teamLab Planets",
+              "cost": 3200,
+              "type": "activity",
+              "image": "https://images.unsplash.com/photo-1590559899732-1366e530764e?w=400",
+              "link": "https://www.teamlab.art/e/planets/",
+              "notes": "Arte digitale immersiva - prenotare"
+            },
+            {
+              "time": "11:00",
+              "name": "Shopping Akihabara/Ikebukuro",
+              "cost": 50,
+              "type": "shopping"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo a Tokyo",
+              "cost": 22,
+              "type": "food"
+            },
+            {
+              "time": "14:00",
+              "name": "Opzionale: Cerimonia del tè Maikoya",
+              "cost": 40,
+              "type": "activity",
+              "link": "https://mai-ko.com/",
+              "notes": "Esperienza culturale autentica"
+            },
+            {
+              "time": "15:30",
+              "name": "Ulteriore shopping",
+              "cost": 40,
+              "type": "shopping"
+            },
+            {
+              "time": "20:00",
+              "name": "Cena a Tokyo",
+              "cost": 45,
+              "type": "food"
+            },
+            {
+              "time": "22:00",
+              "name": "Opzionale: Golden Gai/Omoide Yokocho",
+              "cost": 20,
+              "type": "activity",
+              "notes": "Bar tradizionali e atmosfera vintage"
+            }
+          ],
+          "transport": null
+        },
+        {
+          "date": "2026-01-07",
+          "location": "Tokyo",
+          "city": "Tokyo",
+          "activities": [
+            {
+              "time": "08:00",
+              "name": "Ultima colazione a Tokyo",
+              "cost": 15,
+              "type": "food"
+            },
+            {
+              "time": "09:00",
+              "name": "Ultimo shopping Shibuya/Ueno",
+              "cost": 60,
+              "type": "shopping",
+              "notes": "Ultimi souvenir"
+            },
+            {
+              "time": "13:00",
+              "name": "Pranzo leggero",
+              "cost": 18,
+              "type": "food"
+            },
+            {
+              "time": "16:30",
+              "name": "Partenza per aeroporto Haneda",
+              "cost": 500,
+              "type": "transport",
+              "notes": "Arrivare 3 ore prima del volo"
+            },
+            {
+              "time": "22:05",
+              "name": "Volo di ritorno",
+              "cost": 0,
+              "type": "transport"
+            }
+          ],
+          "transport": {
+            "from": "Gotanda",
+            "to": "Aeroporto Haneda",
+            "distance": "20km",
+            "cost": 500
+          }
+        }
+      ],
+
+      "places": {
+        "hotels": [
+          {
+            "name": "Super Hotel Shinagawa Shinbanba",
+            "address": "Shinagawa, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "notes": "",
+            "bookingLink": "https://www.booking.com/Share-qAuxy6s",
+            "mapsLink": "",
+            "image": ""
+          },
+          {
+            "name": "Miyajima Hotel Makoto",
+            "address": "Miyajima, Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "notes": "",
+            "bookingLink": "https://www.booking.com/Share-WaEzu2h",
+            "mapsLink": "",
+            "image": ""
+          },
+          {
+            "name": "民泊 古",
+            "address": "Japan",
+            "price": 0,
+            "rating": 0,
+            "notes": "",
+            "bookingLink": "https://www.booking.com/Share-3WqZWcc",
+            "mapsLink": "",
+            "image": ""
+          },
+          {
+            "name": "M's Hotel Kyoto Station Taruya",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "notes": "",
+            "bookingLink": "https://www.booking.com/Share-GN5UL3",
+            "mapsLink": "",
+            "image": ""
+          },
+          {
+            "name": "HOTEL TAVINOS Asakusa",
+            "address": "Asakusa, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "notes": "",
+            "bookingLink": "https://www.booking.com/Share-kWoVEG",
+            "mapsLink": "",
+            "image": ""
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Daikokuya Tempura",
+            "address": "Asakusa, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Tempura",
+            "link": "https://maps.app.goo.gl/CpPkY8HCp8Pe4PJq9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Chacha Futatsume",
+            "address": "Asakusa, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Dolci Tipici",
+            "link": "https://maps.app.goo.gl/DJ8LmNCyWgFfpYta9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Ramen Watanabe",
+            "address": "Asakusa, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ramen",
+            "link": "https://maps.google.com?q=Giappone,%20%E3%80%92111-0032%20Tokyo,%20Taito%20City,%20Asakusa,%201%20Chome%E2%88%9233%E2%88%927%20%EF%BC%B2%EF%BC%A1%EF%BC%B9%E3%83%93%E3%83%AB%E6%B5%85%E8%8D%89%201%E9%9A%8E&ftid=0x60188fb6488a6efb:0xe0560e0d05a11d3e&entry=gps&lucs=,94207808,94216401,94210592,47071704,47069508,47084304,94208458,94208447&g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "San-Sada",
+            "address": "Asakusa, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Tempura 2",
+            "link": "https://maps.app.goo.gl/MuoCuV2HEoD5tPgy5?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "sushi zanmai",
+            "address": "Asakusa, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sushi",
+            "link": "https://maps.app.goo.gl/xwEKTD7LHQ8Y89sU8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Kura Sushi Global Flagship Store Asakusa",
+            "address": "Asakusa, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sushi Catena",
+            "link": "https://maps.app.goo.gl/CGu9jChebCEnuC156?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Tokyo Curry Pan",
+            "address": "Asakusa, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Curry bun",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Mawashizushi Katsu Seibu Shibuya Store",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sushi Su Nastro",
+            "link": "https://maps.app.goo.gl/5p72E4MwH7P3wRhL7?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Ichiran",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ramen Ichiran",
+            "link": "https://maps.app.goo.gl/Umqm6Cv3Rnnt5xPt9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Shibuya Gyoza",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Gyoza",
+            "link": "https://maps.app.goo.gl/kRT1W3g78iDTYwDF8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Golden Tiger Udagawacho",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Gyoza 2",
+            "link": "https://maps.app.goo.gl/wLP3ZQVvw2eHvD8e6?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Sushi-zanmai Shibuya Tokyu Side",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sushi",
+            "link": "https://maps.app.goo.gl/gZz8jk8WZv82Ltfn6?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Shodai Ebisu",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Curry udon con mousse di patate",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Oreryu Gyoza Sakaba",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Gyoza 3",
+            "link": "https://maps.app.goo.gl/hHAiGEyMSqQxa5wZ6?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Sanuki Udon Menki Yashima Shibuya Maruyamacho",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Udon",
+            "link": "https://maps.app.goo.gl/s8cG7TjHeSBCi3nr5?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "蕎麦前酒場 はんさむ裏渋谷",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Udon 2",
+            "link": "https://maps.app.goo.gl/ryYLsx8uFx4LQENd8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Iyoshi Cola",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Cochina simpatica",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Roast Beef Ōno Akihabara",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Carne",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Niku-ya-Yokocho Eat-All-You-Can Wagyu Beef Akihabara",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "All You Can Eat Wagyu/Kobe",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Ichiran Nishi-Shinjuku",
+            "address": "Omoide Yokocho, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ramen Ichiran",
+            "link": "https://maps.app.goo.gl/sk9pz92p1UPqLkT2A?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "OYSTERS INC",
+            "address": "Omoide Yokocho, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ostriche",
+            "link": "https://maps.app.goo.gl/iU4U38BFsrNX5vEu7?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "馬焼肉酒場「馬太郎」 西新宿7丁目店",
+            "address": "Omoide Yokocho, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Yakiniku",
+            "link": "https://maps.app.goo.gl/2PCUcfQ6pfXBd4f57?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Meigetsu-kan",
+            "address": "Omoide Yokocho, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Yakiniku",
+            "link": "https://maps.app.goo.gl/f4zs3fsvVB6ntVCK6?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Afuri Karakurenai Shinjuku Subnade",
+            "address": "Omoide Yokocho, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ramen",
+            "link": "https://maps.app.goo.gl/dggP6fFyaKZGb1Qo6?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Gionbou",
+            "address": "Omoide Yokocho, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Izakaya",
+            "link": "https://maps.app.goo.gl/38juS6n8B6igqfC96?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "豊島屋菓寮 八十小路(としまやかりょうはとこうじ)",
+            "address": "Komachi Street, Kamakura",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Dolci Tradizionali (Mochi Con La Foglia)",
+            "link": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Katsuretsu-an",
+            "address": "Komachi Street, Kamakura",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Tonkatzu",
+            "link": "https://maps.app.goo.gl/eii7usfVeDkfy6EU8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Goto",
+            "address": "Komachi Street, Kamakura",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Udon E Soba",
+            "link": "https://maps.app.goo.gl/6UkqptGbCBAv8UH96?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Fukuya",
+            "address": "Komachi Street, Kamakura",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Udon E Soba 2",
+            "link": "https://maps.app.goo.gl/cbs5KRJGASVp2Trr5?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Toshimaya Setokoji",
+            "address": "Komachi Street, Kamakura",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Dolci Giapponesi 2",
+            "link": "https://maps.app.goo.gl/FDfUA8fj6kKnnsHDA?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "風流お好み焼惚太郎",
+            "address": "Komachi Street, Kamakura",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Okonomiyaki",
+            "link": "https://maps.app.goo.gl/8vz8dvqt6Ju7wWy26?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Hana",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Yakiniku",
+            "link": "https://maps.app.goo.gl/ZtcJgTTocPgxt9v39?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Arakawa",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Yakiniku 2",
+            "link": "https://maps.app.goo.gl/fMB9g1XEMPrpsxbP7?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "ネオ大衆酒場 食べ放題個室居酒屋 餃子のかっちゃん 京都河原町店",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Izakaya",
+            "link": "https://maps.app.goo.gl/PSRSRhaYjqSAtyddA?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Sushizanmai",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sushi",
+            "link": "https://maps.app.goo.gl/qj6mmpuySxPDVrRr9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "鉄板みつ喜",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Okonomiyaki",
+            "link": "https://maps.app.goo.gl/3zp96kBDcQKytHHw5?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Hakata-Nagahama-Ramen Miyoshi",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ramen",
+            "link": "https://maps.app.goo.gl/RY7DSMvBxMmV6YwX8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Chao Chao Gyoza - Sanjo Kiyamachi",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Izakaya 2",
+            "link": "https://maps.app.goo.gl/6AFbg8kc3DEiWou59?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Arashiyama Curry",
+            "address": "Arashiyama Bamboo Forest, Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Curry Giapponese",
+            "link": "https://maps.app.goo.gl/m7KTgcypttCjsdSS6?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Soba Shiki",
+            "address": "Arashiyama Bamboo Forest, Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Udon E Soba",
+            "link": "https://maps.app.goo.gl/f8pNcn9LvTAoTntu9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Pizzeria LUGARA",
+            "address": "Arashiyama Bamboo Forest, Kyoto",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Pizza",
+            "link": "https://maps.google.com?ftid=0x6001ab975eacc7ed:0xec4c1ff67e16f1e3&entry=gps&lucs=,94207808,94216401,94210592,47071704,47069508,47084304,94208458,94208447&g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Indian Restaurant MANNA糧",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Indiano",
+            "link": "https://maps.app.goo.gl/Pov5uRxUG28yLu7m9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Yakitora",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Okonomiyaki",
+            "link": "https://maps.app.goo.gl/iYb9zC8z9Xw4gqpW8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Takamaya",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Udon E Soba",
+            "link": "https://maps.app.goo.gl/MBWqsXrUjqVNtGtLA?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Okaru",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Okonomiyaki",
+            "link": "https://maps.app.goo.gl/HyzA4dUKxzNWdoM18?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Trattoria piano",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Italiano",
+            "link": "https://maps.app.goo.gl/Wn26Nq7K617aZ7U57?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Koushi",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Tofu",
+            "link": "https://maps.app.goo.gl/nzBdHxnjEEdYyoSZA?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "kinari pizza",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Pizza",
+            "link": "https://maps.app.goo.gl/XzmEb44r8pQhB4Pj8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Teppan Okonomiyaki Mitsuki",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Okonomiyaki",
+            "link": "https://maps.app.goo.gl/JtemV5HC2x9uUGb78?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Chibo Okonomiyaki Restaurant",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Okonomiyaki",
+            "link": "https://maps.app.goo.gl/TiVs5fExZrtiPceaA?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Okonomiyaki Okaru",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Okonomiyaki",
+            "link": "https://maps.app.goo.gl/4NYF8gQUkfQquKKNA?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Enge-spice",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sashimi",
+            "link": "https://maps.app.goo.gl/LPt8jchoXaNxipEf9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Kang Fu Ramen",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ramen",
+            "link": "https://maps.app.goo.gl/WKZqwpQeemciUcD16?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "CHOJIRO Hozenji Flagship Store",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sushi",
+            "link": "https://maps.app.goo.gl/gjqFiBs3oMdG2dnCA?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Kobe beef Uma Dotonbori",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Kobe",
+            "link": "https://maps.app.goo.gl/jfcUjorzq8AG6CYh7?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Melon Bread",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Melon Pan",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Gyoza",
+            "address": "8-12 Doyama, Osaka",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Gyoza",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Miyajima Hanayashiki",
+            "address": "Miyajima, Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ostriche",
+            "link": "https://maps.app.goo.gl/q692fk53WF64FjE39?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "GEBURA",
+            "address": "Miyajima, Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Gin Tonic",
+            "link": "https://maps.app.goo.gl/onUiEdks2Fhxra3y8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "SAWAWA Miyajima",
+            "address": "Miyajima, Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Dolci",
+            "link": "https://maps.app.goo.gl/mbLEaWg2bxhUZaAW6?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Rokaku Tea House (Hexagon Cafe)",
+            "address": "Miyajima, Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Tea House",
+            "link": "https://maps.app.goo.gl/SbQ4uCaqYVbppZmd6?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Lawson Miyajima Shop",
+            "address": "Miyajima, Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Lawson",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Foods Shop KUMAKIN",
+            "address": "Miyajima, Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Minimarket",
+            "link": "https://maps.app.goo.gl/hKayoXFjz8WWDgTi7?g_st=ic",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Gaba Kamiyacho",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ramen",
+            "link": "https://maps.app.goo.gl/1U3yKRCpJVU3vWeB6?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Akamaru",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Izakaya",
+            "link": "https://maps.app.goo.gl/KUheNjw7GiNE2Geo8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "pizza juicy",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Pizza Super",
+            "link": "https://maps.app.goo.gl/Mo3ATpYq3nyeryz69?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Okonomimura",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Okonomiyaki",
+            "link": "https://maps.app.goo.gl/bDbcGc15WTg97d8h9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Taiko Udon Nakamachi Shop",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Udon",
+            "link": "https://maps.app.goo.gl/RHzGHhNt39b9tzaN9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Archive Coffee",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Caffè",
+            "link": "https://maps.app.goo.gl/qa9hbXGetrBTvWvX7?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Hitoshi",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sushi (Un Po’ Costoso)",
+            "link": "https://maps.app.goo.gl/EZFXLGzHKB2eAr2v7?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Wakasa Sushi",
+            "address": "Mitaka, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sushi (🍣 Grandi Come Una Mano)",
+            "link": "https://maps.app.goo.gl/bgwmK7izNWRfj3F96?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Ittenbari Ramen & Chahan Restaurant",
+            "address": "Akasaka, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Ramen",
+            "link": "https://maps.app.goo.gl/d8jPEQi1JPGeCv1r5?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Imakatsu Akasaka",
+            "address": "Akasaka, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Tonkatsu",
+            "link": "https://maps.app.goo.gl/sMPmHfTASyZGJSq86?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Itamae Sushi Hanare",
+            "address": "Akasaka, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Sushi",
+            "link": "https://maps.app.goo.gl/Yyki9PmB7hWcW7Li9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "餃子バル",
+            "address": "Akasaka, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Izakaya",
+            "link": "https://maps.app.goo.gl/pcWNCnwCfEEwZgVY9?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Tomokunchi",
+            "address": "Akasaka, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Okonomiyaki",
+            "link": "https://maps.app.goo.gl/ycMFN531f9qDJeYj8?g_st=iwb",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Champagne & Gyoza Bar STAND-CHAM-SHOKU",
+            "address": "Akasaka, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "specialty": "Gyoza",
+            "link": "https://maps.app.goo.gl/rUhTbAAwMTtcwGuz5?g_st=iwb",
+            "notes": "",
+            "image": ""
+          }
+        ],
+        "attractions": [
+          {
+            "name": "#C-Pla Shibuya",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/eN1kiz8j8suMvN139?g_st=iwb",
+            "notes": "Gachapon",
+            "image": ""
+          },
+          {
+            "name": "MAGNET by SHIBUYA109",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/n95UJ8prh6BGYSXN6?g_st=iwb",
+            "notes": "Magnet",
+            "image": ""
+          },
+          {
+            "name": "Pokemon Center Shibuya",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/xwSaYaiQdX4vpnX69?g_st=iwb",
+            "notes": "Pokemon Center",
+            "image": ""
+          },
+          {
+            "name": "Nintendo Tokyo",
+            "address": "Shibuya, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/YMps13DAWEZA8ZWr7?g_st=iwb",
+            "notes": "Nintendo Store",
+            "image": ""
+          },
+          {
+            "name": "Mandarake Complex",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/ztRs8W6yu3QF9U9Z8?g_st=iwb",
+            "notes": "Mandarake",
+            "image": ""
+          },
+          {
+            "name": "Shangrila Maid Cafe",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/ZEAwoeVpEfE9imMx8?g_st=iwb",
+            "notes": "Maid Cafe",
+            "image": ""
+          },
+          {
+            "name": "Maidreamin Akihabara Main Store",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/soZQyvX9SQgscZ8u7?g_st=iwb",
+            "notes": "Maid Cafe 2",
+            "image": ""
+          },
+          {
+            "name": "Cat cafe MoCHA Akihabara Store",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/AK5QxE981jvw25zM6?g_st=iwb",
+            "notes": "Cat Cafe",
+            "image": ""
+          },
+          {
+            "name": "GiGO Akihabara 1",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/ihH6vXJ7bfPK29FSA?g_st=iwb",
+            "notes": "Gigo",
+            "image": ""
+          },
+          {
+            "name": "Jalana",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/z2h77umSfSyhZGpW6?g_st=iwb",
+            "notes": "Vintage",
+            "image": ""
+          },
+          {
+            "name": "Yodobashi Akiba",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/VZqtZj33vt9bzDMz6?g_st=iwb",
+            "notes": "Elettronica",
+            "image": ""
+          },
+          {
+            "name": "2ndBASE by sanpoucamera",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/k9MA8vki6Dr9jt8fA?g_st=iwb",
+            "notes": "Macchine Fotografiche + Vinili",
+            "image": ""
+          },
+          {
+            "name": "Super Potato Akihabara Branch",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/DcwFBx3sooky8yfV7?g_st=iwb",
+            "notes": "Negozio Videogiochi/Anime/Manga",
+            "image": ""
+          },
+          {
+            "name": "Yusha Kobo Keyboard Specialty Shop",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Negozio Keyboards",
+            "image": ""
+          },
+          {
+            "name": "Book Off",
+            "address": "Akihabara, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Negozio usato poco prezzo (catena, sta pure in altri punti)",
+            "image": ""
+          },
+          {
+            "name": "Omoide Yokocho",
+            "address": "Omoide Yokocho, Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/EpFcayMeFdu9LPmL6?g_st=ic",
+            "notes": "Omoide Yokocho sotto-quartiere di Shibuya Local, Alternative Sotto",
+            "image": ""
+          },
+          {
+            "name": "豊島屋菓寮 八十小路(としまやかりょうはとこうじ)",
+            "address": "Komachi Street, Kamakura",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb",
+            "notes": "Dolci Tradizionali (Mochi Con La Foglia)",
+            "image": ""
+          },
+          {
+            "name": "glänta Kyoto Sanjo Kawaramachi",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Anelli, vicino Gion",
+            "image": ""
+          },
+          {
+            "name": "Pokemon Center Kyoto",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Pokemon Center",
+            "image": ""
+          },
+          {
+            "name": "Super Jankara Kawaramachi Honten Premium",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Karaoke, vicino Gion e sushizanmai",
+            "image": ""
+          },
+          {
+            "name": "長辻通",
+            "address": "Arashiyama, Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Bel negozio bacchette",
+            "image": ""
+          },
+          {
+            "name": "Nakatanidou",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/6zNMokTWG2tmMntx6?g_st=iwb",
+            "notes": "Mochi + Mostrano Come Viene Fatto",
+            "image": ""
+          },
+          {
+            "name": "BIG TIME Hiroshima",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/mrcs6732kdRqZ2Sf8?g_st=iwb",
+            "notes": "Vintage",
+            "image": ""
+          },
+          {
+            "name": "WEGO 広島店",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/rL8ee5hdYL1Gpxhc7?g_st=iwb",
+            "notes": "Abbigliamento Vario",
+            "image": ""
+          },
+          {
+            "name": "nizak",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/iMWRkw5KtSaLUJNU6?g_st=iwb",
+            "notes": "Vintage 2",
+            "image": ""
+          },
+          {
+            "name": "雑貨株式会社",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/ASLxrrGScLFYksgU7?g_st=iwb",
+            "notes": "Negozio Con 1000 Robe Diverse",
+            "image": ""
+          },
+          {
+            "name": "Yume Plaza",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/oaXituuBrvbCq92NA?g_st=iwb",
+            "notes": "Souvenir Vari",
+            "image": ""
+          },
+          {
+            "name": "Pokémon Center Hiroshima",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Pokemon Center",
+            "image": ""
+          },
+          {
+            "name": "JUMP SHOP ミナモア広島店",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/vsEffbsk1SQGmD8p9?g_st=ic",
+            "notes": "Jump Store",
+            "image": ""
+          },
+          {
+            "name": "WONDER COSME 本通店",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "https://maps.app.goo.gl/CiChfDtupPqpu4586?g_st=iwb",
+            "notes": "Skincare Coreana",
+            "image": ""
+          },
+          {
+            "name": "Lawson Miyajima Shop",
+            "address": "Miyajima, Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Lawson",
+            "image": ""
+          },
+          {
+            "name": "TSUKIJI FISH MARKET",
+            "address": "",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "",
+            "image": ""
+          }
+        ]
+      },
+      "mapData": {
+        "center": [
+          35.6762,
+          139.6503
+        ],
+        "markers": [
+          {
+            "position": [
+              35.6762,
+              139.6503
+            ],
+            "label": "Tokyo - Gotanda"
+          },
+          {
+            "position": [
+              35.6586,
+              139.7454
+            ],
+            "label": "Asakusa - Senso-ji"
+          },
+          {
+            "position": [
+              34.3853,
+              132.4553
+            ],
+            "label": "Miyajima"
+          },
+          {
+            "position": [
+              34.3955,
+              132.4536
+            ],
+            "label": "Hiroshima"
+          },
+          {
+            "position": [
+              34.6937,
+              135.5023
+            ],
+            "label": "Osaka - Namba"
+          },
+          {
+            "position": [
+              34.685,
+              135.805
+            ],
+            "label": "Nara"
+          },
+          {
+            "position": [
+              35.0116,
+              135.7681
+            ],
+            "label": "Kyoto"
+          }
+        ],
+        "routes": [
+          [
+            [
+              35.6762,
+              139.6503
+            ],
+            [
+              34.3955,
+              132.4536
+            ]
+          ],
+          [
+            [
+              34.3955,
+              132.4536
+            ],
+            [
+              34.6937,
+              135.5023
+            ]
+          ],
+          [
+            [
+              34.6937,
+              135.5023
+            ],
+            [
+              35.0116,
+              135.7681
+            ]
+          ],
+          [
+            [
+              35.0116,
+              135.7681
+            ],
+            [
+              35.6762,
+              139.6503
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
