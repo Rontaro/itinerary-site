@@ -242,7 +242,6 @@ export default function Homepage({ onSelectTrip, isDarkMode }) {
                                 bg={isDarkMode ? "gray.700" : "white"}
                                 borderColor={isDarkMode ? "gray.600" : "gray.300"}
                                 borderWidth="1px"
-                                borderColor="gray.200"
                             >
                                 <Card.Header>
                                     <HStack justify="space-between">
