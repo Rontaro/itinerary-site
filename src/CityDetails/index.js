@@ -21,10 +21,16 @@ export default function CityDetails({city, trip, onBack}) {
                                     <VStack align="stretch" gap={2}>
                                         <Heading size="md">🏨 {city.hotel.name}</Heading>
                                         <Text color="gray.600">{city.hotel.address}</Text>
-                                        <HStack>
-                                            <Badge colorPalette="yellow">⭐ {city.hotel.rating}</Badge>
-                                            <Text fontWeight="bold" color="teal.600">€{city.hotel.price}/notte</Text>
-                                        </HStack>
+                                        {(city.hotel.rating !== 0 || city.hotel.price !== 0) && (
+                                            <HStack>
+                                                {city.hotel.rating !== 0 && (
+                                                    <Badge colorPalette="yellow">⭐ {city.hotel.rating}</Badge>
+                                                )}
+                                                {city.hotel.price !== 0 && (
+                                                    <Text fontWeight="bold" color="teal.600">€{city.hotel.price}/notte</Text>
+                                                )}
+                                            </HStack>
+                                        )}
                                         {city.hotel.notes && (
                                             <Text fontSize="sm" fontStyle="italic"
                                                   color="gray.600">{city.hotel.notes}</Text>

@@ -156,10 +156,16 @@ export default function TripOverview({ trip, onBack }) {
                                                 <Card.Body>
                                                     <Heading size="sm" mb={2}>{hotel.name}</Heading>
                                                     <Text fontSize="sm" color="gray.600" mb={2}>{hotel.address}</Text>
-                                                    <HStack justify="space-between" mb={2}>
-                                                        <Badge colorPalette="yellow">⭐ {hotel.rating}</Badge>
-                                                        <Text fontWeight="bold" color="teal.600">€{hotel.price}/notte</Text>
-                                                    </HStack>
+                                                    {(hotel.rating !== 0 || hotel.price !== 0) && (
+                                                        <HStack justify="space-between" mb={2}>
+                                                            {hotel.rating !== 0 && (
+                                                                <Badge colorPalette="yellow">⭐ {hotel.rating}</Badge>
+                                                            )}
+                                                            {hotel.price !== 0 && (
+                                                                <Text fontWeight="bold" color="teal.600">€{hotel.price}/notte</Text>
+                                                            )}
+                                                        </HStack>
+                                                    )}
                                                     {hotel.notes && (
                                                         <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{hotel.notes}</Text>
                                                     )}
@@ -215,10 +221,16 @@ export default function TripOverview({ trip, onBack }) {
                                                     <Heading size="sm" mb={2}>{rest.name}</Heading>
                                                     <Text fontSize="sm" color="gray.600" mb={2}>{rest.address}</Text>
                                                     <Text fontSize="sm" mb={2} color="orange.600" fontWeight="bold">{rest.specialty}</Text>
-                                                    <HStack justify="space-between" mb={2}>
-                                                        <Badge colorPalette="yellow">⭐ {rest.rating}</Badge>
-                                                        <Text fontWeight="bold" color="teal.600">€{rest.price}</Text>
-                                                    </HStack>
+                                                    {(rest.rating !== 0 || rest.price !== 0) && (
+                                                        <HStack justify="space-between" mb={2}>
+                                                            {rest.rating !== 0 && (
+                                                                <Badge colorPalette="yellow">⭐ {rest.rating}</Badge>
+                                                            )}
+                                                            {rest.price !== 0 && (
+                                                                <Text fontWeight="bold" color="teal.600">€{rest.price}</Text>
+                                                            )}
+                                                        </HStack>
+                                                    )}
                                                     {rest.notes && (
                                                         <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{rest.notes}</Text>
                                                     )}
@@ -261,12 +273,18 @@ export default function TripOverview({ trip, onBack }) {
                                                     <Heading size="sm" mb={2}>{attr.name}</Heading>
                                                     <Text fontSize="sm" color="gray.600" mb={2}>{attr.address}</Text>
                                                     <Text fontSize="sm" mb={2} color="blue.600">🕐 {attr.hours}</Text>
-                                                    <HStack justify="space-between" mb={2}>
-                                                        <Badge colorPalette="yellow">⭐ {attr.rating}</Badge>
-                                                        <Text fontWeight="bold" color={attr.price === 0 ? "green.600" : "teal.600"}>
-                                                            {attr.price === 0 ? "Gratuito" : `€${attr.price}`}
-                                                        </Text>
-                                                    </HStack>
+                                                    {(attr.rating !== 0 || attr.price !== 0) && (
+                                                        <HStack justify="space-between" mb={2}>
+                                                            {attr.rating !== 0 && (
+                                                                <Badge colorPalette="yellow">⭐ {attr.rating}</Badge>
+                                                            )}
+                                                            {attr.price !== 0 && (
+                                                                <Text fontWeight="bold" color={attr.price === 0 ? "green.600" : "teal.600"}>
+                                                                    {attr.price === 0 ? "Gratuito" : `€${attr.price}`}
+                                                                </Text>
+                                                            )}
+                                                        </HStack>
+                                                    )}
                                                     {attr.notes && (
                                                         <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{attr.notes}</Text>
                                                     )}
@@ -309,12 +327,18 @@ export default function TripOverview({ trip, onBack }) {
                                                     <Heading size="sm" mb={2}>{attr.name}</Heading>
                                                     <Text fontSize="sm" color="gray.600" mb={2}>{attr.address}</Text>
                                                     <Text fontSize="sm" mb={2} color="blue.600">🕐 {attr.hours}</Text>
-                                                    <HStack justify="space-between" mb={2}>
-                                                        <Badge colorPalette="yellow">⭐ {attr.rating}</Badge>
-                                                        <Text fontWeight="bold" color={attr.price === 0 ? "green.600" : "teal.600"}>
-                                                            {attr.price === 0 ? "Gratuito" : `€${attr.price}`}
-                                                        </Text>
-                                                    </HStack>
+                                                    {(attr.rating !== 0 || attr.price !== 0) && (
+                                                        <HStack justify="space-between" mb={2}>
+                                                            {attr.rating !== 0 && (
+                                                                <Badge colorPalette="yellow">⭐ {attr.rating}</Badge>
+                                                            )}
+                                                            {attr.price !== 0 && (
+                                                                <Text fontWeight="bold" color={attr.price === 0 ? "green.600" : "teal.600"}>
+                                                                    {attr.price === 0 ? "Gratuito" : `€${attr.price}`}
+                                                                </Text>
+                                                            )}
+                                                        </HStack>
+                                                    )}
                                                     {attr.notes && (
                                                         <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{attr.notes}</Text>
                                                     )}
