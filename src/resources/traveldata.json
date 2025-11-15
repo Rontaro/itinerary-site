@@ -436,11 +436,12 @@
                   "type": "food",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "A"
                 },
                 {
                   "time": "07:30",
-                  "name": "Opzione A: Parti da Gotanda per Tokyo Disneyland o Tokyo DisneySea",
+                  "name": "Opzione A: Parti da Shinagawa per Tokyo Disneyland o Tokyo DisneySea",
                   "cost": 0,
                   "type": "transport",
                   "notes": "Verifica gli orari festivi",
@@ -460,7 +461,7 @@
                 },
                 {
                   "time": "07:30",
-                  "name": "Opzione B: Colazione; parti da Gotanda per Kamakura",
+                  "name": "Opzione B: Colazione; parti da Shinagawa per Kamakura",
                   "cost": 0,
                   "type": "transport",
                   "notes": "Arrivo previsto a Kita-Kamakura intorno alle 08:45",
@@ -550,7 +551,7 @@
                 },
                 {
                   "time": "18:30",
-                  "name": "Opzione A: Rientro a Gotanda",
+                  "name": "Opzione A: Rientro a Shinagawa",
                   "cost": 0,
                   "type": "transport",
                   "notes": "",
@@ -582,7 +583,7 @@
           ]
         },
         {
-          "name": "Miyajima",
+          "name": "Miyajima - Hiroshima",
           "hotel": {
             "name": "Miyajima Hotel Makoto",
             "address": "Hiroshima, Miyajima, Hatsukaichi-shi Miyajima-cho 755, Giappone",
@@ -596,11 +597,11 @@
             {
               "date": "2025-12-29",
               "location": "Tokyo → Miyajima",
-              "city": "Miyajima",
+              "city": "Hiroshima - Miyajima",
               "activities": [
                 {
                   "time": "07:00",
-                  "name": "Check-out da Gotanda",
+                  "name": "Check-out da Shinagawa",
                   "cost": 0,
                   "type": "check-out",
                   "notes": "Organizza il deposito bagagli se necessario",
@@ -627,6 +628,24 @@
                 },
                 {
                   "time": "10:30",
+                  "name": "Visita il Parco della Pace e il Museo della Memoria di Hiroshima",
+                  "cost": 0,
+                  "type": "activity",
+                  "notes": "Fino alle 13:00",
+                  "image": "",
+                  "link": ""
+                },
+                {
+                  "time": "13:00",
+                  "name": "Pranzo a Hiroshima",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "",
+                  "image": "",
+                  "link": ""
+                },
+                {
+                  "time": "15:00",
                   "name": "Trasferimento in treno e traghetto verso Miyajima",
                   "cost": 0,
                   "type": "transport",
@@ -635,7 +654,7 @@
                   "link": ""
                 },
                 {
-                  "time": "12:00",
+                  "time": "16:00",
                   "name": "Check-in presso il ryokan",
                   "cost": 0,
                   "type": "check-in",
@@ -644,16 +663,7 @@
                   "link": ""
                 },
                 {
-                  "time": "13:00",
-                  "name": "Pranzo",
-                  "cost": 0,
-                  "type": "food",
-                  "notes": "Durante il trasferimento o all'arrivo",
-                  "image": "",
-                  "link": ""
-                },
-                {
-                  "time": "14:00",
+                  "time": "16:30",
                   "name": "Esplora con calma Miyajima e ammira il Santuario di Itsukushima",
                   "cost": 0,
                   "type": "activity",
@@ -663,10 +673,10 @@
                 },
                 {
                   "time": "20:00",
-                  "name": "Cena al ryokan",
+                  "name": "Cena al ryokan / Lawson",
                   "cost": 0,
                   "type": "food",
-                  "notes": "Fino alle 21:00",
+                  "notes": "Il lawson NON è 24/24.",
                   "image": "",
                   "link": ""
                 },
@@ -681,24 +691,10 @@
                 }
               ],
               "transport": null
-            }
-          ]
-        },
-        {
-          "name": "Osaka",
-          "hotel": {
-            "name": "民泊 古",
-            "address": "Prefettura di Osaka, Osaka, 3-chōme-9-14 Shimodera, Naniwa-ku, Osaka, 556-0001, Japan 民泊 古, Giappone",
-            "rating": 0,
-            "price": 0.0,
-            "notes": "Soggiorno per assaporare Dotonbori e la vita notturna",
-            "bookingLink": "https://www.booking.com/hotel/jp/min-bo-gu.it.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4Ap6Vq8MGwAIB0gIkOTlmMjAzNzQtZGEzMS00YTNkLTgxMzEtNmYyMTBiYjA0NjIx2AIF4AIB&sid=d1bbaa91cb078e2aceada580937d16fc&all_sr_blocks=809330506_367461687_2_0_0%2C809330513_367461687_2_0_0%2C809330512_367461687_2_0_0%2C809330517_367461687_2_0_0%2C809330518_367461687_1_0_0&checkin=2025-12-30&checkout=2026-01-02&dest_id=2076&dest_type=district&dist=0&group_adults=9&group_children=0&hapos=6&highlighted_blocks=809330506_367461687_2_0_0%2C809330513_367461687_2_0_0%2C809330512_367461687_2_0_0%2C809330517_367461687_2_0_0%2C809330518_367461687_1_0_0&hpos=6&matching_block_id=809330506_367461687_2_0_0&nflt=price%3DEUR-min-400-1%3Bht_id%3D1100&no_rooms=4&req_adults=9&req_children=0&room1=A%2CA&room2=A%2CA&room3=A%2CA&room4=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=809330506_367461687_2_0_0__2214000%2C809330513_367461687_2_0_0__2214000%2C809330512_367461687_2_0_0__2214000%2C809330517_367461687_2_0_0__2214000%2C809330518_367461687_1_0_0__2004000&srepoch=1752008287&srpvid=94d29366f2520cb6&type=total&ucfs=1&#map_closed",
-            "mapsLink": "https://www.google.it/maps/place/Ancient+Hotel/@34.6554917,135.5098262,13z/data=!4m21!1m11!3m10!1s0x6000e75ee847387d:0xb7cfead594767df4!2sAncient+Hotel!5m2!4m1!1i2!8m2!3d34.6554155!4d135.5097916!10e5!16s%2Fg%2F11gxs0jdp4!3m8!1s0x6000e75ee847387d:0xb7cfead594767df4!5m2!4m1!1i2!8m2!3d34.6554155!4d135.5097916!16s%2Fg%2F11gxs0jdp4?hl=it&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
-          },
-          "days": [
+            },
             {
               "date": "2025-12-30",
-              "location": "Miyajima, Hiroshima → Osaka",
+              "location": "Hiroshima",
               "city": "Osaka",
               "activities": [
                 {
@@ -720,34 +716,37 @@
                   "link": ""
                 },
                 {
-                  "time": "11:00",
-                  "name": "Visita il Parco della Pace e il Museo della Memoria di Hiroshima",
-                  "cost": 0,
-                  "type": "activity",
-                  "notes": "Fino alle 13:00",
-                  "image": "",
-                  "link": ""
-                },
-                {
-                  "time": "13:00",
-                  "name": "Pranzo a Hiroshima",
-                  "cost": 0,
-                  "type": "food",
-                  "notes": "",
-                  "image": "",
-                  "link": ""
-                },
-                {
-                  "time": "14:30",
+                  "time": "11:30",
                   "name": "Parti con lo Shinkansen per Osaka",
                   "cost": 0,
                   "type": "transport",
                   "notes": "",
                   "image": "",
                   "link": ""
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Osaka",
+          "hotel": {
+            "name": "民泊 古",
+            "address": "Prefettura di Osaka, Osaka, 3-chōme-9-14 Shimodera, Naniwa-ku, Osaka, 556-0001, Japan 民泊 古, Giappone",
+            "rating": 0,
+            "price": 0.0,
+            "notes": "Soggiorno per assaporare Dotonbori e la vita notturna",
+            "bookingLink": "https://www.booking.com/hotel/jp/min-bo-gu.it.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4Ap6Vq8MGwAIB0gIkOTlmMjAzNzQtZGEzMS00YTNkLTgxMzEtNmYyMTBiYjA0NjIx2AIF4AIB&sid=d1bbaa91cb078e2aceada580937d16fc&all_sr_blocks=809330506_367461687_2_0_0%2C809330513_367461687_2_0_0%2C809330512_367461687_2_0_0%2C809330517_367461687_2_0_0%2C809330518_367461687_1_0_0&checkin=2025-12-30&checkout=2026-01-02&dest_id=2076&dest_type=district&dist=0&group_adults=9&group_children=0&hapos=6&highlighted_blocks=809330506_367461687_2_0_0%2C809330513_367461687_2_0_0%2C809330512_367461687_2_0_0%2C809330517_367461687_2_0_0%2C809330518_367461687_1_0_0&hpos=6&matching_block_id=809330506_367461687_2_0_0&nflt=price%3DEUR-min-400-1%3Bht_id%3D1100&no_rooms=4&req_adults=9&req_children=0&room1=A%2CA&room2=A%2CA&room3=A%2CA&room4=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=809330506_367461687_2_0_0__2214000%2C809330513_367461687_2_0_0__2214000%2C809330512_367461687_2_0_0__2214000%2C809330517_367461687_2_0_0__2214000%2C809330518_367461687_1_0_0__2004000&srepoch=1752008287&srpvid=94d29366f2520cb6&type=total&ucfs=1&#map_closed",
+            "mapsLink": "https://www.google.it/maps/place/Ancient+Hotel/@34.6554917,135.5098262,13z/data=!4m21!1m11!3m10!1s0x6000e75ee847387d:0xb7cfead594767df4!2sAncient+Hotel!5m2!4m1!1i2!8m2!3d34.6554155!4d135.5097916!10e5!16s%2Fg%2F11gxs0jdp4!3m8!1s0x6000e75ee847387d:0xb7cfead594767df4!5m2!4m1!1i2!8m2!3d34.6554155!4d135.5097916!16s%2Fg%2F11gxs0jdp4?hl=it&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "days": [
+            {
+              "date": "2025-12-30",
+              "location": "Miyajima, Hiroshima → Osaka",
+              "city": "Osaka",
+              "activities": [
                 {
-                  "time": "16:00",
+                  "time": "14:00",
                   "name": "Arrivo a Osaka; check-in a Namba",
                   "cost": 0,
                   "type": "check-in",
@@ -1211,7 +1210,7 @@
                 },
                 {
                   "time": "10:30",
-                  "name": "Arrivo a Tokyo e deposito bagagli a Gotanda",
+                  "name": "Arrivo a Tokyo e deposito bagagli a Shinagawa",
                   "cost": 0,
                   "type": "check-in/transport",
                   "notes": "Se il check-in non è disponibile",
@@ -1247,7 +1246,7 @@
                 },
                 {
                   "time": "14:00",
-                  "name": "Rientra a Gotanda (o effettua il check-in)",
+                  "name": "Rientra a Shinagawa (o effettua il check-in)",
                   "cost": 0,
                   "type": "transport/check-in",
                   "notes": "",
@@ -1380,7 +1379,7 @@
                 },
                 {
                   "time": "16:30",
-                  "name": "Parti da Gotanda per l'aeroporto di Haneda",
+                  "name": "Parti da Shinagawa per l'aeroporto di Haneda",
                   "cost": 0,
                   "type": "transport",
                   "notes": "L'obiettivo è arrivare intorno alle 18:00",
@@ -3121,7 +3120,7 @@
               35.6762,
               139.6503
             ],
-            "label": "Tokyo - Gotanda"
+            "label": "Tokyo - Shinagawa"
           },
           {
             "position": [
