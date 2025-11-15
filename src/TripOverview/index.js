@@ -20,11 +20,32 @@ import CityDetails from "../CityDetails";
 import SafeImage from "../utils/SafeImage";
 
 export default function TripOverview({ trip, onBack, isDarkMode }) {
-    const totalCost = trip?.days?.reduce?.((sum, day) => {
-        const dayCost = day.activities.reduce((s, a) => s + a.cost, 0);
-        const transportCost = day.transport ? day.transport.cost : 0;
-        return sum + dayCost + transportCost;
-    }, 0) || 0; // TODO: change to take costs from cities.activities instead
+    // Calcola il totalCost dai costi delle attività in cities.days
+    const calculateTotalCost = () => {
+        let total = 0;
+        
+        // Itera su tutte le città
+        if (trip?.cities) {
+            trip.cities.forEach(city => {
+                // Itera su tutti i giorni della città
+                if (city.days) {
+                    city.days.forEach(day => {
+                        // Itera su tutte le attività del giorno e somma i costi
+                        if (day.activities) {
+                            total += day.activities.reduce((sum, activity) => sum + (activity.cost || 0), 0);
+                        }
+                    });
+                }
+            });
+        }
+
+        return total;
+    };
+
+    const totalCost = calculateTotalCost();
+
+    // Calcola la durata in giorni dalla differenza tra startDate e endDate
+    const tripDays = Math.ceil((new Date(trip.endDate) - new Date(trip.startDate)) / (1000 * 60 * 60 * 24)) + 1;
 
     const [selectedCity, setSelectedCity] = useState(null);
 
@@ -54,7 +75,7 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                         </Box>
                         <Box>
                             <Text fontWeight="bold" color={isDarkMode ? "gray.400" : "gray.600"}>Durata</Text>
-                            <Text fontSize="lg" color={isDarkMode ? "white" : "gray.900"}>{trip?.days?.length} giorni</Text>
+                            <Text fontSize="lg" color={isDarkMode ? "white" : "gray.900"}>{tripDays} giorni</Text>
                         </Box>
                     </SimpleGrid>
 
@@ -146,7 +167,7 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                                                             <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"}>
                                                                 {new Date(startDate).toLocaleDateString('it-IT', { day: 'numeric', month: 'short' })} - {new Date(endDate).toLocaleDateString('it-IT', { day: 'numeric', month: 'short', year: 'numeric' })}
                                                             </Text>
-                                                            {cityData.hotel && (
+                                                            {cityData.hotel && cityData.hotel.name && cityData.hotel.address && (
                                                                 <Box bg={isDarkMode ? "gray.600" : "blue.50"} p={2} borderRadius="md">
                                                                     <Text fontSize="sm" fontWeight="bold" color={isDarkMode ? "white" : "gray.900"}>🏨 {cityData.hotel.name}</Text>
                                                                     <Text fontSize="xs" color={isDarkMode ? "gray.300" : "gray.600"}>{cityData.hotel.address}</Text>
@@ -184,8 +205,12 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                                                     </Box>
                                                 )}
                                                 <Card.Body>
-                                                    <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{hotel.name}</Heading>
-                                                    <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{hotel.address}</Text>
+                                                    {hotel.name && (
+                                                        <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{hotel.name}</Heading>
+                                                    )}
+                                                    {hotel.address && (
+                                                        <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{hotel.address}</Text>
+                                                    )}
                                                     {(hotel.rating !== 0 || hotel.price !== 0) && (
                                                         <HStack justify="space-between" mb={2}>
                                                             {hotel.rating !== 0 && (
@@ -262,9 +287,15 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                                                     </Box>
                                                 )}
                                                 <Card.Body>
-                                                    <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{rest.name}</Heading>
-                                                    <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{rest.address}</Text>
-                                                    <Text fontSize="sm" mb={2} color="orange.600" fontWeight="bold">{rest.specialty}</Text>
+                                                    {rest.name && (
+                                                        <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{rest.name}</Heading>
+                                                    )}
+                                                    {rest.address && (
+                                                        <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{rest.address}</Text>
+                                                    )}
+                                                    {rest.specialty && (
+                                                        <Text fontSize="sm" mb={2} color="orange.600" fontWeight="bold">{rest.specialty}</Text>
+                                                    )}
                                                     {(rest.rating !== 0 || rest.price !== 0) && (
                                                         <HStack justify="space-between" mb={2}>
                                                             {rest.rating !== 0 && (
@@ -339,9 +370,15 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                                                     </Box>
                                                 )}
                                                 <Card.Body>
-                                                    <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{attr.name}</Heading>
-                                                    <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{attr.address}</Text>
-                                                    <Text fontSize="sm" mb={2} color="blue.600">🕐 {attr.hours}</Text>
+                                                    {attr.name && (
+                                                        <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{attr.name}</Heading>
+                                                    )}
+                                                    {attr.address && (
+                                                        <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{attr.address}</Text>
+                                                    )}
+                                                    {attr.hours && (
+                                                        <Text fontSize="sm" mb={2} color="blue.600">🕐 {attr.hours}</Text>
+                                                    )}
                                                     {(attr.rating !== 0 || attr.price !== 0) && (
                                                         <HStack justify="space-between" mb={2}>
                                                             {attr.rating !== 0 && (
@@ -418,9 +455,15 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                                                     </Box>
                                                 )}
                                                 <Card.Body>
-                                                    <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{esc.name}</Heading>
-                                                    <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{esc.address}</Text>
-                                                    <Text fontSize="sm" mb={2} color="blue.600">🕐 {esc.hours}</Text>
+                                                    {esc.name && (
+                                                        <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{esc.name}</Heading>
+                                                    )}
+                                                    {esc.address && (
+                                                        <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{esc.address}</Text>
+                                                    )}
+                                                    {esc.hours && (
+                                                        <Text fontSize="sm" mb={2} color="blue.600">🕐 {esc.hours}</Text>
+                                                    )}
                                                     {(esc.rating !== 0 || esc.price !== 0) && (
                                                         <HStack justify="space-between" mb={2}>
                                                             {esc.rating !== 0 && (
