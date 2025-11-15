@@ -40,18 +40,18 @@
                 {
                   "time": "09:30",
                   "name": "Partenza con il Narita Express (~¥3,500 a persona) verso Tokyo",
-                  "cost": 3500,
+                  "cost": 20,
                   "type": "transport",
-                  "notes": "Costo approssimativo per persona",
+                  "notes": "Costo approssimativo per persona. Da prendere direttamente in aeroporto. ",
                   "image": "",
                   "link": ""
                 },
                 {
                   "time": "10:30",
-                  "name": "Arrivo a Tokyo; check-in a Gotanda (o deposito bagagli)",
+                  "name": "Arrivo a Tokyo fermata Shinagawa per fare check-in Hotel",
                   "cost": 0,
                   "type": "check-in",
-                  "notes": "",
+                  "notes": "Fermata del treno Shinagawa - Da contattare l'hotel per il check in anticipato che di solito è alle 15",
                   "image": "",
                   "link": ""
                 },
@@ -132,7 +132,7 @@
                   "name": "(Opzionale) Passeggiata post-cena o visita a un bar locale",
                   "cost": 0,
                   "type": "activity",
-                  "notes": "Attività rilassata poiché il giorno seguente inizia presto",
+                  "notes": "Attività rilassata poiché il giorno seguente inizia presto sopratutto perchè le metro chiudono intorno alle 23:00/00:00 e siamo distanti dall'hotel una mezz'ora (con metro)",
                   "image": "",
                   "link": ""
                 }
@@ -155,7 +155,7 @@
                 },
                 {
                   "time": "09:00",
-                  "name": "Partenza da Gotanda verso l'area di Ginza/Marunouchi",
+                  "name": "Partenza da Shinagawa verso l'area di Ginza/Marunouchi",
                   "cost": 0,
                   "type": "transport",
                   "notes": "",
@@ -218,7 +218,7 @@
                 },
                 {
                   "time": "17:30",
-                  "name": "Rientro a Gotanda",
+                  "name": "Partenza per Shinjuku",
                   "cost": 0,
                   "type": "transport",
                   "notes": "",
@@ -227,7 +227,7 @@
                 },
                 {
                   "time": "20:00",
-                  "name": "Cena in un ristorante locale vicino a Gotanda",
+                  "name": "Cena in un ristorante locale vicino a Shinjuku",
                   "cost": 0,
                   "type": "food",
                   "notes": "Fino alle 21:00",
@@ -236,7 +236,7 @@
                 },
                 {
                   "time": "22:00",
-                  "name": "(Opzionale) Uscita dopo cena: Omoide Yokocho, Golden Gai o Kabukicho a Shinjuku",
+                  "name": "(Opzionale) Uscita dopo cena: Attrazioni vicino Shinjuku",
                   "cost": 0,
                   "type": "activity",
                   "notes": "Per vivere l'atmosfera countdown",
@@ -252,17 +252,8 @@
               "city": "Tokyo",
               "activities": [
                 {
-                  "time": "06:30",
-                  "name": "Opzionale: Allenamento sumo a Ryogoku",
-                  "cost": 0,
-                  "type": "activity",
-                  "notes": "Parti da Gotanda e rientra entro le 08:00",
-                  "image": "",
-                  "link": ""
-                },
-                {
                   "time": "08:00",
-                  "name": "Parti da Gotanda per Ikebukuro",
+                  "name": "Parti da Shinigawa per Ikebukuro",
                   "cost": 0,
                   "type": "transport",
                   "notes": "",
@@ -279,7 +270,16 @@
                   "link": ""
                 },
                 {
-                  "time": "10:30",
+                  "time": "13:00",
+                  "name": "Pranzo ad Ikebukuro",
+                  "cost": 0,
+                  "type": "food",
+                  "notes": "",
+                  "image": "",
+                  "link": ""
+                },
+                {
+                  "time": "14:30",
                   "name": "Parti da Ikebukuro per Akihabara",
                   "cost": 0,
                   "type": "transport",
@@ -288,25 +288,7 @@
                   "link": ""
                 },
                 {
-                  "time": "10:45",
-                  "name": "Scopri i negozi di elettronica, le caffetterie a tema e i vari shop di Akihabara",
-                  "cost": 0,
-                  "type": "activity",
-                  "notes": "Fino alle 12:30",
-                  "image": "",
-                  "link": ""
-                },
-                {
-                  "time": "13:00",
-                  "name": "Pranzo ad Akihabara",
-                  "cost": 0,
-                  "type": "food",
-                  "notes": "",
-                  "image": "",
-                  "link": ""
-                },
-                {
-                  "time": "14:00",
+                  "time": "15:00",
                   "name": "Prosegui con shopping o esplorazione ad Akihabara",
                   "cost": 0,
                   "type": "activity",
@@ -315,17 +297,8 @@
                   "link": ""
                 },
                 {
-                  "time": "16:30",
-                  "name": "Rientra a Gotanda",
-                  "cost": 0,
-                  "type": "transport",
-                  "notes": "",
-                  "image": "",
-                  "link": ""
-                },
-                {
                   "time": "20:00",
-                  "name": "Cena a Tokyo",
+                  "name": "Cena in zona Akihabara",
                   "cost": 0,
                   "type": "food",
                   "notes": "Fino alle 21:00",
@@ -360,7 +333,7 @@
                 },
                 {
                   "time": "09:00",
-                  "name": "Parti da Gotanda per Harajuku",
+                  "name": "Parti da Shinigawa per Harajuku",
                   "cost": 0,
                   "type": "transport",
                   "notes": "",
@@ -378,7 +351,7 @@
                 },
                 {
                   "time": "10:45",
-                  "name": "Passeggia su Takeshita Street",
+                  "name": "Passeggiata su Takeshita Street",
                   "cost": 0,
                   "type": "activity",
                   "notes": "Scopri moda e assaggia snack fino alle 12:00",
@@ -413,7 +386,7 @@
                   "link": ""
                 },
                 {
-                  "time": "16:30",
+                  "time": "18:30",
                   "name": "Parti da Shibuya in treno verso Shimokitazawa",
                   "cost": 0,
                   "type": "transport",
@@ -422,7 +395,7 @@
                   "link": ""
                 },
                 {
-                  "time": "16:45",
+                  "time": "18:45",
                   "name": "Esplora i negozi vintage e le caffetterie indie di Shimokitazawa",
                   "cost": 0,
                   "type": "activity",
@@ -435,7 +408,7 @@
                   "name": "Cena",
                   "cost": 0,
                   "type": "food",
-                  "notes": "A Shimokitazawa oppure rientrando a Gotanda",
+                  "notes": "A Shimokitazawa oppure rientrando a Shinagawa",
                   "image": "",
                   "link": ""
                 },
@@ -472,7 +445,8 @@
                   "type": "transport",
                   "notes": "Verifica gli orari festivi",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "A"
                 },
                 {
                   "time": "08:30",
@@ -481,7 +455,8 @@
                   "type": "activity",
                   "notes": "Biglietto ~¥7,900 a persona. Fino alle 18:00",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "A"
                 },
                 {
                   "time": "07:30",
@@ -490,7 +465,8 @@
                   "type": "transport",
                   "notes": "Arrivo previsto a Kita-Kamakura intorno alle 08:45",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "B"
                 },
                 {
                   "time": "08:45",
@@ -499,7 +475,8 @@
                   "type": "activity",
                   "notes": "Fino alle 09:30",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "B"
                 },
                 {
                   "time": "09:30",
@@ -508,7 +485,8 @@
                   "type": "activity",
                   "notes": "Fino alle 10:30",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "B"
                 },
                 {
                   "time": "10:30",
@@ -517,7 +495,8 @@
                   "type": "activity",
                   "notes": "Fino alle 11:30",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "B"
                 },
                 {
                   "time": "11:30",
@@ -526,7 +505,8 @@
                   "type": "activity/food",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "B"
                 },
                 {
                   "time": "13:00",
@@ -535,7 +515,8 @@
                   "type": "activity",
                   "notes": "Fino alle 14:00",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "B"
                 },
                 {
                   "time": "14:00",
@@ -544,7 +525,8 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "B"
                 },
                 {
                   "time": "16:00",
@@ -553,16 +535,18 @@
                   "type": "activity",
                   "notes": "Goditi il waterfront, mostre digitali e altro, fino alle 17:30",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "B"
                 },
                 {
                   "time": "17:30",
-                  "name": "Opzione B: Rientro a Gotanda",
+                  "name": "Opzione B: Rientro a Shinigawa",
                   "cost": 0,
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "B"
                 },
                 {
                   "time": "18:30",
@@ -571,7 +555,8 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "multipleOption": "A"
                 },
                 {
                   "time": "20:00",
@@ -703,7 +688,7 @@
           "name": "Osaka",
           "hotel": {
             "name": "民泊 古",
-            "address": "Prefettura di Osaka, Osaka, 3-chōme-9-14 Shimodera, Naniwa-ku, Osaka, 556-0001, Japan 民泊 古, GiapponeA prenotazione effettuata i recapiti dell'hotel, inclusi il numero di telefono e l'indirizzo, verranno indicati nella conferma della prenotazione e nel tuo account.",
+            "address": "Prefettura di Osaka, Osaka, 3-chōme-9-14 Shimodera, Naniwa-ku, Osaka, 556-0001, Japan 民泊 古, Giappone",
             "rating": 0,
             "price": 0.0,
             "notes": "Soggiorno per assaporare Dotonbori e la vita notturna",
