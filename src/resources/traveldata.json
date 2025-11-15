@@ -17,9 +17,9 @@
             "name": "Super Hotel Shinagawa Shinbanba",
             "address": "2 Chome-30-26 Kitashinagawa, Shinagawa City, Tokyo 140-0001, Giappone",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "",
-            "bookingLink": "https://www.booking.com/hotel/jp/super-shinagawa-shinbanba.it.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4Ap6Vq8MGwAIB0gIkOTlmMjAzNzQtZGEzMS00YTNkLTgxMzEtNmYyMTBiYjA0NjIx2AIF4AIB&sid=d1bbaa91cb078e2aceada580937d16fc&all_sr_blocks=109621904_386202268_4_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_1_1_0&checkin=2025-12-24&checkout=2025-12-29&dest_id=257051&dest_type=landmark&dist=0&group_adults=9&group_children=0&hapos=11&highlighted_blocks=109621904_386202268_4_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_0_1_0%2C109621907_386202268_1_1_0&hpos=11&matching_block_id=109621904_386202268_4_1_0&nflt=ht_id%3D1100%3Bprice%3DEUR-min-500-1%3Bht_id%3D204%3Bht_id%3D203%3Bht_id%3D209%3Bht_id%3D216&no_rooms=4&req_adults=9&req_children=0&room1=A%2CA&room2=A%2CA&room3=A%2CA&room4=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=109621904_386202268_4_1_0__16245000%2C109621907_386202268_0_1_0__8280000%2C109621907_386202268_0_1_0__8280000%2C109621907_386202268_1_1_0__7380000&srepoch=1752004967&srpvid=7f188c0ff7760834&type=total&ucfs=1&activeTab=main&chal_t=1763227194156&force_referer=https%3A%2F%2Fwww.google.com%2F#map_closed",
+            "bookingLink": "https://www.booking.com/Share-qAuxy6s",
             "mapsLink": "https://www.google.it/maps/place/Super+Hotel+Shinagawa+Shimbamba/@35.6174441,139.7393427,17z/data=!3m1!5s0x60188a6f2d609ae1:0x524073359a10037b!4m21!1m11!3m10!1s0x60188a6f3276cd25:0x94ee98d6ebd684a3!2sSuper+Hotel+Shinagawa+Shimbamba!5m2!4m1!1i2!8m2!3d35.6174442!4d139.744219!10e1!16s%2Fg%2F11b5ytlpzx!3m8!1s0x60188a6f3276cd25:0x94ee98d6ebd684a3!5m2!4m1!1i2!8m2!3d35.6174442!4d139.744219!16s%2Fg%2F11b5ytlpzx?hl=it&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
           },
           "days": [
@@ -35,7 +35,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "09:30",
@@ -44,7 +47,10 @@
                   "type": "transport",
                   "notes": "Costo approssimativo per persona. Da prendere direttamente in aeroporto. ",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "10:30",
@@ -62,7 +68,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "11:30",
@@ -89,7 +98,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "14:30",
@@ -107,7 +119,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Ueno",
+                  "to": "Ginza",
+                  "distance": 6
                 },
                 {
                   "time": "17:00",
@@ -160,7 +175,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Shinagawa",
+                  "to": "Ginza/Marunouchi",
+                  "distance": 8
                 },
                 {
                   "time": "09:30",
@@ -196,7 +214,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "14:30",
@@ -223,7 +244,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "20:00",
@@ -258,7 +282,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "08:30",
@@ -285,7 +312,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Ikebukuro",
+                  "to": "Akihabara",
+                  "distance": 8
                 },
                 {
                   "time": "15:00",
@@ -338,7 +368,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "09:30",
@@ -374,7 +407,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "14:30",
@@ -392,7 +428,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Shibuya",
+                  "to": "Shimokitazawa",
+                  "distance": 4
                 },
                 {
                   "time": "18:45",
@@ -447,7 +486,10 @@
                   "notes": "Verifica gli orari festivi",
                   "image": "",
                   "link": "",
-                  "multipleOption": "A"
+                  "multipleOption": "A",
+                  "from": "Shinagawa",
+                  "to": "Tokyo Disneyland",
+                  "distance": 25
                 },
                 {
                   "time": "08:30",
@@ -467,7 +509,10 @@
                   "notes": "Arrivo previsto a Kita-Kamakura intorno alle 08:45",
                   "image": "",
                   "link": "",
-                  "multipleOption": "B"
+                  "multipleOption": "B",
+                  "from": "Shinagawa",
+                  "to": "Kamakura",
+                  "distance": 50
                 },
                 {
                   "time": "08:45",
@@ -527,7 +572,10 @@
                   "notes": "",
                   "image": "",
                   "link": "",
-                  "multipleOption": "B"
+                  "multipleOption": "B",
+                  "from": "Kamakura",
+                  "to": "Tokyo",
+                  "distance": 50
                 },
                 {
                   "time": "16:00",
@@ -547,7 +595,10 @@
                   "notes": "",
                   "image": "",
                   "link": "",
-                  "multipleOption": "B"
+                  "multipleOption": "B",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "18:30",
@@ -557,7 +608,10 @@
                   "notes": "",
                   "image": "",
                   "link": "",
-                  "multipleOption": "A"
+                  "multipleOption": "A",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "20:00",
@@ -588,9 +642,9 @@
             "name": "Miyajima Hotel Makoto",
             "address": "Hiroshima, Miyajima, Hatsukaichi-shi Miyajima-cho 755, Giappone",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "Trascorri una notte in un ryokan tradizionale",
-            "bookingLink": "https://www.booking.com/hotel/jp/miyajima-makoto.it.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4Ap6Vq8MGwAIB0gIkOTlmMjAzNzQtZGEzMS00YTNkLTgxMzEtNmYyMTBiYjA0NjIx2AIF4AIB&sid=d1bbaa91cb078e2aceada580937d16fc&all_sr_blocks=24437207_379082531_3_0_0%2C24437207_379082531_2_0_0%2C24437207_379082531_2_0_0%2C24437207_379082531_2_0_0&checkin=2025-12-29&checkout=2025-12-30&dest_id=-236847&dest_type=city&dist=0&group_adults=9&group_children=0&hapos=2&highlighted_blocks=24437207_379082531_3_0_0%2C24437207_379082531_2_0_0%2C24437207_379082531_2_0_0%2C24437207_379082531_2_0_0&hpos=2&matching_block_id=24437207_379082531_3_0_0&no_rooms=4&req_adults=9&req_children=0&room1=A%2CA&room2=A%2CA&room3=A%2CA&room4=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=24437207_379082531_3_0_0__6240000%2C24437207_379082531_2_0_0__4400000%2C24437207_379082531_2_0_0__4400000%2C24437207_379082531_2_0_0__4400000&srepoch=1752010197&srpvid=1c079689fc3c05e4&type=total&ucfs=1&",
+            "bookingLink": "https://www.booking.com/Share-WaEzu2h",
             "mapsLink": "https://www.google.it/maps/place/Miyajima+Hotel+Makoto/@34.2997234,132.3214776,17z/data=!3m1!4b1!4m9!3m8!1s0x355ab0b0626fd151:0x4f9d41274b05adc6!5m2!4m1!1i2!8m2!3d34.2997234!4d132.3240579!16s%2Fg%2F1thvdsg6?hl=it&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
           },
           "days": [
@@ -615,7 +669,10 @@
                   "type": "transport",
                   "notes": "Circa ¥14,000 a persona",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "10:00",
@@ -624,7 +681,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "10:30",
@@ -651,7 +711,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "16:00",
@@ -713,7 +776,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Hiroshima",
+                  "to": "Miyajima",
+                  "distance": 25
                 },
                 {
                   "time": "11:30",
@@ -722,7 +788,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 }
               ]
             }
@@ -734,9 +803,9 @@
             "name": "民泊 古",
             "address": "Prefettura di Osaka, Osaka, 3-chōme-9-14 Shimodera, Naniwa-ku, Osaka, 556-0001, Japan 民泊 古, Giappone",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "Soggiorno per assaporare Dotonbori e la vita notturna",
-            "bookingLink": "https://www.booking.com/hotel/jp/min-bo-gu.it.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4Ap6Vq8MGwAIB0gIkOTlmMjAzNzQtZGEzMS00YTNkLTgxMzEtNmYyMTBiYjA0NjIx2AIF4AIB&sid=d1bbaa91cb078e2aceada580937d16fc&all_sr_blocks=809330506_367461687_2_0_0%2C809330513_367461687_2_0_0%2C809330512_367461687_2_0_0%2C809330517_367461687_2_0_0%2C809330518_367461687_1_0_0&checkin=2025-12-30&checkout=2026-01-02&dest_id=2076&dest_type=district&dist=0&group_adults=9&group_children=0&hapos=6&highlighted_blocks=809330506_367461687_2_0_0%2C809330513_367461687_2_0_0%2C809330512_367461687_2_0_0%2C809330517_367461687_2_0_0%2C809330518_367461687_1_0_0&hpos=6&matching_block_id=809330506_367461687_2_0_0&nflt=price%3DEUR-min-400-1%3Bht_id%3D1100&no_rooms=4&req_adults=9&req_children=0&room1=A%2CA&room2=A%2CA&room3=A%2CA&room4=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=809330506_367461687_2_0_0__2214000%2C809330513_367461687_2_0_0__2214000%2C809330512_367461687_2_0_0__2214000%2C809330517_367461687_2_0_0__2214000%2C809330518_367461687_1_0_0__2004000&srepoch=1752008287&srpvid=94d29366f2520cb6&type=total&ucfs=1&#map_closed",
+            "bookingLink": "https://www.booking.com/Share-3WqZWcc",
             "mapsLink": "https://www.google.it/maps/place/Ancient+Hotel/@34.6554917,135.5098262,13z/data=!4m21!1m11!3m10!1s0x6000e75ee847387d:0xb7cfead594767df4!2sAncient+Hotel!5m2!4m1!1i2!8m2!3d34.6554155!4d135.5097916!10e5!16s%2Fg%2F11gxs0jdp4!3m8!1s0x6000e75ee847387d:0xb7cfead594767df4!5m2!4m1!1i2!8m2!3d34.6554155!4d135.5097916!16s%2Fg%2F11gxs0jdp4?hl=it&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
           },
           "days": [
@@ -796,7 +865,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Namba",
+                  "to": "Universal Studios Osaka",
+                  "distance": 12
                 },
                 {
                   "time": "09:30",
@@ -814,7 +886,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "20:00",
@@ -867,7 +942,10 @@
                   "type": "transport",
                   "notes": "Circa 30-40 minuti",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Namba",
+                  "to": "Kobe",
+                  "distance": 35
                 },
                 {
                   "time": "13:00",
@@ -885,7 +963,10 @@
                   "type": "transport",
                   "notes": "Fino alle 15:30",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "20:00",
@@ -916,9 +997,9 @@
             "name": "M's Hotel Kyoto Station Taruya",
             "address": "Kyoto, Kyoto, Shimogyo-ku Taruyacho 381, Giappone",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "Scegli Gion per l'atmosfera o vicino alla stazione per gli spostamenti",
-            "bookingLink": "https://www.booking.com/hotel/jp/ms-inn-kyoto-station-taruya.it.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4Ap6Vq8MGwAIB0gIkOTlmMjAzNzQtZGEzMS00YTNkLTgxMzEtNmYyMTBiYjA0NjIx2AIF4AIB&sid=d1bbaa91cb078e2aceada580937d16fc&all_sr_blocks=547570903_285028926_3_0_0%2C547570901_285028926_2_0_0%2C547570901_285028926_2_0_0%2C547570901_285028926_2_0_0&checkin=2026-01-02&checkout=2026-01-05&dest_id=-235402&dest_type=city&dist=0&group_adults=9&group_children=0&hapos=1&highlighted_blocks=547570903_285028926_3_0_0%2C547570901_285028926_2_0_0%2C547570901_285028926_2_0_0%2C547570901_285028926_2_0_0&hpos=1&matching_block_id=547570903_285028926_3_0_0&no_rooms=4&req_adults=9&req_children=0&room1=A%2CA&room2=A%2CA&room3=A%2CA&room4=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=547570903_285028926_3_0_0__3778407%2C547570901_285028926_2_0_0__2767284%2C547570901_285028926_2_0_0__2767284%2C547570901_285028926_2_0_0__2767284&srepoch=1752008763&srpvid=67c4945bd32a00e3&type=total&ucfs=1&",
+            "bookingLink": "https://www.booking.com/Share-GN5UL3",
             "mapsLink": "https://www.google.it/maps/place/M's+Hotel+Kyoto+Station+Taruya/@34.9883151,135.7484567,17z/data=!3m1!4b1!4m9!3m8!1s0x6001061dbddad26f:0x7d22443da13867c0!5m2!4m1!1i2!8m2!3d34.9883151!4d135.751037!16s%2Fg%2F11h_3t10t5?hl=it&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
           },
           "days": [
@@ -934,7 +1015,10 @@
                   "type": "transport",
                   "notes": "Circa 45 minuti in treno",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Osaka",
+                  "to": "Nara",
+                  "distance": 45
                 },
                 {
                   "time": "08:45",
@@ -952,7 +1036,10 @@
                   "type": "transport",
                   "notes": "Oppure gusta uno spuntino veloce durante il trasferimento",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "13:30",
@@ -961,7 +1048,10 @@
                   "type": "transport",
                   "notes": "Circa 45-60 minuti in treno",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Nara",
+                  "to": "Kyoto",
+                  "distance": 45
                 },
                 {
                   "time": "14:30",
@@ -1103,7 +1193,10 @@
                   "type": "transport",
                   "notes": "Arrivo intorno alle 07:45",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "07:45",
@@ -1139,7 +1232,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "14:00",
@@ -1188,9 +1284,9 @@
             "name": "HOTEL TAVINOS Asakusa",
             "address": "Prefettura di Tokyo, Tokyo, Taito-ku Asakusa 2-18-8, Giappone",
             "rating": 0,
-            "price": 0.0,
+            "price": 0,
             "notes": "",
-            "bookingLink": "https://www.booking.com/hotel/jp/tavinos-asakusa.it.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4Ap6Vq8MGwAIB0gIkOTlmMjAzNzQtZGEzMS00YTNkLTgxMzEtNmYyMTBiYjA0NjIx2AIF4AIB&sid=d1bbaa91cb078e2aceada580937d16fc&all_sr_blocks=568816401_354336728_2_0_0%2C568816402_354336728_2_0_0%2C568816402_354336728_2_0_0%2C568816411_354336728_3_0_0&checkin=2026-01-05&checkout=2026-01-07&dest_id=-246227&dest_type=city&dist=0&group_adults=9&group_children=0&hapos=3&highlighted_blocks=568816401_354336728_2_0_0%2C568816402_354336728_2_0_0%2C568816402_354336728_2_0_0%2C568816411_354336728_3_0_0&hpos=3&matching_block_id=568816401_354336728_2_0_0&no_rooms=4&req_adults=9&req_children=0&room1=A%2CA&room2=A%2CA&room3=A%2CA&room4=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=568816401_354336728_2_0_0__2188458%2C568816402_354336728_2_0_0__2188458%2C568816402_354336728_2_0_0__2188458%2C568816411_354336728_3_0_0__4621860&srepoch=1752009295&srpvid=5f3695666f8305fe&type=total&ucfs=1&",
+            "bookingLink": "https://www.booking.com/Share-kWoVEG",
             "mapsLink": "https://www.google.it/maps/place/Hotel+Tavinos+Asakusa/@35.7164002,139.7903297,17z/data=!3m1!4b1!4m9!3m8!1s0x60188fe25e0f84e3:0x58e4a9625472f0d1!5m2!4m1!1i2!8m2!3d35.7164002!4d139.79291!16s%2Fg%2F11hz2lpkpt?hl=it&entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
           },
           "days": [
@@ -1206,7 +1302,10 @@
                   "type": "transport",
                   "notes": "Tempo di viaggio: ~2 ore",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "Kyoto",
+                  "to": "Tokyo",
+                  "distance": 450
                 },
                 {
                   "time": "10:30",
@@ -1224,7 +1323,10 @@
                   "type": "transport",
                   "notes": "Zone alla moda per negozi boutique e caffè",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "11:45",
@@ -1384,7 +1486,10 @@
                   "type": "transport",
                   "notes": "L'obiettivo è arrivare intorno alle 18:00",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 },
                 {
                   "time": "20:00",
@@ -1402,7 +1507,10 @@
                   "type": "transport",
                   "notes": "",
                   "image": "",
-                  "link": ""
+                  "link": "",
+                  "from": "",
+                  "to": "",
+                  "distance": 0
                 }
               ],
               "transport": null
@@ -1424,7 +1532,7 @@
           },
           {
             "name": "Miyajima Hotel Makoto",
-            "address": "Miyajima, Hiroshima",
+            "address": "Miyajima",
             "price": 0,
             "rating": 0,
             "notes": "",
