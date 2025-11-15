@@ -19,7 +19,7 @@ import React, {useState} from "react";
 import CityDetails from "../CityDetails";
 import SafeImage from "../utils/SafeImage";
 
-export default function TripOverview({ trip, onBack }) {
+export default function TripOverview({ trip, onBack, isDarkMode }) {
     const totalCost = trip?.days?.reduce?.((sum, day) => {
         const dayCost = day.activities.reduce((s, a) => s + a.cost, 0);
         const transportCost = day.transport ? day.transport.cost : 0;
@@ -35,26 +35,26 @@ export default function TripOverview({ trip, onBack }) {
                     ← Torna ai viaggi
                 </Button>
 
-                <Box bg="teal.50" p={6} borderRadius="lg">
+                <Box bg={isDarkMode ? "gray.700" : "blue.50"} p={6} borderRadius="lg">
                     <HStack justify="space-between" mb={4}>
-                        <Heading size="2xl">{trip.image} {trip.name}</Heading>
+                        <Heading size="2xl" color={isDarkMode ? "cyan.200" : "gray.900"}>{trip.image} {trip.name}</Heading>
                         {trip.isPrivate && <Badge colorPalette="purple" fontSize="md">🔒 Viaggio Privato</Badge>}
                     </HStack>
 
                     <SimpleGrid columns={{ base: 1, md: 3 }} gap={4}>
                         <Box>
-                            <Text fontWeight="bold" color="gray.600">Destinazione</Text>
-                            <Text fontSize="lg">{trip.destination}</Text>
+                            <Text fontWeight="bold" color={isDarkMode ? "gray.400" : "gray.600"}>Destinazione</Text>
+                            <Text fontSize="lg" color={isDarkMode ? "white" : "gray.900"}>{trip.destination}</Text>
                         </Box>
                         <Box>
-                            <Text fontWeight="bold" color="gray.600">Periodo</Text>
-                            <Text fontSize="lg">
+                            <Text fontWeight="bold" color={isDarkMode ? "gray.400" : "gray.600"}>Periodo</Text>
+                            <Text fontSize="lg" color={isDarkMode ? "white" : "gray.900"}>
                                 {new Date(trip.startDate).toLocaleDateString('it-IT')} - {new Date(trip.endDate).toLocaleDateString('it-IT')}
                             </Text>
                         </Box>
                         <Box>
-                            <Text fontWeight="bold" color="gray.600">Durata</Text>
-                            <Text fontSize="lg">{trip?.days?.length} giorni</Text>
+                            <Text fontWeight="bold" color={isDarkMode ? "gray.400" : "gray.600"}>Durata</Text>
+                            <Text fontSize="lg" color={isDarkMode ? "white" : "gray.900"}>{trip?.days?.length} giorni</Text>
                         </Box>
                     </SimpleGrid>
 
@@ -81,15 +81,45 @@ export default function TripOverview({ trip, onBack }) {
                 </Box>
 
                 <Tabs.Root defaultValue="timeline" variant="enclosed" colorPalette="teal">
-                    <Tabs.List>
-                        <Tabs.Trigger value="timeline">📅 Timeline</Tabs.Trigger>
-                        <Tabs.Trigger value="details">📍 Dettagli Luoghi</Tabs.Trigger>
-                        <Tabs.Trigger value="map">🗺️ Mappa</Tabs.Trigger>
+                    <Tabs.List bg={isDarkMode ? "gray.700" : "white"} borderColor={isDarkMode ? "gray.600" : "gray.300"}>
+                        <Tabs.Trigger
+                            value="timeline"
+                            color={isDarkMode ? "white" : "gray.900"}
+                            _selected={{
+                                bg: isDarkMode ? "teal.700" : "teal.50",
+                                color: isDarkMode ? "cyan.200" : "teal.900",
+                                fontWeight: "bold"
+                            }}
+                        >
+                            📅 Timeline
+                        </Tabs.Trigger>
+                        <Tabs.Trigger
+                            value="details"
+                            color={isDarkMode ? "white" : "gray.900"}
+                            _selected={{
+                                bg: isDarkMode ? "teal.700" : "teal.50",
+                                color: isDarkMode ? "cyan.200" : "teal.900",
+                                fontWeight: "bold"
+                            }}
+                        >
+                            📍 Dettagli Luoghi
+                        </Tabs.Trigger>
+                        <Tabs.Trigger
+                            value="map"
+                            color={isDarkMode ? "white" : "gray.900"}
+                            _selected={{
+                                bg: isDarkMode ? "teal.700" : "teal.50",
+                                color: isDarkMode ? "cyan.200" : "teal.900",
+                                fontWeight: "bold"
+                            }}
+                        >
+                            🗺️ Mappa
+                        </Tabs.Trigger>
                     </Tabs.List>
 
                     <Tabs.Content value="timeline" py={4}>
                         <VStack gap={6} align="stretch">
-                            {!selectedCity &&  <> <Heading size="lg" mb={4}>Seleziona una città per vedere i dettagli</Heading>
+                            {!selectedCity &&  <> <Heading size="lg" mb={4} color={isDarkMode ? "white" : "gray.900"}>Seleziona una città per vedere i dettagli</Heading>
                             <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={4}>
                                 <For each={trip.cities}>
                                         {(cityData) => {
@@ -104,21 +134,22 @@ export default function TripOverview({ trip, onBack }) {
                                                     onClick={() => setSelectedCity(cityData)}
                                                     _hover={{ transform: 'scale(1.02)', shadow: 'lg' }}
                                                     transition="all 0.2s"
-                                                    bg="white"
+                                                    bg={isDarkMode ? "gray.700" : "white"}
+                                                    borderColor={isDarkMode ? "gray.600" : "gray.300"}
                                                 >
                                                     <Card.Body>
                                                         <VStack align="stretch" gap={3}>
                                                             <HStack justify="space-between">
-                                                                <Heading size="md">{cityData.name}</Heading>
+                                                                <Heading size="md" color={isDarkMode ? "white" : "gray.900"}>{cityData.name}</Heading>
                                                                 <Badge colorPalette="teal">{cityDaysCount} {cityDaysCount === 1 ? 'giorno' : 'giorni'}</Badge>
                                                             </HStack>
-                                                            <Text fontSize="sm" color="gray.600">
+                                                            <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"}>
                                                                 {new Date(startDate).toLocaleDateString('it-IT', { day: 'numeric', month: 'short' })} - {new Date(endDate).toLocaleDateString('it-IT', { day: 'numeric', month: 'short', year: 'numeric' })}
                                                             </Text>
                                                             {cityData.hotel && (
-                                                                <Box bg="blue.50" p={2} borderRadius="md">
-                                                                    <Text fontSize="sm" fontWeight="bold">🏨 {cityData.hotel.name}</Text>
-                                                                    <Text fontSize="xs" color="gray.600">{cityData.hotel.address}</Text>
+                                                                <Box bg={isDarkMode ? "gray.600" : "blue.50"} p={2} borderRadius="md">
+                                                                    <Text fontSize="sm" fontWeight="bold" color={isDarkMode ? "white" : "gray.900"}>🏨 {cityData.hotel.name}</Text>
+                                                                    <Text fontSize="xs" color={isDarkMode ? "gray.300" : "gray.600"}>{cityData.hotel.address}</Text>
                                                                 </Box>
                                                             )}
                                                             <Button size="sm" colorPalette="teal" variant="outline">
@@ -131,18 +162,18 @@ export default function TripOverview({ trip, onBack }) {
                                         }}
                                     </For>
                             </SimpleGrid></>}
-                            {selectedCity &&  <CityDetails trip={trip} city={selectedCity} onBack={() => setSelectedCity(null)}></CityDetails>}
+                            {selectedCity &&  <CityDetails trip={trip} city={selectedCity} onBack={() => setSelectedCity(null)} isDarkMode={isDarkMode}></CityDetails>}
                         </VStack>
                     </Tabs.Content>
 
                     <Tabs.Content value="details" py={4}>
                         <VStack gap={6} align="stretch">
                             <Box>
-                                <Heading size="md" mb={4}>🏨 Hotel</Heading>
+                                <Heading size="md" mb={4} color={isDarkMode ? "white" : "gray.900"}>🏨 Hotel</Heading>
                                 <SimpleGrid columns={{ base: 1, md: 2 }} gap={4}>
                                     <For each={trip.places.hotels}>
                                         {(hotel, i) => (
-                                            <Card.Root key={i}>
+                                            <Card.Root key={i} bg={isDarkMode ? "gray.700" : "white"} borderColor={isDarkMode ? "gray.600" : "gray.300"}>
                                                 {hotel.image && (
                                                     <Box overflow="hidden">
                                                         <SafeImage
@@ -153,20 +184,20 @@ export default function TripOverview({ trip, onBack }) {
                                                     </Box>
                                                 )}
                                                 <Card.Body>
-                                                    <Heading size="sm" mb={2}>{hotel.name}</Heading>
-                                                    <Text fontSize="sm" color="gray.600" mb={2}>{hotel.address}</Text>
+                                                    <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{hotel.name}</Heading>
+                                                    <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{hotel.address}</Text>
                                                     {(hotel.rating !== 0 || hotel.price !== 0) && (
                                                         <HStack justify="space-between" mb={2}>
                                                             {hotel.rating !== 0 && (
                                                                 <Badge colorPalette="yellow">⭐ {hotel.rating}</Badge>
                                                             )}
                                                             {hotel.price !== 0 && (
-                                                                <Text fontWeight="bold" color="teal.600">€{hotel.price}/notte</Text>
+                                                                <Text fontWeight="bold" color={isDarkMode ? "cyan.300" : "teal.700"}>€{hotel.price}/notte</Text>
                                                             )}
                                                         </HStack>
                                                     )}
                                                     {hotel.notes && (
-                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{hotel.notes}</Text>
+                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color={isDarkMode ? "gray.300" : "gray.600"}>{hotel.notes}</Text>
                                                     )}
                                                     <HStack gap={2}>
                                                         {hotel.bookingLink && (
@@ -176,7 +207,14 @@ export default function TripOverview({ trip, onBack }) {
                                                                 target="_blank"
                                                                 size="sm"
                                                                 colorPalette="blue"
+                                                                variant={isDarkMode ? "solid" : "outline"}
                                                                 flex={1}
+                                                                bg={isDarkMode ? "blue.600" : undefined}
+                                                                color={isDarkMode ? "white" : undefined}
+                                                                _hover={{
+                                                                    bg: isDarkMode ? "blue.700" : undefined,
+                                                                    opacity: isDarkMode ? 1 : undefined
+                                                                }}
                                                             >
                                                                 📅 Booking
                                                             </Button>
@@ -188,7 +226,14 @@ export default function TripOverview({ trip, onBack }) {
                                                                 target="_blank"
                                                                 size="sm"
                                                                 colorPalette="green"
+                                                                variant={isDarkMode ? "solid" : "outline"}
                                                                 flex={1}
+                                                                bg={isDarkMode ? "green.600" : undefined}
+                                                                color={isDarkMode ? "white" : undefined}
+                                                                _hover={{
+                                                                    bg: isDarkMode ? "green.700" : undefined,
+                                                                    opacity: isDarkMode ? 1 : undefined
+                                                                }}
                                                             >
                                                                 🗺️ Maps
                                                             </Button>
@@ -202,11 +247,11 @@ export default function TripOverview({ trip, onBack }) {
                             </Box>
 
                             <Box>
-                                <Heading size="md" mb={4}>🍽️ Ristoranti</Heading>
+                                <Heading size="md" mb={4} color={isDarkMode ? "white" : "gray.900"}>🍽️ Ristoranti</Heading>
                                 <SimpleGrid columns={{ base: 1, md: 2 }} gap={4}>
                                     <For each={trip.places.restaurants}>
                                         {(rest, i) => (
-                                            <Card.Root key={i}>
+                                            <Card.Root key={i} bg={isDarkMode ? "gray.700" : "white"} borderColor={isDarkMode ? "gray.600" : "gray.300"}>
                                                 {rest.image && (
                                                     <Box overflow="hidden">
                                                         <SafeImage
@@ -217,8 +262,8 @@ export default function TripOverview({ trip, onBack }) {
                                                     </Box>
                                                 )}
                                                 <Card.Body>
-                                                    <Heading size="sm" mb={2}>{rest.name}</Heading>
-                                                    <Text fontSize="sm" color="gray.600" mb={2}>{rest.address}</Text>
+                                                    <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{rest.name}</Heading>
+                                                    <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{rest.address}</Text>
                                                     <Text fontSize="sm" mb={2} color="orange.600" fontWeight="bold">{rest.specialty}</Text>
                                                     {(rest.rating !== 0 || rest.price !== 0) && (
                                                         <HStack justify="space-between" mb={2}>
@@ -226,12 +271,12 @@ export default function TripOverview({ trip, onBack }) {
                                                                 <Badge colorPalette="yellow">⭐ {rest.rating}</Badge>
                                                             )}
                                                             {rest.price !== 0 && (
-                                                                <Text fontWeight="bold" color="teal.600">€{rest.price}</Text>
+                                                                <Text fontWeight="bold" color={isDarkMode ? "cyan.300" : "teal.700"}>€{rest.price}</Text>
                                                             )}
                                                         </HStack>
                                                     )}
                                                     {rest.notes && (
-                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{rest.notes}</Text>
+                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color={isDarkMode ? "gray.300" : "gray.600"}>{rest.notes}</Text>
                                                     )}
                                                     {rest.link && (
                                                         <Button
@@ -240,8 +285,14 @@ export default function TripOverview({ trip, onBack }) {
                                                             target="_blank"
                                                             size="sm"
                                                             colorPalette="blue"
-                                                            variant="outline"
+                                                            variant={isDarkMode ? "solid" : "outline"}
                                                             w="full"
+                                                            bg={isDarkMode ? "blue.600" : undefined}
+                                                            color={isDarkMode ? "white" : undefined}
+                                                            _hover={{
+                                                                bg: isDarkMode ? "blue.700" : undefined,
+                                                                opacity: isDarkMode ? 1 : undefined
+                                                            }}
                                                         >
                                                             🔗 Sito web
                                                         </Button>
@@ -253,7 +304,14 @@ export default function TripOverview({ trip, onBack }) {
                                                             target="_blank"
                                                             size="sm"
                                                             colorPalette="green"
-                                                            flex={1}
+                                                            variant={isDarkMode ? "solid" : "outline"}
+                                                            w="full"
+                                                            bg={isDarkMode ? "green.600" : undefined}
+                                                            color={isDarkMode ? "white" : undefined}
+                                                            _hover={{
+                                                                bg: isDarkMode ? "green.700" : undefined,
+                                                                opacity: isDarkMode ? 1 : undefined
+                                                            }}
                                                         >
                                                             🗺️ Maps
                                                         </Button>
@@ -266,11 +324,11 @@ export default function TripOverview({ trip, onBack }) {
                             </Box>
 
                             <Box>
-                                <Heading size="md" mb={4}>🏛️ Attrazioni</Heading>
+                                <Heading size="md" mb={4} color={isDarkMode ? "white" : "gray.900"}>🏛️ Attrazioni</Heading>
                                 <SimpleGrid columns={{ base: 1, md: 2 }} gap={4}>
                                     <For each={trip.places.attractions}>
                                         {(attr, i) => (
-                                            <Card.Root key={i}>
+                                            <Card.Root key={i} bg={isDarkMode ? "gray.700" : "white"} borderColor={isDarkMode ? "gray.600" : "gray.300"}>
                                                 {attr.image && (
                                                     <Box overflow="hidden">
                                                         <SafeImage
@@ -281,8 +339,8 @@ export default function TripOverview({ trip, onBack }) {
                                                     </Box>
                                                 )}
                                                 <Card.Body>
-                                                    <Heading size="sm" mb={2}>{attr.name}</Heading>
-                                                    <Text fontSize="sm" color="gray.600" mb={2}>{attr.address}</Text>
+                                                    <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{attr.name}</Heading>
+                                                    <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{attr.address}</Text>
                                                     <Text fontSize="sm" mb={2} color="blue.600">🕐 {attr.hours}</Text>
                                                     {(attr.rating !== 0 || attr.price !== 0) && (
                                                         <HStack justify="space-between" mb={2}>
@@ -290,14 +348,14 @@ export default function TripOverview({ trip, onBack }) {
                                                                 <Badge colorPalette="yellow">⭐ {attr.rating}</Badge>
                                                             )}
                                                             {attr.price !== 0 && (
-                                                                <Text fontWeight="bold" color={attr.price === 0 ? "green.600" : "teal.600"}>
+                                                                <Text fontWeight="bold" color={isDarkMode ? "cyan.300" : attr.price === 0 ? "green.600" : "teal.700"}>
                                                                     {attr.price === 0 ? "Gratuito" : `€${attr.price}`}
                                                                 </Text>
                                                             )}
                                                         </HStack>
                                                     )}
                                                     {attr.notes && (
-                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{attr.notes}</Text>
+                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color={isDarkMode ? "gray.300" : "gray.600"}>{attr.notes}</Text>
                                                     )}
                                                     {attr.link && (
                                                         <Button
@@ -306,8 +364,14 @@ export default function TripOverview({ trip, onBack }) {
                                                             target="_blank"
                                                             size="sm"
                                                             colorPalette="blue"
-                                                            variant="outline"
+                                                            variant={isDarkMode ? "solid" : "outline"}
                                                             w="full"
+                                                            bg={isDarkMode ? "blue.600" : undefined}
+                                                            color={isDarkMode ? "white" : undefined}
+                                                            _hover={{
+                                                                bg: isDarkMode ? "blue.700" : undefined,
+                                                                opacity: isDarkMode ? 1 : undefined
+                                                            }}
                                                         >
                                                             🔗 Sito web
                                                         </Button>
@@ -319,7 +383,14 @@ export default function TripOverview({ trip, onBack }) {
                                                             target="_blank"
                                                             size="sm"
                                                             colorPalette="green"
-                                                            flex={1}
+                                                            variant={isDarkMode ? "solid" : "outline"}
+                                                            w="full"
+                                                            bg={isDarkMode ? "green.600" : undefined}
+                                                            color={isDarkMode ? "white" : undefined}
+                                                            _hover={{
+                                                                bg: isDarkMode ? "green.700" : undefined,
+                                                                opacity: isDarkMode ? 1 : undefined
+                                                            }}
                                                         >
                                                             🗺️ Maps
                                                         </Button>
@@ -332,11 +403,11 @@ export default function TripOverview({ trip, onBack }) {
                             </Box>
 
                             <Box>
-                                <Heading size="md" mb={4}>🏛️ Escursioni</Heading>
+                                <Heading size="md" mb={4} color={isDarkMode ? "white" : "gray.900"}>🏛️ Escursioni</Heading>
                                 <SimpleGrid columns={{ base: 1, md: 2 }} gap={4}>
                                     <For each={trip.places.excursions}>
                                         {(esc, i) => (
-                                            <Card.Root key={i}>
+                                            <Card.Root key={i} bg={isDarkMode ? "gray.700" : "white"} borderColor={isDarkMode ? "gray.600" : "gray.300"}>
                                                 {esc.image && (
                                                     <Box overflow="hidden">
                                                         <SafeImage
@@ -347,8 +418,8 @@ export default function TripOverview({ trip, onBack }) {
                                                     </Box>
                                                 )}
                                                 <Card.Body>
-                                                    <Heading size="sm" mb={2}>{esc.name}</Heading>
-                                                    <Text fontSize="sm" color="gray.600" mb={2}>{esc.address}</Text>
+                                                    <Heading size="sm" mb={2} color={isDarkMode ? "white" : "gray.900"}>{esc.name}</Heading>
+                                                    <Text fontSize="sm" color={isDarkMode ? "gray.300" : "gray.600"} mb={2}>{esc.address}</Text>
                                                     <Text fontSize="sm" mb={2} color="blue.600">🕐 {esc.hours}</Text>
                                                     {(esc.rating !== 0 || esc.price !== 0) && (
                                                         <HStack justify="space-between" mb={2}>
@@ -356,14 +427,14 @@ export default function TripOverview({ trip, onBack }) {
                                                                 <Badge colorPalette="yellow">⭐ {esc.rating}</Badge>
                                                             )}
                                                             {esc.price !== 0 && (
-                                                                <Text fontWeight="bold" color={esc.price === 0 ? "green.600" : "teal.600"}>
+                                                                <Text fontWeight="bold" color={isDarkMode ? "cyan.300" : esc.price === 0 ? "green.600" : "teal.700"}>
                                                                     {esc.price === 0 ? "Gratuito" : `€${esc.price}`}
                                                                 </Text>
                                                             )}
                                                         </HStack>
                                                     )}
                                                     {esc.notes && (
-                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{esc.notes}</Text>
+                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color={isDarkMode ? "gray.300" : "gray.600"}>{esc.notes}</Text>
                                                     )}
                                                     {esc.link && (
                                                         <Button
@@ -372,8 +443,14 @@ export default function TripOverview({ trip, onBack }) {
                                                             target="_blank"
                                                             size="sm"
                                                             colorPalette="blue"
-                                                            variant="outline"
+                                                            variant={isDarkMode ? "solid" : "outline"}
                                                             w="full"
+                                                            bg={isDarkMode ? "blue.600" : undefined}
+                                                            color={isDarkMode ? "white" : undefined}
+                                                            _hover={{
+                                                                bg: isDarkMode ? "blue.700" : undefined,
+                                                                opacity: isDarkMode ? 1 : undefined
+                                                            }}
                                                         >
                                                             🔗 Sito web
                                                         </Button>
@@ -385,7 +462,14 @@ export default function TripOverview({ trip, onBack }) {
                                                             target="_blank"
                                                             size="sm"
                                                             colorPalette="green"
-                                                            flex={1}
+                                                            variant={isDarkMode ? "solid" : "outline"}
+                                                            w="full"
+                                                            bg={isDarkMode ? "green.600" : undefined}
+                                                            color={isDarkMode ? "white" : undefined}
+                                                            _hover={{
+                                                                bg: isDarkMode ? "green.700" : undefined,
+                                                                opacity: isDarkMode ? 1 : undefined
+                                                            }}
                                                         >
                                                             🗺️ Maps
                                                         </Button>

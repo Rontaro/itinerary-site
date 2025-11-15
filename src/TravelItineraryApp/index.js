@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {
     Box,
     Button,
@@ -14,21 +14,39 @@ import {
     DialogTitle,
     Input,
     Text,
-    VStack
+    VStack,
+    HStack
 } from '@chakra-ui/react';
 import 'leaflet/dist/leaflet.css';
 import Homepage from "../Homepage";
 import TripOverview from "../TripOverview";
 
-// Crea il sistema Chakra UI
-const system = createSystem(defaultConfig);
-
+// Crea il sistema Chakra UI con tema scuro
+const system = createSystem(defaultConfig, {
+    theme: {
+        tokens: {
+            colors: {
+                // Palette personalizzata più soft
+            }
+        }
+    }
+});
 
 export default function TravelItineraryApp() {
     const [selectedTrip, setSelectedTrip] = useState(null);
     const [isUnlocked, setIsUnlocked] = useState(false);
     const [password, setPassword] = useState('');
     const [isDialogOpen, setIsDialogOpen] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(() => {
+        // Carica il valore salvato da sessionStorage o di default false
+        const saved = sessionStorage.getItem('darkMode');
+        return saved ? JSON.parse(saved) : false;
+    });
+
+    // Salva la preferenza in sessionStorage quando cambia
+    useEffect(() => {
+        sessionStorage.setItem('darkMode', JSON.stringify(isDarkMode));
+    }, [isDarkMode]);
 
     const handleSelectTrip = (trip) => {
         if (trip.isPrivate && !isUnlocked) {
@@ -58,11 +76,22 @@ export default function TravelItineraryApp() {
 
     return (
         <ChakraProvider value={system}>
-            <Box bg="gray.50" minH="100vh">
+            <Box bg={isDarkMode ? "gray.800" : "gray.50"} minH="100vh">
+                {/* Pulsante Dark Mode */}
+                <Box position="fixed" top={4} right={4} zIndex={10}>
+                    <Button
+                        onClick={() => setIsDarkMode(!isDarkMode)}
+                        colorPalette={isDarkMode ? "yellow" : "blue"}
+                        variant="outline"
+                    >
+                        {isDarkMode ? "☀️ Light" : "🌙 Dark"}
+                    </Button>
+                </Box>
+
                 {!selectedTrip || (selectedTrip.isPrivate && !isUnlocked) ? (
-                    <Homepage onSelectTrip={handleSelectTrip} />
+                    <Homepage onSelectTrip={handleSelectTrip} isDarkMode={isDarkMode} />
                 ) : (
-                    <TripOverview trip={selectedTrip} onBack={handleBack} />
+                    <TripOverview trip={selectedTrip} onBack={handleBack} isDarkMode={isDarkMode} />
                 )}
 
                 <DialogRoot open={isDialogOpen} onOpenChange={(e) => setIsDialogOpen(e.open)}>

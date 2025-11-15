@@ -34,7 +34,7 @@ L.Icon.Default.mergeOptions({
 });
 
 // Componente Homepage
-export default function Homepage({ onSelectTrip }) {
+export default function Homepage({ onSelectTrip, isDarkMode }) {
     const [data, setData] = useState(travelData);
     const [openDialog, setOpenDialog] = useState(false);
     const [jsonText, setJsonText] = useState('');
@@ -80,10 +80,10 @@ export default function Homepage({ onSelectTrip }) {
     return (
         <Container maxW="7xl" py={8}>
             <VStack gap={6} align="stretch">
-                <Heading size="4xl" textAlign="center" color="teal.600">
+                <Heading size="4xl" textAlign="center" color={isDarkMode ? "cyan.200" : "teal.700"}>
                     I Miei Itinerari di Viaggio
                 </Heading>
-                <Text textAlign="center" fontSize="lg" color="gray.600">
+                <Text textAlign="center" fontSize="lg" color={isDarkMode ? "gray.300" : "gray.500"}>
                     Seleziona un viaggio per visualizzare i dettagli
                 </Text>
 
@@ -107,29 +107,49 @@ export default function Homepage({ onSelectTrip }) {
                     onOpenChange={(e) => setOpenDialog(e.open)}
                 >
                     <DialogBackdrop />
-                    <DialogContent>
-                        <DialogHeader>
-                            <DialogTitle>Carica un JSON personalizzato</DialogTitle>
+                    <DialogContent bg={isDarkMode ? "gray.700" : "white"} borderColor={isDarkMode ? "gray.600" : "gray.300"}>
+                        <DialogHeader borderBottomColor={isDarkMode ? "gray.600" : "gray.200"}>
+                            <DialogTitle color={isDarkMode ? "white" : "gray.900"}>Carica un JSON personalizzato</DialogTitle>
                         </DialogHeader>
 
                         <DialogBody>
                             <VStack gap={4} align="stretch">
                                 {errorMessage && (
-                                    <Alert.Root status="error">
+                                    <Alert.Root status="error" bg={isDarkMode ? "red.900" : undefined}>
                                         <Alert.Indicator />
-                                        <Alert.Title>{errorMessage}</Alert.Title>
+                                        <Alert.Title color={isDarkMode ? "red.200" : undefined}>{errorMessage}</Alert.Title>
                                     </Alert.Root>
                                 )}
 
                                 <Tabs.Root defaultValue="upload">
-                                    <Tabs.List>
-                                        <Tabs.Trigger value="upload">Carica File</Tabs.Trigger>
-                                        <Tabs.Trigger value="text">Scrivi Testo</Tabs.Trigger>
+                                    <Tabs.List bg={isDarkMode ? "gray.600" : "white"} borderColor={isDarkMode ? "gray.500" : "gray.300"}>
+                                        <Tabs.Trigger
+                                            value="upload"
+                                            color={isDarkMode ? "white" : "gray.900"}
+                                            _selected={{
+                                                bg: isDarkMode ? "teal.700" : "teal.50",
+                                                color: isDarkMode ? "cyan.200" : "teal.900",
+                                                fontWeight: "bold"
+                                            }}
+                                        >
+                                            Carica File
+                                        </Tabs.Trigger>
+                                        <Tabs.Trigger
+                                            value="text"
+                                            color={isDarkMode ? "white" : "gray.900"}
+                                            _selected={{
+                                                bg: isDarkMode ? "teal.700" : "teal.50",
+                                                color: isDarkMode ? "cyan.200" : "teal.900",
+                                                fontWeight: "bold"
+                                            }}
+                                        >
+                                            Scrivi Testo
+                                        </Tabs.Trigger>
                                     </Tabs.List>
 
                                     <Tabs.Content value="upload">
                                         <VStack gap={4} align="stretch" py={4}>
-                                            <Text color="gray.600">
+                                            <Text color={isDarkMode ? "gray.300" : "gray.600"}>
                                                 Seleziona un file JSON dal tuo computer
                                             </Text>
                                             <input
@@ -143,6 +163,11 @@ export default function Homepage({ onSelectTrip }) {
                                                 colorPalette="teal"
                                                 onClick={() => fileInputRef.current?.click()}
                                                 width="full"
+                                                bg={isDarkMode ? "teal.600" : undefined}
+                                                color={isDarkMode ? "white" : undefined}
+                                                _hover={{
+                                                    bg: isDarkMode ? "teal.700" : undefined
+                                                }}
                                             >
                                                 Seleziona File JSON
                                             </Button>
@@ -151,7 +176,7 @@ export default function Homepage({ onSelectTrip }) {
 
                                     <Tabs.Content value="text">
                                         <VStack gap={4} align="stretch" py={4}>
-                                            <Text color="gray.600">
+                                            <Text color={isDarkMode ? "gray.300" : "gray.600"}>
                                                 Incolla o scrivi il tuo JSON qui
                                             </Text>
                                             <Textarea
@@ -161,6 +186,12 @@ export default function Homepage({ onSelectTrip }) {
                                                 minH="300px"
                                                 fontFamily="monospace"
                                                 fontSize="sm"
+                                                bg={isDarkMode ? "gray.600" : "white"}
+                                                color={isDarkMode ? "white" : "gray.900"}
+                                                borderColor={isDarkMode ? "gray.500" : "gray.300"}
+                                                _placeholder={{
+                                                    color: isDarkMode ? "gray.400" : "gray.400"
+                                                }}
                                             />
                                         </VStack>
                                     </Tabs.Content>
@@ -168,7 +199,7 @@ export default function Homepage({ onSelectTrip }) {
                             </VStack>
                         </DialogBody>
 
-                        <DialogFooter>
+                        <DialogFooter borderTopColor={isDarkMode ? "gray.600" : "gray.200"}>
                             <Button
                                 variant="outline"
                                 onClick={() => {
@@ -176,12 +207,22 @@ export default function Homepage({ onSelectTrip }) {
                                     setJsonText('');
                                     setErrorMessage('');
                                 }}
+                                color={isDarkMode ? "white" : undefined}
+                                borderColor={isDarkMode ? "gray.500" : undefined}
+                                _hover={{
+                                    bg: isDarkMode ? "gray.600" : undefined
+                                }}
                             >
                                 Annulla
                             </Button>
                             <Button
                                 colorPalette="teal"
                                 onClick={handleTextSubmit}
+                                bg={isDarkMode ? "teal.600" : undefined}
+                                color={isDarkMode ? "white" : undefined}
+                                _hover={{
+                                    bg: isDarkMode ? "teal.700" : undefined
+                                }}
                             >
                                 Carica JSON
                             </Button>
@@ -198,7 +239,8 @@ export default function Homepage({ onSelectTrip }) {
                                 onClick={() => onSelectTrip(trip)}
                                 _hover={{ transform: 'scale(1.05)', shadow: 'xl' }}
                                 transition="all 0.3s"
-                                bg="white"
+                                bg={isDarkMode ? "gray.700" : "white"}
+                                borderColor={isDarkMode ? "gray.600" : "gray.300"}
                                 borderWidth="1px"
                                 borderColor="gray.200"
                             >
@@ -212,18 +254,18 @@ export default function Homepage({ onSelectTrip }) {
                                 </Card.Header>
                                 <Card.Body>
                                     <VStack align="stretch" gap={3}>
-                                        <Heading size="md">{trip.name}</Heading>
-                                        <Text color="gray.600">{trip.destination}</Text>
+                                        <Heading size="md" color={isDarkMode ? "white" : "gray.900"}>{trip.name}</Heading>
+                                        <Text color={isDarkMode ? "gray.300" : "gray.600"}>{trip.destination}</Text>
                                         <HStack>
                                             <Badge colorPalette="blue">
                                                 {new Date(trip.startDate).toLocaleDateString('it-IT')}
                                             </Badge>
-                                            <Text>→</Text>
+                                            <Text color={isDarkMode ? "gray.400" : "gray.600"}>→</Text>
                                             <Badge colorPalette="blue">
                                                 {new Date(trip.endDate).toLocaleDateString('it-IT')}
                                             </Badge>
                                         </HStack>
-                                        {trip.budget !== 0 && <Text fontWeight="bold" color="teal.600">
+                                        {trip.budget !== 0 && <Text fontWeight="bold" color={isDarkMode ? "cyan.300" : "teal.700"}>
                                             Budget: €{trip.budget}
                                         </Text>}
                                     </VStack>
