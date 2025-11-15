@@ -289,6 +289,54 @@ export default function TripOverview({ trip, onBack }) {
                                     </For>
                                 </SimpleGrid>
                             </Box>
+
+                            <Box>
+                                <Heading size="md" mb={4}>🏛️ Escursioni</Heading>
+                                <SimpleGrid columns={{ base: 1, md: 2 }} gap={4}>
+                                    <For each={trip.places.excursions}>
+                                        {(attr, i) => (
+                                            <Card.Root key={i}>
+                                                {attr.image && (
+                                                    <Box overflow="hidden">
+                                                        <SafeImage
+                                                            src={attr.image}
+                                                            alt={attr.name}
+                                                            style={{ width: '100%', height: '200px', objectFit: 'cover' }}
+                                                        />
+                                                    </Box>
+                                                )}
+                                                <Card.Body>
+                                                    <Heading size="sm" mb={2}>{attr.name}</Heading>
+                                                    <Text fontSize="sm" color="gray.600" mb={2}>{attr.address}</Text>
+                                                    <Text fontSize="sm" mb={2} color="blue.600">🕐 {attr.hours}</Text>
+                                                    <HStack justify="space-between" mb={2}>
+                                                        <Badge colorPalette="yellow">⭐ {attr.rating}</Badge>
+                                                        <Text fontWeight="bold" color={attr.price === 0 ? "green.600" : "teal.600"}>
+                                                            {attr.price === 0 ? "Gratuito" : `€${attr.price}`}
+                                                        </Text>
+                                                    </HStack>
+                                                    {attr.notes && (
+                                                        <Text fontSize="sm" mt={2} mb={3} fontStyle="italic" color="gray.600">{attr.notes}</Text>
+                                                    )}
+                                                    {attr.link && (
+                                                        <Button
+                                                            as="a"
+                                                            href={attr.link}
+                                                            target="_blank"
+                                                            size="sm"
+                                                            colorPalette="blue"
+                                                            variant="outline"
+                                                            w="full"
+                                                        >
+                                                            🔗 Sito web
+                                                        </Button>
+                                                    )}
+                                                </Card.Body>
+                                            </Card.Root>
+                                        )}
+                                    </For>
+                                </SimpleGrid>
+                            </Box>
                         </VStack>
                     </Tabs.Content>
 

@@ -2342,6 +2342,408 @@
             "notes": "",
             "image": ""
           }
+        ],
+        "excursions": [
+          {
+            "name": "teamlab planets / チームラボ プラネッツ",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Shibuya Sky",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Tokyo Skytree",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Ghibli Museum",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Ghibli Park",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Tokyo Disneyland",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Tokyo DisneySea",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "",
+            "image": ""
+          },
+          {
+            "name": "Akihabara",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Maid Cafe",
+            "image": ""
+          },
+          {
+            "name": "Gōtokuji Temple",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Tempio gattini",
+            "image": ""
+          },
+          {
+            "name": "Daikoku Parking Area",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Raduno JDM",
+            "image": ""
+          },
+          {
+            "name": "Kujira Entertainment",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione serale",
+            "image": ""
+          },
+          {
+            "name": "TANTRA TOKYO",
+            "address": "Tokyo",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione serale",
+            "image": ""
+          },
+          {
+            "name": "Dōtonbori",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Quartiere da visitare",
+            "image": ""
+          },
+          {
+            "name": "Osaka Castle",
+            "address": "Ōsaka",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Universal Studios Japan",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Ebisu Tower Ferris Wheel",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Ruota panoramica a dotonbori",
+            "image": ""
+          },
+          {
+            "name": "Sumo Restaurant Ochiizumibeya",
+            "address": "Osaka",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Spettacolo di sumo",
+            "image": ""
+          },
+          {
+            "name": "Nishiki Market",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Mercato del pesce etc",
+            "image": ""
+          },
+          {
+            "name": "Gion",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Quartiere delle geisha",
+            "image": ""
+          },
+          {
+            "name": "Nintendo Museum",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Toei Kyoto Studio Park",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Fushimi Inari Taisha",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Arashiyama Bamboo Forest",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Monkey Park Iwatayama",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Kinkakuji Temple",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Tempio d'oro",
+            "image": ""
+          },
+          {
+            "name": "Ginkakuji",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Tempio d'argento",
+            "image": ""
+          },
+          {
+            "name": "Kiyomizu-dera",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Nijō Castle",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "237 Nakaogawachō",
+            "address": "Kyoto",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Cerimonia del tè",
+            "image": ""
+          },
+          {
+            "name": "Komachi Street",
+            "address": "Kamakura",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Quartiere da visitare",
+            "image": ""
+          },
+          {
+            "name": "Meigetsu-in",
+            "address": "Kamakura",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Kencho-ji",
+            "address": "Kamakura",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Tsurugaoka Hachimangu",
+            "address": "Kamakura",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Great Buddha Ticket Counter",
+            "address": "Kamakura",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Kamiyacho",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Quartiere da visitare",
+            "image": ""
+          },
+          {
+            "name": "Hiroshima Peace Memorial Museum",
+            "address": "Hiroshima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Miyajima Omotesandō Shopping Street",
+            "address": "Miyajima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Shopping vario e Ostriche in tutte le salse",
+            "image": ""
+          },
+          {
+            "name": "Itsukushima Shrine",
+            "address": "Miyajima",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          },
+          {
+            "name": "Nara Park",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "È un parco, con i cervi",
+            "image": ""
+          },
+          {
+            "name": "Tōdai-ji",
+            "address": "Nara",
+            "price": 0,
+            "rating": 0,
+            "hours": "",
+            "link": "",
+            "notes": "Escursione giorno",
+            "image": ""
+          }
         ]
       },
       "mapData": {
