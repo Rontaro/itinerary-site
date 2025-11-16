@@ -2881,7 +2881,7 @@
             "rating": 0,
             "hours": "",
             "link": "",
-            "notes": "Raduno JDM",
+            "notes": "",
             "image": "",
             "mapsLink": ""
           },
@@ -3217,6 +3217,178 @@
           }
         ]
       },
+      "todos": [
+        {
+          "title": "Voli",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Hotel",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Assicurazione",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Shinkansen",
+          "note": "viaggi lunghi",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Suica iPhone",
+          "note": "da fare li per non iphone users - serve per bus/treni/metro",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Internet",
+          "note": "ESIM (holafly) - sim - saponetta",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Adattatore corrente",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Abbonamento metro",
+          "note": "Da capire se conviene",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Pokemon Cafè",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Skytree",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Shibuya Sky",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Osaka Studios",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Ghibli Museum",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "TeamLabs",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "DisneyLand",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "DisneySea",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Nintendo Museum",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Sumo",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        },
+        {
+          "title": "Cerimonia Te",
+          "note": "",
+          "url": "",
+          "imageUrl": ""
+        }
+      ],
+      "utilsLinks": [
+        {
+          "title": "Assicurazione sanitaria",
+          "summary": "L'assicurazione sanitaria - Giappone per Tutti",
+          "url": "https://www.giapponepertutti.it/organizza-viaggio-in-giappone/cosa-serve/assicurazione-sanitaria-giappone/",
+          "imageUrl": ""
+        },
+        {
+          "title": "Cosa si può portare",
+          "summary": "Dogana - Giappone per Tutti",
+          "url": "https://www.giapponepertutti.it/organizza-viaggio-in-giappone/cosa-serve/dogana-in-giappone/",
+          "imageUrl": ""
+        },
+        {
+          "title": "Quartieri di Tokyo",
+          "summary": "SPOT / Sito ufficiale dedicato al turismo a Tokyo GO TOKYO",
+          "url": "https://www.gotokyo.org/it/spot/index.html",
+          "imageUrl": ""
+        },
+        {
+          "title": "Calcolatore Japan Rail Pass",
+          "summary": "Japan Rail Pass Calculator - find out whether a JR Pass pays off",
+          "url": "https://www.gotokyo.org/it/spot/index.html",
+          "imageUrl": ""
+        },
+        {
+          "title": "Holafly eSim",
+          "summary": "eSIM Giappone a partire da €5,90 | Piano Dati Illimitato",
+          "url": "https://esim.holafly.com/it/esim-giappone/",
+          "imageUrl": ""
+        },
+        {
+          "title": "Suica su iPhone",
+          "summary": "Aggiungi una carta Suica, PASMO o ICOCA a Apple Wallet - Supporto Apple (IT)",
+          "url": "https://support.apple.com/it-it/108772",
+          "imageUrl": ""
+        },
+        {
+          "title": "Adattatore corrente",
+          "summary": "Adattatore da Viaggio, Amoner Adattatore da Viaggio Universale con 2 Porte Caricabatterie USB Adatto per più di 180 paesi (Nero) : Amazon.it: Elettronica",
+          "url": "https://www.amazon.it/dp/B0797Q9V44?th=1&linkCode=sl1&tag=giappopertutt-21&linkId=7c6af9d3c8ed642185307ad67ca6e990&language=it_IT&ref_=as_li_ss_tl",
+          "imageUrl": ""
+        },
+        {
+          "title": "Come prenotare Shinkansen",
+          "summary": "Come acquistare i biglietti dei treni (shinkansen) online - inGiappone.it",
+          "url": "https://ingiappone.it/come-prenotare-online-i-biglietti-dei-treni-shinkansen-in-giappone/",
+          "imageUrl": ""
+        },
+        {
+          "title": "Itinerario Copilot microsoft",
+          "summary": "",
+          "url": "https://drive.google.com/file/d/1nKcVJeMJ-MfQVI5d1vBCjB1EGIfPXOYv/view?usp=sharing",
+          "imageUrl": ""
+        }
+      ],
       "mapData": {
         "center": [
           35.6762,

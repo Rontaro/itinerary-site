@@ -76,9 +76,18 @@ export default function TravelItineraryApp() {
 
     return (
         <ChakraProvider value={system}>
-            <Box bg={isDarkMode ? "gray.800" : "gray.50"} minH="100vh">
-                {/* Pulsante Dark Mode */}
-                <Box position="fixed" top={4} right={4} zIndex={10}>
+            <Box bg={isDarkMode ? "gray.800" : "gray.50"} minH="100vh" display="flex" flexDirection="column">
+                {/* Contenuto principale */}
+                <Box flex="1" pb="80px">
+                    {!selectedTrip || (selectedTrip.isPrivate && !isUnlocked) ? (
+                        <Homepage onSelectTrip={handleSelectTrip} isDarkMode={isDarkMode} />
+                    ) : (
+                        <TripOverview trip={selectedTrip} onBack={handleBack} isDarkMode={isDarkMode} />
+                    )}
+                </Box>
+
+                {/* Pulsante Dark Mode - Fisso in basso a destra */}
+                <Box position="fixed" bottom={4} right={4} zIndex={10}>
                     <Button
                         onClick={() => setIsDarkMode(!isDarkMode)}
                         colorPalette={isDarkMode ? "yellow" : "blue"}
@@ -88,11 +97,6 @@ export default function TravelItineraryApp() {
                     </Button>
                 </Box>
 
-                {!selectedTrip || (selectedTrip.isPrivate && !isUnlocked) ? (
-                    <Homepage onSelectTrip={handleSelectTrip} isDarkMode={isDarkMode} />
-                ) : (
-                    <TripOverview trip={selectedTrip} onBack={handleBack} isDarkMode={isDarkMode} />
-                )}
 
                 <DialogRoot open={isDialogOpen} onOpenChange={(e) => setIsDialogOpen(e.open)}>
                     <DialogBackdrop />
