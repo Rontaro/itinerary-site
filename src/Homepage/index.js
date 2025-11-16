@@ -20,7 +20,7 @@ import {
     Text,
     Textarea,
     VStack
-} from '@chakra-ui/react';
+ } from '@chakra-ui/react';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import travelData from "../resources/traveldata.json";
@@ -115,10 +115,9 @@ export default function Homepage({ onSelectTrip, isDarkMode }) {
                         <DialogBody>
                             <VStack gap={4} align="stretch">
                                 {errorMessage && (
-                                    <Alert.Root status="error" bg={isDarkMode ? "red.900" : undefined}>
-                                        <Alert.Indicator />
-                                        <Alert.Title color={isDarkMode ? "red.200" : undefined}>{errorMessage}</Alert.Title>
-                                    </Alert.Root>
+                                    <Alert status="error" bg={isDarkMode ? "red.900" : undefined}>
+                                        <Text color={isDarkMode ? "red.200" : undefined}>{errorMessage}</Text>
+                                    </Alert>
                                 )}
 
                                 <Tabs.Root defaultValue="upload">
@@ -252,22 +251,22 @@ export default function Homepage({ onSelectTrip, isDarkMode }) {
                                     </HStack>
                                 </Card.Header>
                                 <Card.Body>
-                                    <VStack align="stretch" gap={3}>
-                                        <Heading size="md" color={isDarkMode ? "white" : "gray.900"}>{trip.name}</Heading>
-                                        <Text color={isDarkMode ? "gray.300" : "gray.600"}>{trip.destination}</Text>
-                                        <HStack>
-                                            <Badge colorPalette="blue">
-                                                {new Date(trip.startDate).toLocaleDateString('it-IT')}
-                                            </Badge>
-                                            <Text color={isDarkMode ? "gray.400" : "gray.600"}>→</Text>
-                                            <Badge colorPalette="blue">
-                                                {new Date(trip.endDate).toLocaleDateString('it-IT')}
-                                            </Badge>
-                                        </HStack>
-                                        {trip.budget !== 0 && <Text fontWeight="bold" color={isDarkMode ? "cyan.300" : "teal.700"}>
-                                            Budget: €{trip.budget}
-                                        </Text>}
-                                    </VStack>
+                                     <VStack align="stretch" gap={3}>
+                                         <Heading size="md" color={isDarkMode ? "white" : "gray.900"}>{trip.name}</Heading>
+                                         <Text color={isDarkMode ? "gray.300" : "gray.600"}>{trip.destination}</Text>
+                                         <HStack>
+                                             <Badge colorPalette="blue">
+                                                 {new Date(trip.startDate).toLocaleDateString('it-IT')}
+                                             </Badge>
+                                             <Text color={isDarkMode ? "gray.400" : "gray.600"}>→</Text>
+                                             <Badge colorPalette="blue">
+                                                 {new Date(trip.endDate).toLocaleDateString('it-IT')}
+                                             </Badge>
+                                         </HStack>
+                                         {trip.budget !== 0 && <Text fontWeight="bold" color={isDarkMode ? "cyan.300" : "teal.700"}>
+                                             Budget: €{trip.budget}
+                                         </Text>}
+                                     </VStack>
                                 </Card.Body>
                             </Card.Root>
                         )}

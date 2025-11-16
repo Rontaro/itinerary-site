@@ -14,8 +14,7 @@ import {
     DialogTitle,
     Input,
     Text,
-    VStack,
-    HStack
+    VStack
 } from '@chakra-ui/react';
 import 'leaflet/dist/leaflet.css';
 import Homepage from "../Homepage";

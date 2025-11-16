@@ -1,7 +1,6 @@
 import React from 'react';
-import { SimpleGrid, Heading, Box, Card } from '@chakra-ui/react';
+import { SimpleGrid, Heading, Box, Card, Button } from '@chakra-ui/react';
 import SafeImage from '../utils/SafeImage';
-import { Button } from '@chakra-ui/react';
 
 /**
  * Componente per visualizzare una griglia di link utili
@@ -20,11 +19,7 @@ export default function LinkGrid({
             </Heading>
             <SimpleGrid columns={{ base: 1, md: 2 }} gap={4}>
                 {links.map((link, idx) => (
-                    <Card.Root
-                        key={idx}
-                        bg={isDarkMode ? 'gray.700' : 'white'}
-                        borderColor={isDarkMode ? 'gray.600' : 'gray.300'}
-                    >
+                    <Card.Root key={idx} bg={isDarkMode ? 'gray.700' : 'white'} borderColor={isDarkMode ? 'gray.600' : 'gray.300'}>
                         {link.imageUrl && (
                             <Box overflow="hidden">
                                 <SafeImage
@@ -71,4 +66,3 @@ export default function LinkGrid({
         </Box>
     );
 }
-

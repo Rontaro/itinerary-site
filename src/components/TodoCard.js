@@ -74,4 +74,3 @@ export default function TodoCard({
         </Card.Root>
     );
 }
-
