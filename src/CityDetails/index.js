@@ -1,9 +1,68 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Badge, Box, Button, Card, Container, For, Heading, HStack, Text, VStack} from '@chakra-ui/react';
 import 'leaflet/dist/leaflet.css';
 import SafeImage from "../utils/SafeImage";
 
 export default function CityDetails({city, trip, onBack, isDarkMode}) {
+    // Stato per tracciare l'opzione selezionata per ogni giorno
+    const [selectedOptions, setSelectedOptions] = useState({});
+
+    // Funzione per raggruppare le attività per multipleOption
+    const groupActivitiesByOption = (activities) => {
+        const grouped = {
+            regular: [], // Attività senza multipleOption
+            options: {} // Attività raggruppate per opzione
+        };
+
+        activities.forEach(activity => {
+            if (activity.multipleOption) {
+                const option = activity.multipleOption;
+                if (!grouped.options[option]) {
+                    grouped.options[option] = [];
+                }
+                grouped.options[option].push(activity);
+            } else {
+                grouped.regular.push(activity);
+            }
+        });
+
+        return grouped;
+    };
+
+    // Funzione per ottenere il nome dell'opzione
+    const getOptionName = (activities) => {
+        if (activities.length === 0) return '';
+        const firstActivity = activities[0];
+        return `Opzione ${firstActivity.multipleOption}`;
+    };
+
+    // Funzione per gestire la selezione dell'opzione
+    const handleOptionSelect = (dayIndex, option) => {
+        setSelectedOptions(prev => ({
+            ...prev,
+            [dayIndex]: option
+        }));
+    };
+
+    // Funzione per ottenere le attività da mostrare per un giorno
+    const getActivitiesToShow = (day, dayIndex) => {
+        const grouped = groupActivitiesByOption(day.activities);
+        const selectedOption = selectedOptions[dayIndex];
+
+        // Se c'è un'opzione selezionata, mostra SOLO le attività di quell'opzione
+        if (selectedOption && grouped.options[selectedOption]) {
+            return grouped.options[selectedOption];
+        }
+
+        // Se ci sono opzioni multiple ma nessuna è selezionata, mostra solo le attività regolari
+        if (Object.keys(grouped.options).length > 0) {
+            return grouped.regular;
+        }
+
+        // Altrimenti mostra tutte le attività (giorni senza opzioni multiple)
+        return day.activities;
+    };
+
     return (
         <Container maxW="7xl" py={8}>
             <VStack gap={6} align="stretch">
@@ -68,7 +127,12 @@ export default function CityDetails({city, trip, onBack, isDarkMode}) {
 
                 <VStack gap={6} align="stretch">
                     <For each={city.days}>
-                        {(day, idx) => (
+                        {(day, idx) => {
+                            const grouped = groupActivitiesByOption(day.activities);
+                            const hasMultipleOptions = Object.keys(grouped.options).length > 0;
+                            const activitiesToShow = getActivitiesToShow(day, idx);
+                            
+                            return (
                             <Box key={idx} borderWidth="1px" borderRadius="lg" p={4} bg={isDarkMode ? "gray.700" : "white"} borderColor={isDarkMode ? "gray.600" : "gray.200"}>
                                 <Heading size="md" mb={4} color={isDarkMode ? "cyan.300" : "teal.700"}>
                                     {new Date(day.date).toLocaleDateString('it-IT', {
@@ -79,8 +143,33 @@ export default function CityDetails({city, trip, onBack, isDarkMode}) {
                                     })} - Giorno {idx + 1}
                                 </Heading>
 
+                                {hasMultipleOptions && (
+                                    <Box mb={4} p={3} bg={isDarkMode ? "gray.600" : "gray.50"} borderRadius="md">
+                                        <Text fontSize="sm" fontWeight="bold" mb={2} color={isDarkMode ? "gray.300" : "gray.700"}>
+                                            Seleziona un'opzione:
+                                        </Text>
+                                        <HStack gap={2} flexWrap="wrap">
+                                            {Object.entries(grouped.options).map(([option, activities]) => {
+                                                const optionName = getOptionName(activities);
+                                                const isSelected = selectedOptions[idx] === option;
+                                                return (
+                                                    <Button
+                                                        key={option}
+                                                        onClick={() => handleOptionSelect(idx, option)}
+                                                        colorPalette={isSelected ? "teal" : "gray"}
+                                                        variant={isSelected ? "solid" : "outline"}
+                                                        size="sm"
+                                                    >
+                                                        {optionName}
+                                                    </Button>
+                                                );
+                                            })}
+                                        </HStack>
+                                    </Box>
+                                )}
+
                                 <VStack gap={3} align="stretch">
-                                    <For each={day.activities}>
+                                    <For each={activitiesToShow}>
                                         {(activity, i) => (
                                             activity.type === "transport" && activity.from ?
                                                 <Box bg="blue.100" p={4} borderRadius="md" borderWidth="2px"
@@ -178,7 +267,8 @@ export default function CityDetails({city, trip, onBack, isDarkMode}) {
                                 </VStack>
 
                             </Box>
-                        )}
+                            );
+                        }}
                     </For>
                 </VStack>
             </VStack>
