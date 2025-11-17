@@ -124,10 +124,21 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                 />
 
                 <Tabs.Root defaultValue="timeline" variant="enclosed" colorPalette="teal">
-                    <Tabs.List bg={isDarkMode ? "gray.700" : "white"} borderColor={isDarkMode ? "gray.600" : "gray.300"}>
+                    <Tabs.List 
+                        bg={isDarkMode ? "gray.700" : "white"} 
+                        borderColor={isDarkMode ? "gray.600" : "gray.300"}
+                        flexWrap="wrap"
+                        gap={0}
+                    >
                         <Tabs.Trigger
                             value="timeline"
                             color={isDarkMode ? "white" : "gray.900"}
+                            fontSize={{ base: "sm", md: "md" }}
+                            px={{ base: 3, md: 4 }}
+                            py={{ base: 2, md: 3 }}
+                            flex={{ base: "1 1 calc(50% - 1px)", md: "none" }}
+                            minW={{ base: "calc(50% - 1px)", md: "auto" }}
+                            maxW={{ base: "calc(50% - 1px)", md: "none" }}
                             _selected={{
                                 bg: isDarkMode ? "teal.700" : "teal.50",
                                 color: isDarkMode ? "cyan.200" : "teal.900",
@@ -139,6 +150,12 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                         <Tabs.Trigger
                             value="details"
                             color={isDarkMode ? "white" : "gray.900"}
+                            fontSize={{ base: "sm", md: "md" }}
+                            px={{ base: 3, md: 4 }}
+                            py={{ base: 2, md: 3 }}
+                            flex={{ base: "1 1 calc(50% - 1px)", md: "none" }}
+                            minW={{ base: "calc(50% - 1px)", md: "auto" }}
+                            maxW={{ base: "calc(50% - 1px)", md: "none" }}
                             _selected={{
                                 bg: isDarkMode ? "teal.700" : "teal.50",
                                 color: isDarkMode ? "cyan.200" : "teal.900",
@@ -150,6 +167,12 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                         <Tabs.Trigger
                             value="map"
                             color={isDarkMode ? "white" : "gray.900"}
+                            fontSize={{ base: "sm", md: "md" }}
+                            px={{ base: 3, md: 4 }}
+                            py={{ base: 2, md: 3 }}
+                            flex={{ base: "1 1 calc(50% - 1px)", md: "none" }}
+                            minW={{ base: "calc(50% - 1px)", md: "auto" }}
+                            maxW={{ base: "calc(50% - 1px)", md: "none" }}
                             _selected={{
                                 bg: isDarkMode ? "teal.700" : "teal.50",
                                 color: isDarkMode ? "cyan.200" : "teal.900",
@@ -161,6 +184,12 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                         <Tabs.Trigger
                             value="checklist"
                             color={isDarkMode ? "white" : "gray.900"}
+                            fontSize={{ base: "sm", md: "md" }}
+                            px={{ base: 3, md: 4 }}
+                            py={{ base: 2, md: 3 }}
+                            flex={{ base: "1 1 calc(50% - 1px)", md: "none" }}
+                            minW={{ base: "calc(50% - 1px)", md: "auto" }}
+                            maxW={{ base: "calc(50% - 1px)", md: "none" }}
                             _selected={{
                                 bg: isDarkMode ? "teal.700" : "teal.50",
                                 color: isDarkMode ? "cyan.200" : "teal.900",
@@ -172,6 +201,12 @@ export default function TripOverview({ trip, onBack, isDarkMode }) {
                         <Tabs.Trigger
                             value="links"
                             color={isDarkMode ? "white" : "gray.900"}
+                            fontSize={{ base: "sm", md: "md" }}
+                            px={{ base: 3, md: 4 }}
+                            py={{ base: 2, md: 3 }}
+                            flex={{ base: "1 1 calc(50% - 1px)", md: "none" }}
+                            minW={{ base: "calc(50% - 1px)", md: "auto" }}
+                            maxW={{ base: "calc(50% - 1px)", md: "none" }}
                             _selected={{
                                 bg: isDarkMode ? "teal.700" : "teal.50",
                                 color: isDarkMode ? "cyan.200" : "teal.900",
