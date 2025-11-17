@@ -1528,7 +1528,8 @@
             "notes": "",
             "bookingLink": "https://www.booking.com/Share-qAuxy6s",
             "mapsLink": "",
-            "image": ""
+            "image": "",
+            "zone": "Shinagawa, Tokyo"
           },
           {
             "name": "Miyajima Hotel Makoto",
@@ -1538,7 +1539,8 @@
             "notes": "",
             "bookingLink": "https://www.booking.com/Share-WaEzu2h",
             "mapsLink": "",
-            "image": ""
+            "image": "",
+            "zone": "Miyajima"
           },
           {
             "name": "民泊 古",
@@ -1548,7 +1550,8 @@
             "notes": "",
             "bookingLink": "https://www.booking.com/Share-3WqZWcc",
             "mapsLink": "",
-            "image": ""
+            "image": "",
+            "zone": "Osaka"
           },
           {
             "name": "M's Hotel Kyoto Station Taruya",
@@ -1558,7 +1561,8 @@
             "notes": "",
             "bookingLink": "https://www.booking.com/Share-GN5UL3",
             "mapsLink": "",
-            "image": ""
+            "image": "",
+            "zone": "Kyoto"
           },
           {
             "name": "HOTEL TAVINOS Asakusa",
@@ -1568,7 +1572,8 @@
             "notes": "",
             "bookingLink": "https://www.booking.com/Share-kWoVEG",
             "mapsLink": "",
-            "image": ""
+            "image": "",
+            "zone": "Asakusa, Tokyo"
           }
         ],
         "restaurants": [
@@ -1581,7 +1586,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/CpPkY8HCp8Pe4PJq9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/CpPkY8HCp8Pe4PJq9?g_st=iwb",
+            "zone": "Asakusa"
           },
           {
             "name": "Chacha Futatsume",
@@ -1592,7 +1598,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/DJ8LmNCyWgFfpYta9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/DJ8LmNCyWgFfpYta9?g_st=iwb",
+            "zone": "Asakusa"
           },
           {
             "name": "Ramen Watanabe",
@@ -1603,7 +1610,8 @@
             "link": "https://maps.google.com?q=Giappone,%20%E3%80%92111-0032%20Tokyo,%20Taito%20City,%20Asakusa,%201%20Chome%E2%88%9233%E2%88%927%20%EF%BC%B2%EF%BC%A1%EF%BC%B9%E3%83%93%E3%83%AB%E6%B5%85%E8%8D%89%201%E9%9A%8E&ftid=0x60188fb6488a6efb:0xe0560e0d05a11d3e&entry=gps&lucs=,94207808,94216401,94210592,47071704,47069508,47084304,94208458,94208447&g_st=iwb",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Asakusa"
           },
           {
             "name": "San-Sada",
@@ -1614,7 +1622,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/MuoCuV2HEoD5tPgy5?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/MuoCuV2HEoD5tPgy5?g_st=iwb",
+            "zone": "Asakusa"
           },
           {
             "name": "sushi zanmai",
@@ -1625,7 +1634,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/xwEKTD7LHQ8Y89sU8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/xwEKTD7LHQ8Y89sU8?g_st=iwb",
+            "zone": "Asakusa"
           },
           {
             "name": "Kura Sushi Global Flagship Store Asakusa",
@@ -1636,7 +1646,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/CGu9jChebCEnuC156?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/CGu9jChebCEnuC156?g_st=iwb",
+            "zone": "Asakusa"
           },
           {
             "name": "Tokyo Curry Pan",
@@ -1647,7 +1658,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Asakusa"
           },
           {
             "name": "Mawashizushi Katsu Seibu Shibuya Store",
@@ -1658,7 +1670,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/5p72E4MwH7P3wRhL7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/5p72E4MwH7P3wRhL7?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Ichiran",
@@ -1669,7 +1682,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/Umqm6Cv3Rnnt5xPt9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/Umqm6Cv3Rnnt5xPt9?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Shibuya Gyoza",
@@ -1680,7 +1694,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/kRT1W3g78iDTYwDF8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/kRT1W3g78iDTYwDF8?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Golden Tiger Udagawacho",
@@ -1691,7 +1706,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/wLP3ZQVvw2eHvD8e6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/wLP3ZQVvw2eHvD8e6?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Sushi-zanmai Shibuya Tokyu Side",
@@ -1702,7 +1718,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/gZz8jk8WZv82Ltfn6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/gZz8jk8WZv82Ltfn6?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Shodai Ebisu",
@@ -1713,7 +1730,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Oreryu Gyoza Sakaba",
@@ -1724,7 +1742,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/hHAiGEyMSqQxa5wZ6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/hHAiGEyMSqQxa5wZ6?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Sanuki Udon Menki Yashima Shibuya Maruyamacho",
@@ -1735,7 +1754,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/s8cG7TjHeSBCi3nr5?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/s8cG7TjHeSBCi3nr5?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "蕎麦前酒場 はんさむ裏渋谷",
@@ -1746,7 +1766,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/ryYLsx8uFx4LQENd8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/ryYLsx8uFx4LQENd8?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Iyoshi Cola",
@@ -1757,7 +1778,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Roast Beef Ōno Akihabara",
@@ -1768,7 +1790,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Akihabara"
           },
           {
             "name": "Niku-ya-Yokocho Eat-All-You-Can Wagyu Beef Akihabara",
@@ -1779,7 +1802,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Akihabara"
           },
           {
             "name": "Ichiran Nishi-Shinjuku",
@@ -1790,7 +1814,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/sk9pz92p1UPqLkT2A?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/sk9pz92p1UPqLkT2A?g_st=iwb",
+            "zone": "Omoide Yokocho"
           },
           {
             "name": "OYSTERS INC",
@@ -1801,7 +1826,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/iU4U38BFsrNX5vEu7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/iU4U38BFsrNX5vEu7?g_st=iwb",
+            "zone": "Omoide Yokocho"
           },
           {
             "name": "馬焼肉酒場「馬太郎」 西新宿7丁目店",
@@ -1812,7 +1838,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/2PCUcfQ6pfXBd4f57?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/2PCUcfQ6pfXBd4f57?g_st=iwb",
+            "zone": "Omoide Yokocho"
           },
           {
             "name": "Meigetsu-kan",
@@ -1823,7 +1850,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/f4zs3fsvVB6ntVCK6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/f4zs3fsvVB6ntVCK6?g_st=iwb",
+            "zone": "Omoide Yokocho"
           },
           {
             "name": "Afuri Karakurenai Shinjuku Subnade",
@@ -1834,7 +1862,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/dggP6fFyaKZGb1Qo6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/dggP6fFyaKZGb1Qo6?g_st=iwb",
+            "zone": "Omoide Yokocho"
           },
           {
             "name": "Gionbou",
@@ -1845,7 +1874,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/38juS6n8B6igqfC96?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/38juS6n8B6igqfC96?g_st=iwb",
+            "zone": "Omoide Yokocho"
           },
           {
             "name": "豊島屋菓寮 八十小路(としまやかりょうはとこうじ)",
@@ -1856,7 +1886,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb",
+            "zone": "Komachi Street"
           },
           {
             "name": "Katsuretsu-an",
@@ -1867,7 +1898,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/eii7usfVeDkfy6EU8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/eii7usfVeDkfy6EU8?g_st=iwb",
+            "zone": "Komachi Street"
           },
           {
             "name": "Goto",
@@ -1878,7 +1910,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/6UkqptGbCBAv8UH96?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/6UkqptGbCBAv8UH96?g_st=iwb",
+            "zone": "Komachi Street"
           },
           {
             "name": "Fukuya",
@@ -1889,7 +1922,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/cbs5KRJGASVp2Trr5?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/cbs5KRJGASVp2Trr5?g_st=iwb",
+            "zone": "Komachi Street"
           },
           {
             "name": "Toshimaya Setokoji",
@@ -1900,7 +1934,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/FDfUA8fj6kKnnsHDA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/FDfUA8fj6kKnnsHDA?g_st=iwb",
+            "zone": "Komachi Street"
           },
           {
             "name": "風流お好み焼惚太郎",
@@ -1911,7 +1946,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/8vz8dvqt6Ju7wWy26?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/8vz8dvqt6Ju7wWy26?g_st=iwb",
+            "zone": "Komachi Street"
           },
           {
             "name": "Hana",
@@ -1922,7 +1958,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/ZtcJgTTocPgxt9v39?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/ZtcJgTTocPgxt9v39?g_st=iwb",
+            "zone": "Kyoto"
           },
           {
             "name": "Arakawa",
@@ -1933,7 +1970,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/fMB9g1XEMPrpsxbP7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/fMB9g1XEMPrpsxbP7?g_st=iwb",
+            "zone": "Kyoto"
           },
           {
             "name": "ネオ大衆酒場 食べ放題個室居酒屋 餃子のかっちゃん 京都河原町店",
@@ -1944,7 +1982,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/PSRSRhaYjqSAtyddA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/PSRSRhaYjqSAtyddA?g_st=iwb",
+            "zone": "Kyoto"
           },
           {
             "name": "Sushizanmai",
@@ -1955,7 +1994,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/qj6mmpuySxPDVrRr9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/qj6mmpuySxPDVrRr9?g_st=iwb",
+            "zone": "Kyoto"
           },
           {
             "name": "鉄板みつ喜",
@@ -1966,7 +2006,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/3zp96kBDcQKytHHw5?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/3zp96kBDcQKytHHw5?g_st=iwb",
+            "zone": "Kyoto"
           },
           {
             "name": "Hakata-Nagahama-Ramen Miyoshi",
@@ -1977,7 +2018,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/RY7DSMvBxMmV6YwX8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/RY7DSMvBxMmV6YwX8?g_st=iwb",
+            "zone": "Kyoto"
           },
           {
             "name": "Chao Chao Gyoza - Sanjo Kiyamachi",
@@ -1988,7 +2030,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/6AFbg8kc3DEiWou59?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/6AFbg8kc3DEiWou59?g_st=iwb",
+            "zone": "Kyoto"
           },
           {
             "name": "Arashiyama Curry",
@@ -1999,7 +2042,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/m7KTgcypttCjsdSS6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/m7KTgcypttCjsdSS6?g_st=iwb",
+            "zone": "Arashiyama Bamboo Forest"
           },
           {
             "name": "Soba Shiki",
@@ -2010,7 +2054,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/f8pNcn9LvTAoTntu9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/f8pNcn9LvTAoTntu9?g_st=iwb",
+            "zone": "Arashiyama Bamboo Forest"
           },
           {
             "name": "Pizzeria LUGARA",
@@ -2021,7 +2066,8 @@
             "link": "https://maps.google.com?ftid=0x6001ab975eacc7ed:0xec4c1ff67e16f1e3&entry=gps&lucs=,94207808,94216401,94210592,47071704,47069508,47084304,94208458,94208447&g_st=iwb",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Arashiyama Bamboo Forest"
           },
           {
             "name": "Indian Restaurant MANNA糧",
@@ -2032,7 +2078,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/Pov5uRxUG28yLu7m9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/Pov5uRxUG28yLu7m9?g_st=iwb",
+            "zone": "Nara"
           },
           {
             "name": "Yakitora",
@@ -2043,7 +2090,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/iYb9zC8z9Xw4gqpW8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/iYb9zC8z9Xw4gqpW8?g_st=iwb",
+            "zone": "Nara"
           },
           {
             "name": "Takamaya",
@@ -2054,7 +2102,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/MBWqsXrUjqVNtGtLA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/MBWqsXrUjqVNtGtLA?g_st=iwb",
+            "zone": "Nara"
           },
           {
             "name": "Okaru",
@@ -2065,7 +2114,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/HyzA4dUKxzNWdoM18?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/HyzA4dUKxzNWdoM18?g_st=iwb",
+            "zone": "Nara"
           },
           {
             "name": "Trattoria piano",
@@ -2076,7 +2126,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/Wn26Nq7K617aZ7U57?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/Wn26Nq7K617aZ7U57?g_st=iwb",
+            "zone": "Nara"
           },
           {
             "name": "Koushi",
@@ -2087,7 +2138,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/nzBdHxnjEEdYyoSZA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/nzBdHxnjEEdYyoSZA?g_st=iwb",
+            "zone": "Nara"
           },
           {
             "name": "kinari pizza",
@@ -2098,7 +2150,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/XzmEb44r8pQhB4Pj8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/XzmEb44r8pQhB4Pj8?g_st=iwb",
+            "zone": "Nara"
           },
           {
             "name": "Teppan Okonomiyaki Mitsuki",
@@ -2109,7 +2162,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/JtemV5HC2x9uUGb78?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/JtemV5HC2x9uUGb78?g_st=iwb",
+            "zone": "Osaka"
           },
           {
             "name": "Chibo Okonomiyaki Restaurant",
@@ -2120,7 +2174,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/TiVs5fExZrtiPceaA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/TiVs5fExZrtiPceaA?g_st=iwb",
+            "zone": "Osaka"
           },
           {
             "name": "Okonomiyaki Okaru",
@@ -2131,7 +2186,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/4NYF8gQUkfQquKKNA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/4NYF8gQUkfQquKKNA?g_st=iwb",
+            "zone": "Osaka"
           },
           {
             "name": "Enge-spice",
@@ -2142,7 +2198,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/LPt8jchoXaNxipEf9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/LPt8jchoXaNxipEf9?g_st=iwb",
+            "zone": "Osaka"
           },
           {
             "name": "Kang Fu Ramen",
@@ -2153,7 +2210,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/WKZqwpQeemciUcD16?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/WKZqwpQeemciUcD16?g_st=iwb",
+            "zone": "Osaka"
           },
           {
             "name": "CHOJIRO Hozenji Flagship Store",
@@ -2164,7 +2222,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/gjqFiBs3oMdG2dnCA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/gjqFiBs3oMdG2dnCA?g_st=iwb",
+            "zone": "Osaka"
           },
           {
             "name": "Kobe beef Uma Dotonbori",
@@ -2175,7 +2234,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/jfcUjorzq8AG6CYh7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/jfcUjorzq8AG6CYh7?g_st=iwb",
+            "zone": "Osaka"
           },
           {
             "name": "Melon Bread",
@@ -2186,7 +2246,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Osaka"
           },
           {
             "name": "Gyoza",
@@ -2197,7 +2258,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Miyajima Hanayashiki",
@@ -2208,7 +2270,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/q692fk53WF64FjE39?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/q692fk53WF64FjE39?g_st=iwb",
+            "zone": "Miyajima"
           },
           {
             "name": "GEBURA",
@@ -2219,7 +2282,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/onUiEdks2Fhxra3y8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/onUiEdks2Fhxra3y8?g_st=iwb",
+            "zone": "Miyajima"
           },
           {
             "name": "SAWAWA Miyajima",
@@ -2230,7 +2294,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/mbLEaWg2bxhUZaAW6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/mbLEaWg2bxhUZaAW6?g_st=iwb",
+            "zone": "Miyajima"
           },
           {
             "name": "Rokaku Tea House (Hexagon Cafe)",
@@ -2241,7 +2306,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/SbQ4uCaqYVbppZmd6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/SbQ4uCaqYVbppZmd6?g_st=iwb",
+            "zone": "Miyajima"
           },
           {
             "name": "Lawson Miyajima Shop",
@@ -2252,7 +2318,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Miyajima"
           },
           {
             "name": "Foods Shop KUMAKIN",
@@ -2263,7 +2330,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/hKayoXFjz8WWDgTi7?g_st=ic"
+            "mapsLink": "https://maps.app.goo.gl/hKayoXFjz8WWDgTi7?g_st=ic",
+            "zone": "Miyajima"
           },
           {
             "name": "Gaba Kamiyacho",
@@ -2274,7 +2342,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/1U3yKRCpJVU3vWeB6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/1U3yKRCpJVU3vWeB6?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "Akamaru",
@@ -2285,7 +2354,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/KUheNjw7GiNE2Geo8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/KUheNjw7GiNE2Geo8?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "pizza juicy",
@@ -2296,7 +2366,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/Mo3ATpYq3nyeryz69?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/Mo3ATpYq3nyeryz69?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "Okonomimura",
@@ -2307,7 +2378,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/bDbcGc15WTg97d8h9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/bDbcGc15WTg97d8h9?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "Taiko Udon Nakamachi Shop",
@@ -2318,7 +2390,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/RHzGHhNt39b9tzaN9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/RHzGHhNt39b9tzaN9?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "Archive Coffee",
@@ -2329,7 +2402,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/qa9hbXGetrBTvWvX7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/qa9hbXGetrBTvWvX7?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "Hitoshi",
@@ -2340,7 +2414,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/EZFXLGzHKB2eAr2v7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/EZFXLGzHKB2eAr2v7?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "Wakasa Sushi",
@@ -2351,7 +2426,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/bgwmK7izNWRfj3F96?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/bgwmK7izNWRfj3F96?g_st=iwb",
+            "zone": "Mitaka"
           },
           {
             "name": "Ittenbari Ramen & Chahan Restaurant",
@@ -2362,7 +2438,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/d8jPEQi1JPGeCv1r5?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/d8jPEQi1JPGeCv1r5?g_st=iwb",
+            "zone": "Akasaka"
           },
           {
             "name": "Imakatsu Akasaka",
@@ -2373,7 +2450,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/sMPmHfTASyZGJSq86?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/sMPmHfTASyZGJSq86?g_st=iwb",
+            "zone": "Akasaka"
           },
           {
             "name": "Itamae Sushi Hanare",
@@ -2384,7 +2462,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/Yyki9PmB7hWcW7Li9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/Yyki9PmB7hWcW7Li9?g_st=iwb",
+            "zone": "Akasaka"
           },
           {
             "name": "餃子バル",
@@ -2395,7 +2474,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/pcWNCnwCfEEwZgVY9?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/pcWNCnwCfEEwZgVY9?g_st=iwb",
+            "zone": "Akasaka"
           },
           {
             "name": "Tomokunchi",
@@ -2406,7 +2486,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/ycMFN531f9qDJeYj8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/ycMFN531f9qDJeYj8?g_st=iwb",
+            "zone": "Akasaka"
           },
           {
             "name": "Champagne & Gyoza Bar STAND-CHAM-SHOKU",
@@ -2417,7 +2498,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/rUhTbAAwMTtcwGuz5?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/rUhTbAAwMTtcwGuz5?g_st=iwb",
+            "zone": "Akasaka"
           }
         ],
         "attractions": [
@@ -2430,7 +2512,8 @@
             "link": "",
             "notes": "Gachapon",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/eN1kiz8j8suMvN139?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/eN1kiz8j8suMvN139?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "MAGNET by SHIBUYA109",
@@ -2441,7 +2524,8 @@
             "link": "",
             "notes": "Magnet",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/n95UJ8prh6BGYSXN6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/n95UJ8prh6BGYSXN6?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Pokemon Center Shibuya",
@@ -2452,7 +2536,8 @@
             "link": "",
             "notes": "Pokemon Center",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/xwSaYaiQdX4vpnX69?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/xwSaYaiQdX4vpnX69?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Nintendo Tokyo",
@@ -2463,7 +2548,8 @@
             "link": "",
             "notes": "Nintendo Store",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/YMps13DAWEZA8ZWr7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/YMps13DAWEZA8ZWr7?g_st=iwb",
+            "zone": "Shibuya"
           },
           {
             "name": "Mandarake Complex",
@@ -2474,7 +2560,8 @@
             "link": "",
             "notes": "Mandarake",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/ztRs8W6yu3QF9U9Z8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/ztRs8W6yu3QF9U9Z8?g_st=iwb",
+            "zone": "Akihabara"
           },
           {
             "name": "Shangrila Maid Cafe",
@@ -2485,7 +2572,8 @@
             "link": "",
             "notes": "Maid Cafe",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/ZEAwoeVpEfE9imMx8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/ZEAwoeVpEfE9imMx8?g_st=iwb",
+            "zone": "Akihabara"
           },
           {
             "name": "Maidreamin Akihabara Main Store",
@@ -2496,7 +2584,8 @@
             "link": "",
             "notes": "Maid Cafe 2",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/soZQyvX9SQgscZ8u7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/soZQyvX9SQgscZ8u7?g_st=iwb",
+            "zone": "Akihabara"
           },
           {
             "name": "Cat cafe MoCHA Akihabara Store",
@@ -2507,7 +2596,8 @@
             "link": "",
             "notes": "Cat Cafe",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/AK5QxE981jvw25zM6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/AK5QxE981jvw25zM6?g_st=iwb",
+            "zone": "Akihabara"
           },
           {
             "name": "GiGO Akihabara 1",
@@ -2518,7 +2608,8 @@
             "link": "",
             "notes": "Gigo",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/ihH6vXJ7bfPK29FSA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/ihH6vXJ7bfPK29FSA?g_st=iwb",
+            "zone": "Akihabara"
           },
           {
             "name": "Jalana",
@@ -2529,7 +2620,8 @@
             "link": "",
             "notes": "Vintage",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/z2h77umSfSyhZGpW6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/z2h77umSfSyhZGpW6?g_st=iwb",
+            "zone": "Akihabara"
           },
           {
             "name": "Yodobashi Akiba",
@@ -2540,7 +2632,8 @@
             "link": "",
             "notes": "Elettronica",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/VZqtZj33vt9bzDMz6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/VZqtZj33vt9bzDMz6?g_st=iwb",
+            "zone": "Akihabara"
           },
           {
             "name": "2ndBASE by sanpoucamera",
@@ -2551,7 +2644,8 @@
             "link": "",
             "notes": "Macchine Fotografiche + Vinili",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/k9MA8vki6Dr9jt8fA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/k9MA8vki6Dr9jt8fA?g_st=iwb",
+            "zone": "Akihabara"
           },
           {
             "name": "Super Potato Akihabara Branch",
@@ -2562,7 +2656,8 @@
             "link": "",
             "notes": "Negozio Videogiochi/Anime/Manga",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/DcwFBx3sooky8yfV7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/DcwFBx3sooky8yfV7?g_st=iwb",
+            "zone": "Akihabara"
           },
           {
             "name": "Yusha Kobo Keyboard Specialty Shop",
@@ -2573,7 +2668,8 @@
             "link": "",
             "notes": "Negozio Keyboards",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Akihabara"
           },
           {
             "name": "Book Off",
@@ -2584,7 +2680,8 @@
             "link": "",
             "notes": "Negozio usato poco prezzo (catena, sta pure in altri punti)",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Akihabara"
           },
           {
             "name": "Omoide Yokocho",
@@ -2595,7 +2692,8 @@
             "link": "",
             "notes": "Omoide Yokocho sotto-quartiere di Shibuya Local, Alternative Sotto",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/EpFcayMeFdu9LPmL6?g_st=ic"
+            "mapsLink": "https://maps.app.goo.gl/EpFcayMeFdu9LPmL6?g_st=ic",
+            "zone": "Omoide Yokocho"
           },
           {
             "name": "豊島屋菓寮 八十小路(としまやかりょうはとこうじ)",
@@ -2606,7 +2704,8 @@
             "link": "",
             "notes": "Dolci Tradizionali (Mochi Con La Foglia)",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/BNC2fV7kmWWh5njb7?g_st=iwb",
+            "zone": "Komachi Street"
           },
           {
             "name": "glänta Kyoto Sanjo Kawaramachi",
@@ -2617,7 +2716,8 @@
             "link": "",
             "notes": "Anelli, vicino Gion",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Kyoto"
           },
           {
             "name": "Pokemon Center Kyoto",
@@ -2628,7 +2728,8 @@
             "link": "",
             "notes": "Pokemon Center",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Kyoto"
           },
           {
             "name": "Super Jankara Kawaramachi Honten Premium",
@@ -2639,7 +2740,8 @@
             "link": "",
             "notes": "Karaoke, vicino Gion e sushizanmai",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Kyoto"
           },
           {
             "name": "長辻通",
@@ -2650,7 +2752,8 @@
             "link": "",
             "notes": "Bel negozio bacchette",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Arashiyama"
           },
           {
             "name": "Nakatanidou",
@@ -2661,7 +2764,8 @@
             "link": "",
             "notes": "Mochi + Mostrano Come Viene Fatto",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/6zNMokTWG2tmMntx6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/6zNMokTWG2tmMntx6?g_st=iwb",
+            "zone": "Nara"
           },
           {
             "name": "BIG TIME Hiroshima",
@@ -2672,7 +2776,8 @@
             "link": "",
             "notes": "Vintage",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/mrcs6732kdRqZ2Sf8?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/mrcs6732kdRqZ2Sf8?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "WEGO 広島店",
@@ -2683,7 +2788,8 @@
             "link": "",
             "notes": "Abbigliamento Vario",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/rL8ee5hdYL1Gpxhc7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/rL8ee5hdYL1Gpxhc7?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "nizak",
@@ -2694,7 +2800,8 @@
             "link": "",
             "notes": "Vintage 2",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/iMWRkw5KtSaLUJNU6?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/iMWRkw5KtSaLUJNU6?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "雑貨株式会社",
@@ -2705,7 +2812,8 @@
             "link": "",
             "notes": "Negozio Con 1000 Robe Diverse",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/ASLxrrGScLFYksgU7?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/ASLxrrGScLFYksgU7?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "Yume Plaza",
@@ -2716,7 +2824,8 @@
             "link": "",
             "notes": "Souvenir Vari",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/oaXituuBrvbCq92NA?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/oaXituuBrvbCq92NA?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "Pokémon Center Hiroshima",
@@ -2727,7 +2836,8 @@
             "link": "",
             "notes": "Pokemon Center",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Hiroshima"
           },
           {
             "name": "JUMP SHOP ミナモア広島店",
@@ -2738,7 +2848,8 @@
             "link": "",
             "notes": "Jump Store",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/vsEffbsk1SQGmD8p9?g_st=ic"
+            "mapsLink": "https://maps.app.goo.gl/vsEffbsk1SQGmD8p9?g_st=ic",
+            "zone": "Hiroshima"
           },
           {
             "name": "WONDER COSME 本通店",
@@ -2749,7 +2860,8 @@
             "link": "",
             "notes": "Skincare Coreana",
             "image": "",
-            "mapsLink": "https://maps.app.goo.gl/CiChfDtupPqpu4586?g_st=iwb"
+            "mapsLink": "https://maps.app.goo.gl/CiChfDtupPqpu4586?g_st=iwb",
+            "zone": "Hiroshima"
           },
           {
             "name": "Lawson Miyajima Shop",
@@ -2760,7 +2872,8 @@
             "link": "",
             "notes": "Lawson",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Miyajima"
           },
           {
             "name": "TSUKIJI FISH MARKET",
@@ -2771,7 +2884,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           }
         ],
         "excursions": [
@@ -2784,7 +2898,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Shibuya Sky",
@@ -2795,7 +2910,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Tokyo Skytree",
@@ -2806,7 +2922,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Ghibli Museum",
@@ -2817,7 +2934,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Ghibli Park",
@@ -2828,7 +2946,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Tokyo Disneyland",
@@ -2839,7 +2958,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Tokyo DisneySea",
@@ -2850,7 +2970,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Akihabara",
@@ -2861,7 +2982,8 @@
             "link": "",
             "notes": "Maid Cafe",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Akihabara"
           },
           {
             "name": "Gōtokuji Temple",
@@ -2872,7 +2994,8 @@
             "link": "",
             "notes": "Tempio gattini",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Daikoku Parking Area",
@@ -2883,7 +3006,8 @@
             "link": "",
             "notes": "",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Kujira Entertainment",
@@ -2894,7 +3018,8 @@
             "link": "",
             "notes": "Escursione serale",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "TANTRA TOKYO",
@@ -2905,7 +3030,8 @@
             "link": "",
             "notes": "Escursione serale",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Dōtonbori",
@@ -2916,7 +3042,8 @@
             "link": "",
             "notes": "Quartiere da visitare",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Komachi Street"
           },
           {
             "name": "Osaka Castle",
@@ -2927,7 +3054,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Universal Studios Japan",
@@ -2938,7 +3066,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Ebisu Tower Ferris Wheel",
@@ -2949,7 +3078,8 @@
             "link": "",
             "notes": "Ruota panoramica a dotonbori",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Sumo Restaurant Ochiizumibeya",
@@ -2960,7 +3090,8 @@
             "link": "",
             "notes": "Spettacolo di sumo",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Nishiki Market",
@@ -2971,7 +3102,8 @@
             "link": "",
             "notes": "Mercato del pesce etc",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Gion",
@@ -2982,7 +3114,8 @@
             "link": "",
             "notes": "Quartiere delle geisha",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Omoide Yokocho"
           },
           {
             "name": "Nintendo Museum",
@@ -2993,7 +3126,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Toei Kyoto Studio Park",
@@ -3004,7 +3138,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Fushimi Inari Taisha",
@@ -3015,7 +3150,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Arashiyama Bamboo Forest",
@@ -3026,7 +3162,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Monkey Park Iwatayama",
@@ -3037,7 +3174,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Kinkakuji Temple",
@@ -3048,7 +3186,8 @@
             "link": "",
             "notes": "Tempio d'oro",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Ginkakuji",
@@ -3059,7 +3198,8 @@
             "link": "",
             "notes": "Tempio d'argento",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Komachi Street"
           },
           {
             "name": "Kiyomizu-dera",
@@ -3070,7 +3210,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Komachi Street"
           },
           {
             "name": "Nijō Castle",
@@ -3081,7 +3222,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "237 Nakaogawachō",
@@ -3092,7 +3234,8 @@
             "link": "",
             "notes": "Cerimonia del tè",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Komachi Street",
@@ -3103,7 +3246,8 @@
             "link": "",
             "notes": "Quartiere da visitare",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Meigetsu-in",
@@ -3114,7 +3258,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Komachi Street"
           },
           {
             "name": "Kencho-ji",
@@ -3125,7 +3270,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Komachi Street"
           },
           {
             "name": "Tsurugaoka Hachimangu",
@@ -3136,7 +3282,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Great Buddha Ticket Counter",
@@ -3147,7 +3294,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Kamiyacho",
@@ -3158,7 +3306,8 @@
             "link": "",
             "notes": "Quartiere da visitare",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Hiroshima"
           },
           {
             "name": "Hiroshima Peace Memorial Museum",
@@ -3169,7 +3318,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Miyajima Omotesandō Shopping Street",
@@ -3180,7 +3330,8 @@
             "link": "",
             "notes": "Shopping vario e Ostriche in tutte le salse",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Itsukushima Shrine",
@@ -3191,7 +3342,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Nara Park",
@@ -3202,7 +3354,8 @@
             "link": "",
             "notes": "È un parco, con i cervi",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Shibuya"
           },
           {
             "name": "Tōdai-ji",
@@ -3213,7 +3366,8 @@
             "link": "",
             "notes": "Escursione giorno",
             "image": "",
-            "mapsLink": ""
+            "mapsLink": "",
+            "zone": "Komachi Street"
           }
         ]
       },
