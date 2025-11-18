@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useRef, useState, useEffect} from 'react';
 import {
     Alert,
     Badge,
@@ -23,7 +23,6 @@ import {
  } from '@chakra-ui/react';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import travelData from "../resources/traveldata.json";
 
 // Fix per icone Leaflet
 delete L.Icon.Default.prototype._getIconUrl;
@@ -34,12 +33,19 @@ L.Icon.Default.mergeOptions({
 });
 
 // Componente Homepage
-export default function Homepage({ onSelectTrip, isDarkMode }) {
-    const [data, setData] = useState(travelData);
+export default function Homepage({ onSelectTrip, isDarkMode, tripsData, setAuthenticatedPassword }) {
+    const [data, setData] = useState(tripsData || { trips: [] });
     const [openDialog, setOpenDialog] = useState(false);
     const [jsonText, setJsonText] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     const fileInputRef = useRef(null);
+
+    // Aggiorna i dati quando cambia tripsData
+    useEffect(() => {
+        if (tripsData) {
+            setData(tripsData);
+        }
+    }, [tripsData]);
 
     const handleLoadJSON = (newData) => {
         try {
@@ -86,6 +92,18 @@ export default function Homepage({ onSelectTrip, isDarkMode }) {
                 <Text textAlign="center" fontSize="lg" color={isDarkMode ? "gray.300" : "gray.500"}>
                     Seleziona un viaggio per visualizzare i dettagli
                 </Text>
+
+                <Button
+                    colorPalette="teal"
+                    variant="outline"
+                    width="fit-content"
+                    mx="auto"
+                    onClick={() => {
+                        setAuthenticatedPassword('');
+                    }}
+                >
+                    Oppure cambia password per altri viaggi
+                </Button>
 
                 {/* Pulsante Carica JSON Personalizzato */}
                 <Button
