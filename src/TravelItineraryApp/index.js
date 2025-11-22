@@ -134,7 +134,7 @@ export default function TravelItineraryApp() {
         <ChakraProvider value={system}>
             <Box bg={isDarkMode ? "gray.800" : "gray.50"} minH="100vh" display="flex" flexDirection="column">
                 {/* Dialog password all'avvio */}
-                {!authenticatedPassword && <DialogRoot
+                {(!authenticatedPassword || loading) && <DialogRoot
                     open={isStartupDialogOpen} 
                     onOpenChange={(e) => {
                         // Impedisci la chiusura se non ci sono dati caricati
@@ -158,6 +158,13 @@ export default function TravelItineraryApp() {
                                     <AlertRoot status="error" bg={isDarkMode ? "red.900" : undefined}>
                                         <AlertContent >
                                             <Text color={isDarkMode ? "red.200" : undefined}>{error}</Text>
+                                        </AlertContent>
+                                    </AlertRoot>
+                                )}
+                                {loading && (
+                                    <AlertRoot status="info" bg={isDarkMode ? "blue.900" : undefined}>
+                                        <AlertContent >
+                                            <Text color={isDarkMode ? "blue.200" : undefined}>Caricamento in corso...</Text>
                                         </AlertContent>
                                     </AlertRoot>
                                 )}
