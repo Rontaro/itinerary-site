@@ -184,6 +184,12 @@ export default function CityDetails({city, trip, onBack, isDarkMode}) {
                                                                 <Text fontSize="sm" color="gray.700">
                                                                     Distanza: {activity.distance}
                                                                 </Text>
+                                                                {activity.timeS && <Text fontSize="sm" color="gray.700">
+                                                                    Orario partenza: {activity.timeS}
+                                                                </Text>}
+                                                                {activity.timeE && <Text fontSize="sm" color="gray.700">
+                                                                    Orario arrivo: {activity.timeE}
+                                                                </Text>}
                                                                 {activity.notes && (
                                                                     <Text fontSize="sm" fontStyle="italic"
                                                                           color="gray.600">{activity.notes}</Text>
