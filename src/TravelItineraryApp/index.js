@@ -53,7 +53,7 @@ export default function TravelItineraryApp() {
     });
     const [isDarkMode, setIsDarkMode] = useState(() => {
         // Carica il valore salvato da sessionStorage o di default false
-        const saved = sessionStorage.getItem('darkMode');
+        const saved = localStorage.getItem('darkMode');
         return saved ? JSON.parse(saved) : false;
     });
 
@@ -90,7 +90,7 @@ export default function TravelItineraryApp() {
 
     // Salva la preferenza in sessionStorage quando cambia
     useEffect(() => {
-        sessionStorage.setItem('darkMode', JSON.stringify(isDarkMode));
+        localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
     }, [isDarkMode]);
 
     // Gestisce il submit della password all'avvio
