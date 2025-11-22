@@ -181,23 +181,40 @@ export default function CityDetails({city, trip, onBack, isDarkMode}) {
                                                                 <Text fontWeight="bold" fontSize="lg" color="gray.900">
                                                                     Trasferimento: {activity.from} → {activity.to}
                                                                 </Text>
-                                                                <Text fontSize="sm" color="gray.700">
+                                                                {activity.distance && <Text fontSize="sm" color="gray.700">
                                                                     Distanza: {activity.distance}
-                                                                </Text>
+                                                                </Text>}
                                                                 {activity.timeS && <Text fontSize="sm" color="gray.700">
                                                                     Orario partenza: {activity.timeS}
                                                                 </Text>}
                                                                 {activity.timeE && <Text fontSize="sm" color="gray.700">
                                                                     Orario arrivo: {activity.timeE}
                                                                 </Text>}
+                                                                {activity.name && (
+                                                                    <Text fontSize="sm" fontStyle="italic"
+                                                                          color="gray.600">{activity.name}</Text>
+                                                                )}
                                                                 {activity.notes && (
                                                                     <Text fontSize="sm" fontStyle="italic"
                                                                           color="gray.600">{activity.notes}</Text>
                                                                 )}
+                                                                {activity.link && (
+                                                                    <Button
+                                                                        as="a"
+                                                                        href={activity.link}
+                                                                        target="_blank"
+                                                                        size="xs"
+                                                                        colorPalette="blue"
+                                                                        variant="outline"
+                                                                        alignSelf="flex-start"
+                                                                    >
+                                                                        🔗 Link
+                                                                    </Button>
+                                                                )}
                                                             </VStack>
                                                         </HStack>
-                                                        <Badge colorPalette="green"
-                                                               fontSize="lg">€{activity.cost}</Badge>
+                                                        {activity.cost && activity.cost !== 0 && <Badge colorPalette="green"
+                                                               fontSize="lg">€{activity.cost}</Badge>}
                                                     </HStack>
                                                 </Box>
                                                 : <Box
