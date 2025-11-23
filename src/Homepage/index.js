@@ -282,7 +282,7 @@ export default function Homepage({ onSelectTrip, isDarkMode, tripsData, setAuthe
                                              </Badge>
                                          </HStack>
                                          {trip.budget !== 0 && <Text fontWeight="bold" color={isDarkMode ? "cyan.300" : "teal.700"}>
-                                             Budget: €{trip.budget}
+                                             Budget: {trip.currency || "€"}{trip.budget}
                                          </Text>}
                                      </VStack>
                                 </Card.Body>

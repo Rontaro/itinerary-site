@@ -6,7 +6,7 @@ import SafeImage from "../utils/SafeImage";
 export default function CityDetails({city, trip, onBack, isDarkMode}) {
     // Stato per tracciare l'opzione selezionata per ogni giorno
     const [selectedOptions, setSelectedOptions] = useState({});
-
+    const currency = trip?.currency || '€';
     // Funzione per raggruppare le attività per multipleOption
     const groupActivitiesByOption = (activities) => {
         const grouped = {
@@ -181,7 +181,7 @@ export default function CityDetails({city, trip, onBack, isDarkMode}) {
                                                                 <Text fontWeight="bold" fontSize="lg" color="gray.900">
                                                                     Trasferimento: {activity.from} → {activity.to}
                                                                 </Text>
-                                                                {activity.distance && <Text fontSize="sm" color="gray.700">
+                                                                {activity.distance !== 0 && <Text fontSize="sm" color="gray.700">
                                                                     Distanza: {activity.distance}
                                                                 </Text>}
                                                                 {activity.timeS && <Text fontSize="sm" color="gray.700">
@@ -213,8 +213,8 @@ export default function CityDetails({city, trip, onBack, isDarkMode}) {
                                                                 )}
                                                             </VStack>
                                                         </HStack>
-                                                        {activity.cost && activity.cost !== 0 && <Badge colorPalette="green"
-                                                               fontSize="lg">€{activity.cost}</Badge>}
+                                                        {activity.cost !== 0 && <Badge colorPalette="green"
+                                                               fontSize="lg">{currency}{activity.cost}</Badge>}
                                                     </HStack>
                                                 </Box>
                                                 : <Box
@@ -263,7 +263,7 @@ export default function CityDetails({city, trip, onBack, isDarkMode}) {
                                                                     </Badge>
                                                                 </HStack>
                                                                 {activity.cost !== 0 && <Text fontWeight="bold"
-                                                                      color={isDarkMode ? "cyan.300" : "teal.700"}>€{activity.cost}</Text>}
+                                                                      color={isDarkMode ? "cyan.300" : "teal.700"}>{currency}{activity.cost}</Text>}
                                                             </HStack>
                                                             <Text fontWeight="bold" color={isDarkMode ? "white" : "gray.900"}>{activity.name}</Text>
                                                             {activity.notes && (

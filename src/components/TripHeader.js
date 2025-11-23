@@ -57,14 +57,14 @@ export default function TripHeader({
                 <HStack gap={8}>
                     <Stat.Root>
                         <Stat.Label>Budget Previsto</Stat.Label>
-                        <Stat.ValueText>€{trip.budget}</Stat.ValueText>
+                        <Stat.ValueText>{trip.currency || "€"}{trip.budget}</Stat.ValueText>
                     </Stat.Root>
                     <Stat.Root>
                         <Stat.Label>Spesa Stimata</Stat.Label>
                         <Stat.ValueText
                             color={totalCost > trip.budget ? 'red.500' : 'green.500'}
                         >
-                            €{totalCost.toFixed(2)}
+                            {trip.currency || "€"}{totalCost}
                         </Stat.ValueText>
                     </Stat.Root>
                     <Stat.Root>
@@ -72,7 +72,7 @@ export default function TripHeader({
                         <Stat.ValueText
                             color={totalCost > trip.budget ? 'red.500' : 'green.500'}
                         >
-                            €{(trip.budget - totalCost).toFixed(2)}
+                            {trip.currency || "€"}{(trip.budget - totalCost)}
                         </Stat.ValueText>
                     </Stat.Root>
                 </HStack>

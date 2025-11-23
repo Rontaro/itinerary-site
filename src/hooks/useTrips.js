@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'https://travel-trips-api.vercel.app';
-//const API_BASE_URL = 'http://localhost:3000';
+//const API_BASE_URL = 'https://travel-trips-api.vercel.app';
+const API_BASE_URL = 'http://localhost:3000';
 
 /**
  * Hook personalizzato per recuperare tutti i trips
